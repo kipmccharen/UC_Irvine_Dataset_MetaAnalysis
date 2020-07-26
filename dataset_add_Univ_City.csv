@@ -1,0 +1,1033 @@
+URL,NumberofWebHits,Source
+http://archive.ics.uci.edu/ml/datasets/2.4+GHZ+Indoor+Channel+Measurements,57409,"Mohamed AlHajri, Massachusetts Institute of Technology, malhajri '@' mit.edu Nazar Ali, Khalifa University, nazar.ali '@' ku.ac.ae Raed Shubair, Massachusetts Institute of Technology, rshubair '@' mit.edu"
+http://archive.ics.uci.edu/ml/datasets/3D+Road+Network+%28North+Jutland%2C+Denmark%29,187989,"Manohar Kaul, Department of Computer Science, Aarhus University, Denmark (mkaul '@' cs.au.dk) "
+http://archive.ics.uci.edu/ml/datasets/A+study+of++Asian+Religious+and+Biblical+Texts,16938,"Preeti SahCollege of Computing and Information Sciences Rochester Institute of TechnologyRochester, NY 14623Email:ks3911 '@' rit.edu   Ernest FokoueSchool of Mathematical SciencesRochester Institute of TechnologyRochester, NY 14623Email: epfeqa '@' rit.edu"
+http://archive.ics.uci.edu/ml/datasets/AAAI+2013+Accepted+Papers,56703,"Carla Brodleyc.brodley '@' neu.edu Dean of the College of Computer and Information ScienceNortheastern University"
+http://archive.ics.uci.edu/ml/datasets/AAAI+2014+Accepted+Papers,53924,"Carla Brodleyc.brodley '@' neu.edu Dean of the College of Computer and Information ScienceNortheastern University"
+http://archive.ics.uci.edu/ml/datasets/Abalone,956229,"Data comes from an original (non-machine-learning) study:Warwick J Nash, Tracy L Sellers, Simon R Talbot, Andrew J Cawthorn and Wes B Ford (1994) ""The Population Biology of Abalone (_Haliotis_ species) in Tasmania. I. Blacklip Abalone (_H. rubra_) from the North Coast and Islands of Bass Strait"", Sea Fisheries Division, Technical Report No. 48 (ISSN 1034-3288) Original Owners of Database: Marine Resources DivisionMarine Research Laboratories - TaroonaDepartment of Primary Industry and Fisheries, TasmaniaGPO Box 619F, Hobart, Tasmania 7001, Australia(contact: Warwick Nash +61 02 277277, wnash '@' dpi.tas.gov.au) Donor of Database: Sam Waugh (Sam.Waugh '@' cs.utas.edu.au)Department of Computer Science, University of TasmaniaGPO Box 252C, Hobart, Tasmania 7001, Australia"
+http://archive.ics.uci.edu/ml/datasets/Abscisic+Acid+Signaling+Network,56272,"Jerry W. Jenkins, Ph.D.Systems Biology and Bioinformations GroupCFD Research Corporation215 Wynn DriveHuntsville, AL 35805email: jwj '@' cfdrc.com  Abhishek Soni, Ph.D.Systems Biology and Bioinformations GroupCFD Research Corporation215 Wynn DriveHuntsville, AL 35805email: axs '@' cfdrc.com "
+http://archive.ics.uci.edu/ml/datasets/Absenteeism+at+work,174579,"Creators original owner and donors: Andrea Martiniano (1), Ricardo Pinto Ferreira (2), and Renato Jose Sassi (3). E-mail address: andrea.martiniano'@'gmail.com (1) - PhD student;log.kasparov'@'gmail.com (2) - PhD student;sassi'@'uni9.pro.br (3) - Prof. Doctor. Universidade Nove de Julho - Postgraduate Program in Informatics and Knowledge Management. Address: Rua Vergueiro, 235/249 Liberdade, Sao Paulo, SP, Brazil. Zip code: 01504-001. Website: http://www.uninove.br/curso/informatica-e-gestao-do-conhecimento/"
+http://archive.ics.uci.edu/ml/datasets/Activities+of+Daily+Living+%28ADLs%29+Recognition+Using+Binary+Sensors,90872,"Francisco Javier Ord��ez, Carlos III University of Madrid, fordonez '@' inf.uc3m.es"
+http://archive.ics.uci.edu/ml/datasets/Activity+Recognition+from+Single+Chest-Mounted+Accelerometer,110972,Uncalibrated Accelerometer Data are collected from 15 participantes performing 7 activities.  The dataset provides challenges for identification and authentication of people using motion patterns.
+http://archive.ics.uci.edu/ml/datasets/Activity+Recognition+system+based+on+Multisensor+data+fusion+%28AReM%29,62222,"Filippo Palumbo (a,b), Claudio Gallicchio (b), Rita Pucci (b) and Alessio Micheli (b) (a) Institute of Information Science and Technologies â€œAlessandro Faedoâ€, National Research Council, Pisa, Italy(b) Department of Computer Science, University of Pisa, Pisa, Italy"
+http://archive.ics.uci.edu/ml/datasets/Activity+recognition+with+healthy+older+people+using+a+batteryless+wearable+sensor,34214,"Roberto Luis Shinmoto Torres, University of Adelaide, roberto.shinmototorres '@' adelaide.edu.au Damith Ranasinghe, University of Adelaide, damith.ranasinghe '@' adelaide.edu.au. Renuka Visvanathan, University of Adelaide, renuka.visvanathan '@' adelaide.edu.au."
+http://archive.ics.uci.edu/ml/datasets/Acute+Inflammations,175129,"Jacek Czerniak, Ph.D., Assistant ProfessorSystems Research InstitutePolish Academy of SciencesLaboratory of Intelligent Systems  ul. Newelska 6, Room 21801-447 Warszawa, Polande-mail: jacek.czerniak '@' ibspan.waw.pl or jczerniak '@' ukw.edu.pl "
+http://archive.ics.uci.edu/ml/datasets/Adult,1880062,"Donor:  Ronny Kohavi and Barry BeckerData Mining and VisualizationSilicon Graphics.e-mail: ronnyk '@' live.com for questions."
+http://archive.ics.uci.edu/ml/datasets/Air+Quality,437734,"Saverio De Vito (saverio.devito '@' enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development"
+http://archive.ics.uci.edu/ml/datasets/Air+quality,437733,"Saverio De Vito (saverio.devito '@' enea.it), ENEA - National Agency for New Technologies, Energy and Sustainable Economic Development"
+http://archive.ics.uci.edu/ml/datasets/Airfoil+Self-Noise,130841,"Provide the names, email addresses, institutions, and other contact information of the donors and creators of the data set.
+Donor: 
+Dr Roberto Lopez
+robertolopez '@' intelnics.com Intelnics 
+ Creators:
+Thomas F. Brooks, D. Stuart Pope and Michael A. Marcolini
+NASA"
+http://archive.ics.uci.edu/ml/datasets/Alcohol+QCM+Sensor+Dataset,44320,"Provide the names, email addresses, institutions, and other contact information of the donors and creators of the data set.
+M. Fatih ADAK, fatihadak '@' sakarya.edu.tr, Sakarya University, Turkey
+Peter Lieberzeit, University of Vienna, Austria
+Purim Jarujamrus, Ratchathani University, Thailand
+Nejat Yumusak, Sakarya University, Turkey"
+http://archive.ics.uci.edu/ml/datasets/Amazon+Access+Samples,205596,"Dataset creator and donator: Ken Montanez email: kenmonta[at]cal.berkeley.edu institution: Information Security, Amazon Corp."
+http://archive.ics.uci.edu/ml/datasets/Amazon+Commerce+reviews+set,198876,"Dataset creator and donator: ZhiLiu, e-mail: liuzhi8673 '@' gmail.com, institution: National Engineering Research Center for E-Learning, Hubei Wuhan, China"
+http://archive.ics.uci.edu/ml/datasets/Annealing,165650,"Donors: David Sterling and Wray Buntine"
+http://archive.ics.uci.edu/ml/datasets/Anonymous+Microsoft+Web+Data,180504,"Creators:  Jack S. Breese, David Heckerman, Carl M. KadieMicrosoft Research, Redmond WA, 98052-6399, USAbreese '@' microsoft.com, heckerma '@' microsoft.com, carlk '@' microsoft.com  Donors: Breese:, Heckerman, & Kadie"
+http://archive.ics.uci.edu/ml/datasets/Anuran+Calls+%28MFCCs%29,47396,"Eng. Juan Gabriel Colonna <juancolonna '@' icomp.ufam.edu.br>, Prof. Eduardo Freire Nakamura <nakamura '@' icomp.ufam.edu.br>, Prof. Marco A. P. Cristo <marco.cristo '@' gmail.com>, Biologist and collaborator Prof. Marcelo Gordo <mgordo '@' ufam.edu.br>Universidade Federal do Amazonas, Av. General Rodrigo Octavio Jord�o Ramos, 1200 - Coroado I, Manaus - AM, 69067-005, Brasil."
+http://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction,121897,"Luis Candanedo, luismiguel.candanedoibarra '@' umons.ac.be, University of Mons (UMONS)."
+http://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks,55762,"-- Creator: Scania CV AB               Vagnmakarv�gen 1                151 32 S�dert�lje                Stockholm               Sweden    -- Donor:   Tony Lindgren (tony '@' dsv.su.se) and Jonas Biteus (jonas.biteus '@' scania.com)   -- Date:    September, 2016"
+http://archive.ics.uci.edu/ml/datasets/Arcene,133134,"a. Original ownersThe data were obtained from two sources: The National Cancer Institute (NCI) and the Eastern Virginia Medical School (EVMS). All the data consist of mass-spectra obtained with the SELDI technique. The samples include patients with cancer (ovarian or prostate cancer), and healthy or control patients. b. Donor of databaseThis version of the database was prepared for the NIPS 2003 variable and feature selection benchmark by Isabelle Guyon, 955 Creston Road, Berkeley, CA 94708, USA (isabelle '@' clopinet.com)."
+http://archive.ics.uci.edu/ml/datasets/Arrhythmia,315309,"Original Owners of Database:
+ 1. H. Altay Guvenir, PhD., 
+Bilkent University,
+Department of Computer Engineering and Information Science,
+06533 Ankara, Turkey
+Phone: +90 (312) 266 4133
+Email: guvenir '@' cs.bilkent.edu.tr  2. Burak Acar, M.S.,
+Bilkent University, 
+EE Eng. Dept. 
+06533 Ankara, Turkey
+Email: buraka '@' ee.bilkent.edu.tr  3. Haldun Muderrisoglu, M.D., Ph.D., 
+Baskent University, 
+School of Medicine
+Ankara, Turkey
+ Donor: 
+ H. Altay Guvenir
+Bilkent University,
+Department of Computer Engineering and Information Science,
+06533 Ankara, Turkey
+Phone: +90 (312) 266 4133
+Email: guvenir '@' cs.bilkent.edu.tr"
+http://archive.ics.uci.edu/ml/datasets/Artificial+Characters,245703,"Original Owners of Database: 1. H. Altay Guvenir, PhD., Bilkent University,Department of Computer Engineering and Information Science,06533 Ankara, TurkeyPhone: +90 (312) 266 4133Email: guvenir '@' cs.bilkent.edu.tr  2. Burak Acar, M.S.,Bilkent University, EE Eng. Dept. 06533 Ankara, TurkeyEmail: buraka '@' ee.bilkent.edu.tr  3. Haldun Muderrisoglu, M.D., Ph.D., Baskent University, School of MedicineAnkara, Turkey Donor:  H. Altay GuvenirBilkent University,Department of Computer Engineering and Information Science,06533 Ankara, TurkeyPhone: +90 (312) 266 4133Email: guvenir '@' cs.bilkent.edu.tr"
+http://archive.ics.uci.edu/ml/datasets/Audiology+%28Original%29,110441,"Original Owner:  Professor Jergen at Baylor College of Medicine Donor:  Bruce Porter (porter '@' fall.cs.utexas.EDU)"
+http://archive.ics.uci.edu/ml/datasets/Audiology+%28Standardized%29,105605,"Original Version:     (a) Original Owner: Professor Jergen at Baylor College of Medicine    (b) Donor: Bruce Porter (porter '@' fall.cs.utexas.EDU) Standardized Version:     (a) Donor: Ross Quinlan"
+http://archive.ics.uci.edu/ml/datasets/Audit+Data,38552,"Nishtha Hooda, CSED, TIET, Patiala"
+http://archive.ics.uci.edu/ml/datasets/Australian+Sign+Language+signs,100030,"Original Owner and Donor:
+ Mohammed Waleed Kadous
+School of Computer Science of Engineering
+University of New South Wales
+Sydney NSW 2052 Australia
+waleed '@' cse.unsw.edu.au "
+http://archive.ics.uci.edu/ml/datasets/Australian+Sign+Language+signs+%28High+Quality%29,112305,"Original Owner and Donor:
+ Mohammed Waleed Kadous
+School of Computer Science of Engineering
+University of New South Wales
+Sydney NSW 2052 Australia
+Tel: 61 2 9385 6922
+waleed '@' cse.unsw.edu.au "
+http://archive.ics.uci.edu/ml/datasets/Autism+Screening+Adult,59277,"Fadi Fayez ThabtahDepartment of Digital TechnologyManukau Institute of Technology,Auckland, New Zealandfadi.fayez '@' manukau.ac.nz "
+http://archive.ics.uci.edu/ml/datasets/Autistic+Spectrum+Disorder+Screening+Data+for+Adolescent+++,30147,"Provide the names, email addresses, institutions, and other contact information of the donors and creators of the data set."
+http://archive.ics.uci.edu/ml/datasets/Autistic+Spectrum+Disorder+Screening+Data+for+Children++,43408,"Fadi Fayez ThabtahDepartment of Digital TechnologyManukau Institute of Technology,Auckland, New Zealandfadi.fayez '@' manukau.ac.nz "
+http://archive.ics.uci.edu/ml/datasets/Auto+MPG,562317,This dataset was taken from the StatLib library which is maintained at Carnegie Mellon University. The dataset was used in the 1983 American Statistical Association Exposition.
+http://archive.ics.uci.edu/ml/datasets/Automobile,524634,"Creator/Donor:  Jeffrey C. Schlimmer (Jeffrey.Schlimmer '@' a.gp.cs.cmu.edu) Sources: 1) 1985 Model Import Car and Truck Specifications, 1985 Ward's Automotive Yearbook.2) Personal Auto Manuals, Insurance Services Office, 160 Water Street, New York, NY 10038 3) Insurance Collision Report, Insurance Institute for Highway Safety, Watergate 600, Washington, DC 20037"
+http://archive.ics.uci.edu/ml/datasets/AutoUniv,58967,AutoUniv was developed by Ray. J. Hickey. Email: ray.j.hickey '@' gmail.com AutoUniv web-site: http://sites.google.com/site/autouniv/.
+http://archive.ics.uci.edu/ml/datasets/Avila,31304,"Claudio De Stefano, destefano '@' unicas.it, University of Cassino and Southern Lazio (ITALY)Francesco Fontanella, fontanella '@' unicas.it, University of Cassino and Southern Lazio (ITALY)Marilena Maniaci, m.maniaci '@' unicas.it, University of Cassino and Southern Lazio (ITALY)Alessandra Scotto di Freca, a.scotto '@' unicas.it, University of Cassino and Southern Lazio (ITALY)Provide the names, email addresses, institutions, and other contact information of the donors and creators of the data set."
+http://archive.ics.uci.edu/ml/datasets/Bach+Choral+Harmony,49594,"-- Creators: Daniele P. Radicioni and Roberto Esposito-- Donor: Daniele P. Radicioni (radicion '@' di.unito.it) and Roberto Esposito (esposito '@' di.unito.it)-- Date: May, 2014"
+http://archive.ics.uci.edu/ml/datasets/Bach+Chorales,131615,"Chorales: Mainous and Ottman edition.Mainous, Frank D. and Robert W. Ottman, eds. 1966.The 371 Bach Chorales.  Holt, Rinehart and Winston, New York. Original Owners of Database: Darrell ConklinZymoGenetics Inc.1201 Eastlake Avenue EastSeattle WA, 98102conklin '@' zgi.com  Donor of database: Same as owner.  Ann Blombach of Ohio State University originally supplied me with 4-voice encodings of 100 chorales.  The present database is the soprano line, converted into Lisp-readable form, and extensively corrected."
+http://archive.ics.uci.edu/ml/datasets/Badges,116715,"Creator:  Haym Hirsh, after an idea by Rob Schapire Donor:  Haym Hirsh (hirsh '@' cs.rutgers.edu)"
+http://archive.ics.uci.edu/ml/datasets/Bag+of+Words,311733,"David Newmannewman '@' uci.edu University of California, Irvine "
+http://archive.ics.uci.edu/ml/datasets/Balance+Scale,255105,"Generated to model psychological experiments reported by Siegler, R. S. (1976).Three Aspects of Cognitive Development.  Cognitive Psychology, 8, 481-520. Donor:  Tim Hume (hume '@' ics.uci.edu)"
+http://archive.ics.uci.edu/ml/datasets/Balloons,288293,Michael Pazzani (pazzani '@' ics.uci.edu)
+http://archive.ics.uci.edu/ml/datasets/Bank+Marketing,1238325,"[Moro et al., 2014] S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014"
+http://archive.ics.uci.edu/ml/datasets/banknote+authentication,252153,"Owner of database: Volker Lohweg (University of Applied Sciences, Ostwestfalen-Lippe, volker.lohweg '@' hs-owl.de)Donor of database: Helene D�rksen (University of Applied Sciences, Ostwestfalen-Lippe, helene.doerksen '@' hs-owl.de)Date received: August, 2012"
+http://archive.ics.uci.edu/ml/datasets/Bar+Crawl%3A+Detecting+Heavy+Drinking,48361,"   (a) Owner of database       Jackson A Killian (jkillian '@' g.harvard.edu, Harvard University); Danielle R Madden (University of Southern California); John Clapp (University of Southern California)   (b) Donor of database       Jackson A Killian (jkillian '@' g.harvard.edu, Harvard University); Danielle R Madden (University of Southern California); John Clapp (University of Southern California)   (c) Date collected       May 2017   (d) Date submitted       Jan 2020"
+http://archive.ics.uci.edu/ml/datasets/BAUM-1,15585,"The database and baseline results have been published in the following paper:S. Zhalehpour, O. Onder, Z. Akhtar, C. E. Erdem, 'BAUM-1: A Spontaneous Audio-VÄ°sual Face Database of Affective and Mental States', IEEE Transactions on Affective Computing, Vol. 8, No.3, 2017.  The creators of the database are the authors of the above paper.  "
+http://archive.ics.uci.edu/ml/datasets/BAUM-2,10518,"C. E. Erdem, C. Turan, Z. AydÄ±n, 'BAUM-2: a multilingual audio-visual affecive face database', Multimedia Tools and Applications, vol.74, pp. 7429-7459, 2015. 
+DOI 10.1007/s11042-014-1986-2
+   "
+http://archive.ics.uci.edu/ml/datasets/Behavior+of+the+urban+traffic+of+the+city+of+Sao+Paulo+in+Brazil,46554,"Creators original owner and donors: Ricardo Pinto Ferreira (1), Andrea Martiniano (2) and Renato Jose Sassi (3). E-mail address: log.kasparov'@'gmail.com (1) - PhD student;andrea.martiniano'@'gmail.com (2) - PhD student;sassi'@'uni9.pro.br (3) - Prof. Doctor. Universidade Nove de Julho - Postgraduate Program in Informatics and Knowledge Management. Address: Rua Vergueiro, 235/249 Liberdade, Sao Paulo, SP, Brazil. Zip code: 01504-001. Website: http://www.uninove.br/curso/informatica-e-gestao-do-conhecimento/"
+http://archive.ics.uci.edu/ml/datasets/Beijing+Multi-Site+Air-Quality+Data,42181,"Song Xi Chen, csx '@' gsm.pku.edu.cn, Guanghua School of Management, Center for Statistical Science, Peking University."
+http://archive.ics.uci.edu/ml/datasets/Beijing+PM2.5+Data,174548,"Song Xi Chen, csx '@' gsm.pku.edu.cn, Guanghua School of Management, Center for Statistical Science, Peking University."
+http://archive.ics.uci.edu/ml/datasets/Bias+correction+of+numerical+prediction+model+temperature+forecast,14124,"Dongjin Cho, djcho '@' unist.ac.kr, School of Urban and Environmental Engineering, Ulsan National Institute of Science and Technology (UNIST), Ulsan, South Korea
+Cheolhee Yoo, yoclhe '@' unist.ac.kr, School of Urban and Environmental Engineering, Ulsan National Institute of Science and Technology (UNIST), Ulsan, South Korea"
+http://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset,491007,"Hadi Fanaee-T
+ Laboratory of Artificial Intelligence and Decision Support (LIAAD), University of Porto
+INESC Porto, Campus da FEUP
+Rua Dr. Roberto Frias, 378
+4200 - 465 Porto, Portugal
+ Original Source: http://capitalbikeshare.com/system-data Weather Information: http://www.freemeteo.com Holiday Schedule: http://dchr.dc.gov/page/holiday-schedule"
+http://archive.ics.uci.edu/ml/datasets/BitcoinHeistRansomwareAddressDataset,3669,"Cuneyt Gurcan Akcora (cuneyt.akcora '@' umanitoba.ca) University of Manitoba, CanadaYulia Gel (ygl '@' utdallas.edu) University of Texas at Dallas, USAMurat kantarcioglu (muratk '@' utdallas.edu) University of Texas at Dallas, USA"
+http://archive.ics.uci.edu/ml/datasets/BLE+RSSI+Dataset+for+Indoor+localization+and+Navigation,30121,"Mehdi Mohammadi and Ala Al-Fuqaha, {mehdi.mohammadi, ala-alfuqaha}@wmich.edu
+Department of Computer Science
+Western Michigan University
+"
+http://archive.ics.uci.edu/ml/datasets/BlogFeedback,96744,"Krisztian BuzaBudapest University of Technology and Economicsbuza '@' cs.bme.hu http://www.cs.bme.hu/~buza"
+http://archive.ics.uci.edu/ml/datasets/BLOGGER,81725,http://www.ijcaonline.org/archives/volume47/number18/7291-0509
+http://archive.ics.uci.edu/ml/datasets/Blood+Transfusion+Service+Center,330908,"Original Owner and Donor
+Prof. I-Cheng Yeh
+Department of Information Management 
+Chung-Hua University, 
+Hsin Chu, Taiwan 30067, R.O.C.
+e-mail:icyeh '@' chu.edu.tw TEL:886-3-5186511
+ Date Donated: October 3, 2008
+"
+http://archive.ics.uci.edu/ml/datasets/Breast+Cancer,483461,"Creators: Matjaz Zwitter & Milan Soklic (physicians)Institute of Oncology University Medical CenterLjubljana, Yugoslavia Donors:  Ming Tan and Jeff Schlimmer (Jeffrey.Schlimmer '@' a.gp.cs.cmu.edu)"
+http://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Coimbra,88384,"Miguel Patrício(miguelpatricio '@' gmail.com), José Pereira (jafcpereira '@' gmail.com), Joana Crisóstomo (joanacrisostomo '@' hotmail.com), Paulo Matafome (paulomatafome '@' gmail.com), Raquel Seiça (rmfseica '@' gmail.com), Francisco Caramelo (fcaramelo '@' fmed.uc.pt), all from the Faculty of Medicine of the University of Coimbra and also Manuel Gomes (manuelmgomes '@' gmail.com) from the University Hospital Centre of Coimbra"
+http://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29,1292735,"Creators: 
+ 1. Dr. William H. Wolberg, General Surgery Dept. 
+University of Wisconsin,  Clinical Sciences Center 
+Madison, WI 53792
+wolberg '@' eagle.surgery.wisc.edu  2. W. Nick Street, Computer Sciences Dept. 
+University of Wisconsin, 1210 West Dayton St., Madison, WI 53706
+street '@' cs.wisc.edu  608-262-6619
+ 3. Olvi L. Mangasarian, Computer Sciences Dept. 
+University of Wisconsin, 1210 West Dayton St., Madison, WI 53706
+olvi '@' cs.wisc.edu  Donor: 
+ Nick Street"
+http://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29,610312,"Creator: Dr. WIlliam H. Wolberg (physician)University of Wisconsin HospitalsMadison, Wisconsin, USA Donor:  Olvi Mangasarian (mangasarian '@' cs.wisc.edu)Received by David W. Aha (aha '@' cs.jhu.edu)"
+http://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Prognostic%29,215797,"Creators:  1. Dr. William H. Wolberg, General Surgery Dept. University of Wisconsin,  Clinical Sciences CenterMadison, WI 53792wolberg '@' eagle.surgery.wisc.edu  2. W. Nick Street, Computer Sciences Dept. University of Wisconsin1210 West Dayton St., Madison, WI 53706street '@' cs.wisc.edu  608-262-6619 3. Olvi L. Mangasarian, Computer Sciences Dept., University of Wisconsin1210 West Dayton St., Madison, WI 53706olvi '@' cs.wisc.edu  Donor:  Nick Street"
+http://archive.ics.uci.edu/ml/datasets/Breast+Tissue,125419,"JP Marques de Sá, INEB-Instituto de Engenharia Biomédica, Porto, Portugal; e-mail: jpmdesa '@' gmail.com J Jossinet, inserm, Lyon, France"
+http://archive.ics.uci.edu/ml/datasets/BuddyMove+Data+Set,27033,"Shini Renjith, shinirenjith '@' gmail.com"
+http://archive.ics.uci.edu/ml/datasets/Burst+Header+Packet+%28BHP%29+flooding+attack+on+Optical+Burst+Switching+%28OBS%29+Network,30223,"Adel RajabDepartment of Computer Science and Engineering,University of South Carolina,Columbia, SC, USA, 29208Phone number:(803)238-6657rajaba '@' email.sc.edu "
+http://archive.ics.uci.edu/ml/datasets/Buzz+in+social+media+,157268,"Creators :    François Kawala (1,2) Ahlame Douzal (1) Eric Gaussier (1) Eustache Diemert (2)Institutions :    (1) Université  Joseph Fourier (Grenoble I)       Laboratoire d'informatique de Grenoble (LIG)   (2) BestofMedia GroupDonor:    BestofMedia (ediemert '@' bestofmedia.com)"
+http://archive.ics.uci.edu/ml/datasets/Caesarian+Section+Classification+Dataset,37493,"Name: Muhammad Zain Amin Email: ZainAmin1 '@' outlook.com Institution: University of Engineering and Technology, Lahore, Pakistan Name: Amir AliEmail: amirali.ryk1 '@' gmail.com Institution: University of Engineering and Technology, Lahore, Pakistan"
+http://archive.ics.uci.edu/ml/datasets/CalIt2+Building+People+Counts,53914,"Creator and Maintainer:
+Jon Hutchins
+UCI
+johutchi '@' uci.edu"
+http://archive.ics.uci.edu/ml/datasets/Car+Evaluation,1212646,"Creator:  Marko Bohanec Donors:  1. Marko Bohanec   (marko.bohanec '@' ijs.si)2. Blaz Zupan      (blaz.zupan '@' ijs.si)"
+http://archive.ics.uci.edu/ml/datasets/Carbon+Nanotubes,37372,"Mehmet ACI- Mersin University, Dept of Computer Engineering, maci '@' mersin.edu.trMutlu AVCI- Cukurova University, Dept of Biomedical Engineering, mavci '@' cu.edu.tr"
+http://archive.ics.uci.edu/ml/datasets/Cardiotocography,168353,"Marques de S�, J.P., jpmdesa '@' gmail.com, Biomedical Engineering Institute, Porto, Portugal.Bernardes, J., joaobern '@' med.up.pt, Faculty of Medicine, University of Porto, Portugal.Ayres de Campos, D., sisporto '@' med.up.pt, Faculty of Medicine, University of Porto, Portugal."
+http://archive.ics.uci.edu/ml/datasets/Cargo+2000+Freight+Tracking+and+Tracing,42627,"Andreas Metzger (andreas.metzger '@' paluno.uni-due.de)paluno (The Ruhr Institute for Software Technology) University of Duisburg-Essen GerlingstraÃŸe 16 45127 Essen, Germany"
+http://archive.ics.uci.edu/ml/datasets/Census+Income,451336,"Donor: 
+ Ronny Kohavi and Barry Becker
+Data Mining and Visualization
+Silicon Graphics.
+e-mail: ronnyk '@' sgi.com for questions.
+"
+http://archive.ics.uci.edu/ml/datasets/Census-Income+%28KDD%29,174212,"Original Owner: U.S. Census Bureauhttp://www.census.gov/ United States Department of Commerce Donor: Terran Lane and Ronny KohaviData Mining and VisualizationSilicon Graphics.terran '@' ecn.purdue.edu, ronnyk '@' sgi.com  "
+http://archive.ics.uci.edu/ml/datasets/Cervical+cancer+%28Risk+Factors%29,122086,"Kelwin Fernandes (kafc _at_ inesctec _dot_ pt) - INESC TEC & FEUP, Porto, Portugal. Jaime S. Cardoso - INESC TEC & FEUP, Porto, Portugal. Jessica Fernandes - Universidad Central de Venezuela, Caracas, Venezuela."
+http://archive.ics.uci.edu/ml/datasets/Challenger+USA+Space+Shuttle+O-Ring,140058,"Original Owner: David Draper (draper '@' math.ucla.edu)University of California, Los Angeles Donor:  David Draper (draper '@' math.ucla.edu)"
+http://archive.ics.uci.edu/ml/datasets/Character+Font+Images,33009,"Richard Lyman459 Monterey AvenueLos Gatos, California 95030408 399 6303richard.r.lyman '@' gmail.com"
+http://archive.ics.uci.edu/ml/datasets/Character+Trajectories,147124,"Ben H Williams 
+School of Informatics,
+University of Edinburgh,
+ben.williams '@' ed.ac.uk "
+http://archive.ics.uci.edu/ml/datasets/Chess+%28Domain+Theories%29,52200,"1. ""chess_flann_new"" and ""chess_flann_wyl"" written by flann '@' cs.orst.edu  2. ""chess_russel_wyl"" originally written by Stuart Russell in MRS, then translated into prolog by flann '@' cs.orst.edu  3. ""chess_vijay_1"", ""chess_vijay_2"" and ""chess_vijay_3"" written by vijay '@' cs.orst.edu"
+http://archive.ics.uci.edu/ml/datasets/Chess+%28King-Rook+vs.+King%29,126843,"Creators:  Database generated by Michael Bain and Arthur van Hoff at the Turing Institute, Glasgow, UK. Donor:  Michael Bain (mike '@' cse.unsw.edu.au), AI Lab, Computer ScienceUniversity of New South Wales, Sydney 2052, Australia.(tel) +61 2 385 3939(fax) +61 2 663 4576"
+http://archive.ics.uci.edu/ml/datasets/Chess+%28King-Rook+vs.+King-Knight%29,72291,"Database originally described by Ross Quinlan. Donor/Coder:  Jeff Schlimmer (Jeff.Schlimmer '@' cs.cmu.edu)"
+http://archive.ics.uci.edu/ml/datasets/Chess+%28King-Rook+vs.+King-Pawn%29,116780,"Database originally generated and described by Alen Shapiro. Donor/Coder:  Rob Holte (holte '@' uottawa.bitnet).   The database was supplied to Holte by Peter Clark of the Turing Institute in Glasgow (pete '@' turing.ac.uk)."
+http://archive.ics.uci.edu/ml/datasets/chipseq,20770,"Toby Dylan Hockingtoby.hocking '@' mail.mcgill.ca McGill University"
+http://archive.ics.uci.edu/ml/datasets/Chronic_Kidney_Disease,170935," Source: 			 Dr.P.Soundarapandian.M.D.,D.M			(Senior Consultant Nephrologist), 			Apollo  Hospitals, 			Managiri,			Madurai Main Road, 			Karaikudi,			Tamilnadu,			India.  Creator: 			L.Jerlin Rubini(Research Scholar)			Alagappa University,			EmailId   :jel.jerlin '@' gmail.com 			ContactNo :+91-9597231281  Guided by: 			Dr.P.Eswaran Assistant Professor,			Department of Computer Science and Engineering,			Alagappa University,			Karaikudi,			Tamilnadu,			India.			Emailid:eswaranperumal '@' gmail.com"
+http://archive.ics.uci.edu/ml/datasets/Climate+Model+Simulation+Crashes,85121,"D. Lucas (ddlucas .at. alum.mit.edu), Lawrence Livermore National LaboratoryR. Klein (rklein .at. astron.berkeley.edu), Lawrence Livermore National Laboratory & U.C. BerkeleyJ. Tannahill (tannahill1 .at. llnl.gov), Lawrence Livermore National LaboratoryD. Ivanova (ivanova2 .at. llnl.gov), Lawrence Livermore National LaboratoryS. Brandon (brandon1 .at. llnl.gov), Lawrence Livermore National LaboratoryD. Domyancic (domyancic1 .at. llnl.gov), Lawrence Livermore National LaboratoryY. Zhang (zhang24 .at. llnl.gov), Lawrence Livermore National Laboratory This data was constructed using LLNL's UQ Pipeline, was created under the auspices of the US Department of Energy by Lawrence Livermore National Laboratory under Contract DE-AC52-07NA27344, was funded by LLNL's Uncertainty Quantification Strategic Initiative Laboratory Directed Research and Development Project under tracking code 10-SI-013, and is released under UCRL number LLNL-MISC-633994."
+http://archive.ics.uci.edu/ml/datasets/Cloud,131424,"Philippe CollardCalifornia Space Institute A-021, UCSDLa Jolla, CA 92093(619)534-6369"
+http://archive.ics.uci.edu/ml/datasets/CMU+Face+Images,148034,"Original Owner and Donor: Tom MitchellSchool of Computer Science Carnegie Mellon Universitytom.mitchell '@' cmu.edu http://www.cs.cmu.edu/~tom/ "
+http://archive.ics.uci.edu/ml/datasets/CNAE-9,65396,"Patrick Marques Ciarelli, pciarelli '@' lcad.inf.ufes.br, Department of Electrical Engineering, Federal University of Espirito Santo Elias Oliveira, elias '@' lcad.inf.ufes.br, Department of Information Science, Federal University of Espirito Santo"
+http://archive.ics.uci.edu/ml/datasets/Coil+1999+Competition+Data,50547,"Original Owner: ERUDITEuropean Network for Fuzzy Logic and Uncertainty Modelling in Information Technologyhttp://www.erudit.de/  Donor: Jens StrackeljanTechnical University ClausthalInstitute of Applied MechanicsGraupenstr. 3, 38678 Clausthal-Zellerfeld, Germanytmjs '@' itm.tu-clausthal.de  "
+http://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant,167823,"Pınar Tüfekci, Çorlu Faculty of Engineering, Namık Kemal University, TR-59860 Çorlu, Tekirdağ, TurkeyEmail: ptufekci '@' nku.edu.trHeysem Kaya, Department of Computer Engineering, Boğaziçi University, TR-34342, Beşiktaş, İstanbul, TurkeyEmail: heysem '@' boun.edu.tr"
+http://archive.ics.uci.edu/ml/datasets/Communities+and+Crime,286446,"Creator: Michael Redmond (redmond '@' lasalle.edu); Computer Science; La Salle University; Philadelphia, PA, 19141, USA    -- culled from 1990 US Census, 1995 US FBI Uniform Crime Report, 1990 US Law Enforcement Management and Administrative Statistics Survey, available from ICPSR at U of Michigan.  -- Donor: Michael Redmond (redmond '@' lasalle.edu); Computer Science; La Salle University; Philadelphia, PA, 19141, USA  -- Date: July 2009"
+http://archive.ics.uci.edu/ml/datasets/Communities+and+Crime+Unnormalized,145708,"  -- Creator: Michael Redmond (redmond 'at' lasalle.edu); Computer Science; La Salle University; Philadelphia, PA, 19141, USA
+    -- culled from 1990 US Census, 1995 US FBI Uniform Crime Report, 1990 US Law Enforcement Management and Administrative Statistics Survey, available from ICPSR at U of Michigan.
+  -- Donor: Michael Redmond (redmond 'at' lasalle.edu); Computer Science; La Salle University; Philadelphia, PA, 19141, USA"
+http://archive.ics.uci.edu/ml/datasets/Computer+Hardware,308218,"Creator:  Phillip Ein-Dor and Jacob FeldmesserEin-Dor: Faculty of Management Tel Aviv University; Ramat-Aviv; Tel Aviv, 69978; Israel Donor:  David W. Aha (aha '@' ics.uci.edu) (714) 856-8779   "
+http://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength,206112,"Original Owner and DonorProf. I-Cheng YehDepartment of Information Management Chung-Hua University, Hsin Chu, Taiwan 30067, R.O.C.e-mail:icyeh '@' chu.edu.tw TEL:886-3-5186511 Date Donated: August 3, 2007"
+http://archive.ics.uci.edu/ml/datasets/Concrete+Slump+Test,99926,"Donor: I-Cheng YehEmail: icyeh '@' chu.edu.tw Institution: Department of Information Management, Chung-Hua University (Republic of China)Other contact information: Department of Information Management, Chung-Hua University, Hsin Chu, Taiwan 30067, R.O.C."
+http://archive.ics.uci.edu/ml/datasets/Condition+Based+Maintenance+of+Naval+Propulsion+Plants,58896,"Andrea Coraddu(2), Luca Oneto(1), Alessandro Ghio(1), Stefano Savio(2), Davide Anguita(3), Massimo Figari(2)
+1 - Smartlab - Non-Linear Complex Systems Laboratory
+DITEN - UniversitÂˆ� degli Studi di Genova, Genoa (I-16145), Italy. 
+2 - Marine Technology Research Team
+DITEN - UniversitÂˆ� degli Studi di Genova, Genoa (I-16145), Italy. 
+3 - Smartlab - Non-Linear Complex Systems Laboratory
+DIBRIS - UniversitÂˆ� degli Studi di Genova, Genoa (I-16145), Italy. 
+cbm '@' smartlab.ws www.cbm.smartlab.ws"
+http://archive.ics.uci.edu/ml/datasets/Condition+monitoring+of+hydraulic+systems,50265,"Creator: ZeMA gGmbH, Eschberger Weg 46, 66121 Saarbr�ckenContact: t.schneider '@' zema.de, s.klein '@' zema.de, m.bastuck '@' lmt.uni-saarland.de, info '@' lmt.uni-saarland.de"
+http://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records,221074,"Origin:
+ Congressional Quarterly Almanac, 98th Congress,  2nd session 1984, Volume XL: Congressional Quarterly Inc. Washington, D.C., 1985.
+ Donor: 
+ Jeff Schlimmer (Jeffrey.Schlimmer '@' a.gp.cs.cmu.edu)"
+http://archive.ics.uci.edu/ml/datasets/Connect-4,162184,"Original Owners of Database:  John Tromp (tromp '@' cwi.nl) Donor:  John Tromp (tromp '@' cwi.nl)"
+http://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+%28Nettalk+Corpus%29,46748,"The data set was contributed to the benchmark collection by Terry Sejnowski, now at the Salk Institute and the University of California at San Deigo.  The data set was developed in collaboration with Charles Rosenberg of Princeton.  Approximately 250 person-hours went into creating and testing this database."
+http://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+%28Sonar%2C+Mines+vs.+Rocks%29,181029,"The data set was contributed to the benchmark collection by Terry Sejnowski, now at the Salk Institute and the University of California at San Deigo.  The data set was developed in collaboration with R. Paul Gorman of Allied-Signal Aerospace Technology Center."
+http://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+%28Vowel+Recognition+-+Deterding+Data%29,74183,"David Deterding  (data and non-connectionist analysis)Mahesan Niranjan (first connectionist analysis)Tony Robinson    (description, program, data, and results) - ""ajr '@' dsl.eng.cam.ac.uk"""
+http://archive.ics.uci.edu/ml/datasets/Container+Crane+Controller+Data+Set,30460,"Creators original owner and donors: Ricardo Pinto Ferreira (1), Andrea Martiniano (2), Arthur Ferreira (3), Marcio Romero (4) and Renato Jose Sassi (5). 
+ E-mail address: 
+log.kasparov '@' gmail.com (1) - PhD student;
+andrea.martiniano '@' gmail.com (2) - PhD student;
+arthur2.ferreira '@' usp.br (3) - Graduation student;
+mhromero '@' hotmail.com (4) - PhD student;
+sassi '@' uni9.pro.br (5) - Prof. Doctor
+ Universidade Nove de Julho - Post-Graduation Program in Informatics and Knowledge Management.
+ Address: Rua Vergueiro, 235/249 Liberdade, Sao Paulo â€“ SP, Brazil. Zip code: 01504-001.
+ Website: http://www.uninove.br/curso/informatica-e-gestao-do-conhecimento/  "
+http://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice,194079,"Origin:   This dataset is a subset of the 1987 National Indonesia Contraceptive Prevalence Survey Creator:  Tjen-Sien Lim (limt '@' stat.wisc.edu) Donor:    Tjen-Sien Lim (limt '@' stat.wisc.edu)"
+http://archive.ics.uci.edu/ml/datasets/Corel+Image+Features,86755,"Original Owner: Michael Ortega-BinderbergerInformation and Computer ScienceUniversity of California at IrvineIrvine, CA 92697-3425USAmiki '@' ics.uci.edu  Donor: Kriengkrai Porkaew and Sharad MehrotraInformation and Computer ScienceUniversity of California at IrvineIrvine, CA 92697-3425USA nid '@' ics.uci.edu,sharad '@' ics.uci.edu  "
+http://archive.ics.uci.edu/ml/datasets/Covertype,284734,"Original Owners of Database: Remote Sensing and GIS ProgramDepartment of Forest SciencesCollege of Natural ResourcesColorado State UniversityFort Collins, CO  80523(contact Jock A. Blackard, jblackard '@' fs.fed.us or Dr. Denis J. Dean, denis.dean '@' utdallas.edu) Donors of database: 1. Jock A. Blackard (jblackard '@' fs.fed.us)GIS CoordinatorUSFS - Forest Inventory & AnalysisRocky Mountain Research Station507 25th StreetOgden, UT 84401  2. Dr. Denis J. Dean (denis.dean '@' utdallas.edu)ProfessorProgram in Geography and Geospatial SciencesSchool of Economic, Political and Policy Sciences800 West Campbell RdRichardson, TX  75080-3021  3. Dr. Charles W. Anderson (anderson '@' cs.colostate.edu)Associate ProfessorDepartment of Computer ScienceColorado State UniversityFort Collins, CO  80523  USA"
+http://archive.ics.uci.edu/ml/datasets/Credit+Approval,423051,"(confidential source)  Submitted by quinlan '@' cs.su.oz.au"
+http://archive.ics.uci.edu/ml/datasets/Crop+mapping+using+fused+optical-radar+data+set,1506,"Dr. Iman Khosravi,
+Postdoctoral researcher,
+Department of Remote Sensing & GIS, Faculty of Geography, University of Tehran, Tehran, I.R. Iran, 1417853933
+E-Mail: iman.khosravi '@' ut.ac.ir Website: http://i-khosravi.ir"
+http://archive.ics.uci.edu/ml/datasets/Crowdsourced+Mapping,22460,"Brian Johnson johnson '@' iges.or.jp Institute for Global Environmental Strategies, Japan"
+http://archive.ics.uci.edu/ml/datasets/Cryotherapy+Dataset+,42897,"Name: Fahime Khozeimeh, MDemail: fahime.khozeime '@' yahoo.com institution: Faculty of  Medicine, Mashhad University of Medical Sciences, Mashhad, Iran. Name: Pouran Layegh, Professor of Dermatologyemail: layeghpo '@' mums.ac.ir institution: Mashhad University of Medical Sciences, Mashhad, Iranwebsite: http://research.mums.ac.ir/webdocument/load.action?webdocument_code=8001&masterCode=8000703  Name:Roohallah Alizadehsani, PhD studentemail: alizadeh_roohallah '@' yahoo.cominstitution: Institute for Intelligent Systems Research and Innovation (IISRI), Deakin University, Victoria 3217, Australia.website: http://ce.sharif.ir/~ralizadeh/  Name: Mohamad Roshanzamir, PhD candidateemail: mohamad.roshanzamir '@' ec.iut.ac.irinstitution: Electrical and Computer Engineering, Isfahan University of Technology, Isfahan, Iran. "
+http://archive.ics.uci.edu/ml/datasets/CSM+%28Conventional+and+Social+Media+Movies%29+Dataset+2014+and+2015,30471,"Mehreen AhmedDepartment of Computer Software EngineeringNational University of Sciences and Technology (NUST),Islamabad, Pakistanmahreenmcs '@' gmail.com"
+http://archive.ics.uci.edu/ml/datasets/Cuff-Less+Blood+Pressure+Estimation,114087,"-- Creators: Mohamad Kachuee, Mohammad Mahdi Kiani, Hoda Mohammadzade, Mahdi Shabany             Department of Electrical Engineering, Sharif University of Technology, Tehran, Iran-- Donor: Mohamad Kachuee (m.kachuee '@' gmail.com)-- Date: July, 2015"
+http://archive.ics.uci.edu/ml/datasets/Cylinder+Bands,77223,"Creator: 
+ Bob Evans
+RR Donnelley & Sons Co.
+Gallatin Division
+801 Steam Plant Rd
+Gallatin, Tennessee 37066-3396
+(615) 452-5170
+ Donor: same"
+http://archive.ics.uci.edu/ml/datasets/Daily+and+Sports+Activities,188348,"Billur Barshan,Department of Electrical and Electronics Engineering, Bilkent University, TR-06800 Bilkent, Ankara, Turkey    tel: (90-312) 290-2161  fax: (90-312) 266-4192    e-mail : billur`@'ee.bilkent.edu.tr      url: www.ee.bilkent.edu.tr/~billur Kerem Altun, kerem.altun '@' kemerburgaz.edu.tr, kerem.altun '@' gmail.com"
+http://archive.ics.uci.edu/ml/datasets/Daily+Demand+Forecasting+Orders,78216,"Creators original owner and donors: Ricardo Pinto Ferreira (1), Andrea Martiniano (2), Arthur Ferreira (3), Aleister Ferreira (4) and Renato Jose Sassi (5). E-mail address: kasparov '@' uni9.pro.br (1), andrea.martiniano '@' gmail.com (2), arthur2.ferreira '@' usp.br (3), aleisterferreira '@' hotmail.com (4), sassi '@' uni9.pro.br (5) - PhD student (1, 2), Graduation student (3, 4), Prof. Doctor (5). Universidade Nove de Julho - Post-Graduation Program in Informatics and Knowledge Management. Address: Rua Vergueiro, 235/249 Liberdade, Sao Paulo – SP, Brazil. Zip code: 01504-001. Website: http://www.uninove.br"
+http://archive.ics.uci.edu/ml/datasets/Daphnet+Freezing+of+Gait,70595," Daniel Roggen, University of Newcastle Upon Tyne, UK, daniel.roggen '@' ieee.org Meir Plotnik,  Sheba Medical Center, IL, meir.plotnikPeleg '@' sheba.health.gov.il Jeff Hausdorff, Tel Aviv Sourasky Medical Center, jhausdor '@' tlvmc.gov.il  This dataset was collected as part of the EU FP6 project Daphnet, grant number 018474-2.Additional effort to publish this dataset was supported in part by the EU FP7 project CuPiD, grant number 288516."
+http://archive.ics.uci.edu/ml/datasets/Data+for+Software+Engineering+Teamwork+Assessment+in+Education+Setting,34643,"Prof. D. Petkovic (SFSU) Petkovic '@' sfsu.edu; Prof. Rainer Todtenhoefer (Fulda University, Germany); Prof. Shihong Huang (FAU)"
+http://archive.ics.uci.edu/ml/datasets/Dataset+for+ADL+Recognition+with+Wrist-worn+Accelerometer,78994,"Barbara Bruno, Fulvio Mastrogiovanni, Antonio SgorbissaLaboratorium - Laboratory for Ambient Intelligence and Mobile RoboticsDIBRIS, University of Genova,via Opera Pia 13, 16145, Genova, Italia (IT)"
+http://archive.ics.uci.edu/ml/datasets/Dataset+for+Sensorless+Drive+Diagnosis,72240,"Owner of database: Martyna Bator (University of Applied Sciences, Ostwestfalen-Lippe, martyna.bator '@' hs-owl.de)Donor of database: Martyna Bator (University of Applied Sciences, Ostwestfalen-Lippe, martyna.bator '@' hs-owl.de)"
+http://archive.ics.uci.edu/ml/datasets/DBWorld+e-mails,58279,"Michele Filannino, PhDUniversity of ManchesterCentre for Doctoral TrainingEmail: filannim_AT_cs.man.ac.uk"
+http://archive.ics.uci.edu/ml/datasets/Deepfakes%3A+Medical+Image+Tamper+Detection,2160,"Yisroel Mirsky@post.bgu.ac.ilBen-Gurion University of the Negev"
+http://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients,487247,"Name: I-Cheng Yehemail addresses: (1) icyeh '@' chu.edu.tw (2) 140910 '@' mail.tku.edu.tw institutions: (1) Department of Information Management, Chung Hua University, Taiwan. (2) Department of Civil Engineering, Tamkang University, Taiwan.other contact information: 886-2-26215656 ext. 3181"
+http://archive.ics.uci.edu/ml/datasets/DeliciousMIL%3A+A+Data+Set+for+Multi-Label+Multi-Instance+Learning+with+Instance+Labels,17999,"Hossein Soleimani, School of Electrical Engineering and Computer Science, Pennsylvania State University, PA, USAhsoleimani '@' psu.edu https://hsoleimani.github.io  David J. Miller,School of Electrical Engineering and Computer Science, Pennsylvania State University, PA, USA, djmiller '@' engr.psu.edu  Creators of DeliciousT140 dataset:Arkaitz Zubiaga, Alberto P. GarcÂ´Ä±a-Plaza, VÂ´Ä±ctor Fresno, and Raquel MartÂ´Ä±nez,Dpto. Lenguajes y Sistemas Informaticos Â´ Universidad Nacional de Educacion a DistanciaÂ´ Madrid, Spain"
+http://archive.ics.uci.edu/ml/datasets/Demospongiae,55325,"Creator:
+ Eva Armengol, Enric Plaza, Marta Domingo and Iosune Uriz
+ Donor:
+ Santiago Ontanon (santi '@' iiia.csic.es)"
+http://archive.ics.uci.edu/ml/datasets/Dermatology,222240,"Original Owners: 1. Nilsel Ilter, M.D., Ph.D., Gazi University, School of Medicine06510 Ankara, TurkeyPhone: +90 (312) 214 1080 2. H. Altay Guvenir, PhD., Bilkent University,Department of Computer Engineering and Information Science,06533 Ankara, TurkeyPhone: +90 (312) 266 4133Email: guvenir '@' cs.bilkent.edu.tr  Donor:  H. Altay Guvenir,Bilkent University,Department of Computer Engineering and Information Science,06533 Ankara, TurkeyPhone: +90 (312) 266 4133Email: guvenir '@' cs.bilkent.edu.tr"
+http://archive.ics.uci.edu/ml/datasets/Detect+Malacious+Executable%28AntiVirus%29,256103,"Piyush Anasta Rumao,UnderGrad Computer Engineer from Fr.Conceicao Rodrigues College of Enginerring,Bandra,Mumbai,University of Mumbai, email:- piyushrumao '@' gmail.com phone- +91-7387712196 / +91-8554041806you can call / mail me anytime regarding any query or to know more about working model of antivrius that I can created."
+http://archive.ics.uci.edu/ml/datasets/detection_of_IoT_botnet_attacks_N_BaIoT,65524,"-- Creators: Yair Meidan, Michael Bohadana, Yael Mathov, Yisroel Mirsky, Dominik Breitenbacher, Asaf Shabtai and Yuval Elovici* Meidan, Bohadana, Mathov, Mirsky, Shabtai: Department of Software and Information Systems Engineering; Ben-Gurion University of the Negev; Beer-Sheva, 8410501; Israel* Breitenbacher, Elovici: iTrust Centre of Cybersecurity at Singapore University of Technology and Design; 8 Somapah Rd, Singapore 487372 -- Donor: Yair Meidan (yairme '@' bgu.ac.il)-- Date: March, 2018 (databases may change over time without name change!)"
+http://archive.ics.uci.edu/ml/datasets/Devanagari+Handwritten+Character+Dataset,27994,"The dataset was created by extraction and manual annotation of thousands of characters from handwritten documents.Creator Name: Shailesh Acharya, Email: sailes437 '@' gmail.com, Institution: University of North Texas, Cell: +19402200157Creator Name: Prashnna Kumar Gyawali, Email: gyawali.prasanna '@' gmail.com, Institution: Rochester Institute of Technology"
+http://archive.ics.uci.edu/ml/datasets/Dexter,103395,"a.	Original ownersThe original data set we used is a subset of the well-known Reuters text categorization benchmark. The data was originally collected and labeled by Carnegie Group, Inc. and Reuters, Ltd. in the course of developing the CONSTRUE text categorization system.  It is hosted by the UCI KDD repository: http://kdd.ics.uci.edu/databases/reuters21578/reuters21578.html. David D. Lewis is hosting valuable resources about this data (see http://www.daviddlewis.com/resources/testcollections/reuters21578/). We used the “corporate acquisition” text classification class pre-processed by Thorsten Joachims <thorsten '@' joachims.org>. The data is one of the examples of the software package SVM-Light., see http://svmlight.joachims.org/. The example can be downloaded from ftp://ftp-ai.cs.uni-dortmund.de/pub/Users/thorsten/svm_light/examples/example1.tar.gz. b.	Donor of databaseThis version of the database was prepared for the NIPS 2003 variable and feature selection benchmark by Isabelle Guyon, 955 Creston Road, Berkeley, CA 94708, USA (isabelle '@' clopinet.com)."
+http://archive.ics.uci.edu/ml/datasets/DGP2+-+The+Second+Data+Generation+Program,31648,"Powell BenedictUniversity of Illinois at UrbanaInductive Learning GroupBeckman InstituteUrbana, IL 61801tel: (217) 244-1620E-mail: benedict '@' cs.uiuc.edu"
+http://archive.ics.uci.edu/ml/datasets/Diabetes,490983,"Michael Kahn, MD, PhD, Washington University, St. Louis, MO"
+http://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008,313855,"The data are submitted on behalf of the Center for Clinical and Translational Research, Virginia Commonwealth University, a recipient of NIH CTSA grant UL1 TR00058 and a recipient of the CERNER data. John Clore (jclore '@' vcu.edu), Krzysztof J. Cios (kcios '@' vcu.edu), Jon DeShazo (jpdeshazo '@' vcu.edu), and Beata Strack (strackb '@' vcu.edu). This data is a de-identified abstract of the Health Facts database (Cerner Corporation, Kansas City, MO)."
+http://archive.ics.uci.edu/ml/datasets/Diabetic+Retinopathy+Debrecen+Data+Set,107541,"1. Dr. Balint Antal, Department of Computer Graphics and Image ProcessingFaculty of Informatics, University of Debrecen, 4010, Debrecen, POB 12, Hungaryantal.balint '@' inf.unideb.hu 2. Dr. Andras Hajdu, Department of Computer Graphics and Image ProcessingFaculty of Informatics, University of Debrecen, 4010, Debrecen, POB 12, Hungaryhajdu.andras '@' inf.unideb.hu"
+http://archive.ics.uci.edu/ml/datasets/Discrete+Tone+Image+Dataset,19755,"Creator: J.UthayakumarResearch Scholar,Department of Computer Science,Pondicherry University,India.Contact: +91 9677583754Email Id: uthayresearchscholar '@' gmail.com  Guided By, Dr.T.VengattaramanAssistant Professor,Department of Computer Science,Pondicherry University,India.Email Id: vengattaramant '@' gmail.com  Dr.P.DhavachelvanProfessor,Department of Computer Science,Pondicherry University,India.Email Id: dhavachelvan '@' gmail.com"
+http://archive.ics.uci.edu/ml/datasets/Dishonest+Internet+users+Dataset,45114,"Gianni D'Angelo, Ph.D.Department of Law, Economics, Management and Quantitative Methods (DEMM)University of SannioBenevento, Italy. Email: dangelo '@' unisannio.it"
+http://archive.ics.uci.edu/ml/datasets/Divorce+Predictors+data+set,77119,"Dr. Mustafa Kemal Yöntem, Nevşehir Hacı Bektaş Veli University, Faculty of Education, Department of Educational Sciences, muskemtem '@' hotmail.com Dr. Kemal ADEM, Aksaray University, Faculty of Economics and Administrative Sciences, Department of Management Information Systems, kemaladem '@' gmail.com Prof. Dr. Tahsin İlhan, Tokat GAZİOSMANPAŞA University, Faculty of Education, Department of Educational Sciences, tahsinilhan73 '@' gmail.com Lecturer Serhat Kılıçarslan, Tokat GAZİOSMANPAŞA University, Rectorate, Department of Informatics, serhatklc '@' gmail.com "
+http://archive.ics.uci.edu/ml/datasets/Document+Understanding,44459,"Owner:
+ Donato Malerba
+Dipartimento di Informatica
+University of Bari
+via Orabona 4
+70126 Bari - Italy
+phone: +39 - 80 - 5443269
+fax: +39 - 80 - 5443196
+malerbad '@' vm.csata.it  Donor: 
+ Donato Malerba"
+http://archive.ics.uci.edu/ml/datasets/Dodgers+Loop+Sensor,74324,"Creator and Maintainer:Jon HutchinsUCIjohutchi '@' uci.edu  Donor: PeMS"
+http://archive.ics.uci.edu/ml/datasets/Dorothea,109176,"a.	Original owners
+The dataset with which DOROTHEA was created is one of the KDD (Knowledge Discovery in Data Mining) Cup 2001. The original dataset and papers of the winners of the competition are available at: http://www.cs.wisc.edu/~dpage/kddcup2001/. DuPont Pharmaceuticals graciously provided this data set for the KDD Cup 2001 competition. All publications referring to analysis of this data set should acknowledge DuPont Pharmaceuticals Research Laboratories and KDD Cup 2001.
+ b.	Donor of database
+This version of the database was prepared for the NIPS 2003 variable and feature selection benchmark by Isabelle Guyon, 955 Creston Road, Berkeley, CA 94708, USA (isabelle '@' clopinet.com).
+"
+http://archive.ics.uci.edu/ml/datasets/Dota2+Games+Results,99610,stephen.tridgell '@' sydney.edu.au
+http://archive.ics.uci.edu/ml/datasets/Dow+Jones+Index,211539,"Dr. Michael Brown, michael.brown '@' umuc.edu, University of Maryland University College"
+http://archive.ics.uci.edu/ml/datasets/Dresses_Attribute_Sales,109679,"Muhammad Usman & Adeel Ahmed, usman.madspot '@' gmail.com adeel.ahmed92 '@' gmail.com, Air University, Students at Air University."
+http://archive.ics.uci.edu/ml/datasets/DrivFace,35735,"Katerine Diaz-Chito*Aura Hern�ndez-Sabat�Antonio M. L�pez Centre de Visi� per ComputadorUniversitat Aut�noma de Barcelona *Corresponding author:{kdiaz '@' cvc.uab.es}"
+http://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29,128556,"Original Owners of Database: 
+ 1. Elaine Fehrman,
+Men's Personality Disorder and National Women's Directorate, 
+Rampton Hospital, Retford, 
+Nottinghamshire, DN22 0PD, UK, 
+Elaine.Fehrman '@' nottshc.nhs.uk  2. Vincent Egan,
+Department of Psychiatry and Applied Psychology, 
+University of Nottingham, 
+Nottingham, NG8 1BB, UK, 
+Vincent.Egan '@' nottingham.ac.uk  3. Evgeny M. Mirkes
+Department of Mathematics, 
+University of Leicester, 
+Leicester, LE1 7RH, UK, 
+em322 '@' le.ac.uk  Donor:
+Evgeny M. Mirkes
+Department of Mathematics, 
+University of Leicester, 
+Leicester, LE1 7RH, UK, 
+em322 '@' le.ac.uk "
+http://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Druglib.com%29,49706,"Surya KallumadiKansas State UniversityManhattan, Kansas, USAsurya '@' ksu.edu  Felix GräßerInstitut für Biomedizinische TechnikTechnische Universität DresdenDresden, Germanyfelix.graesser '@' tu-dresden.de"
+http://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29,74826,"Surya Kallumadi
+Kansas State University
+Manhattan, Kansas, USA
+surya '@' ksu.edu  Felix Gräßer
+Institut für Biomedizinische Technik
+Technische Universität Dresden
+Dresden, Germany
+felix.graesser '@' tu-dresden.de"
+http://archive.ics.uci.edu/ml/datasets/DSRC+Vehicle+Communications,30235,"Sharaf Malebary, malebary '@' email.sc.edu, University of South Carolina, Dept of computer Science and Engineering, USA."
+http://archive.ics.uci.edu/ml/datasets/Dynamic+Features+of+VirusShare+Executables,29847,"Huynh Ngoc Anhhu0002nh '@' e.ntu.edu.sg Nanyang Technological University"
+http://archive.ics.uci.edu/ml/datasets/E.+Coli+Genes,48095,"Original Owner and Donor:   Ross D. King  Department of Computer Science,   University of Wales Aberystwyth,   SY23 3DB, Wales rdk '@' aber.ac.uk http://users.aber.ac.uk/rdk "
+http://archive.ics.uci.edu/ml/datasets/Echocardiogram,185027,"Donor:  Steven Salzberg (salzberg '@' cs.jhu.edu) Collector: Dr. Evlin KinneyThe Reed InstituteP.O. Box 402603Maimi, FL 33140-0603"
+http://archive.ics.uci.edu/ml/datasets/Eco-hotel,37241,"C.Calheiros, S.Moro, P.Rita (ISCTE-IUL).Acknowledgement: This dataset was provided thanks to Gon�alo Alves, the Areias do Seixo Manager (http://www.areiasdoseixo.com/hotel-overview.html)."
+http://archive.ics.uci.edu/ml/datasets/Ecoli,233225,"Creator and Maintainer:
+ Kenta Nakai
+Institue of Molecular and Cellular Biology
+Osaka, University
+1-3 Yamada-oka, Suita 565 Japan
+nakai '@' imcb.osaka-u.ac.jp http://www.imcb.osaka-u.ac.jp/nakai/psort.html\
+ Donor: 
+ Paul Horton (paulh '@' cs.berkeley.edu)
+ See also: yeast database"
+http://archive.ics.uci.edu/ml/datasets/Economic+Sanctions,59299,"Michael Pazzanipazzani '@' ICS.UCI.EDU"
+http://archive.ics.uci.edu/ml/datasets/Educational+Process+Mining+%28EPM%29%3A+A+Learning+Analytics+Data+Set,99191,"Mehrnoosh Vahdat(1,2), Luca Oneto(1), Davide Anguita(1), Mathias Funk (2), and Matthias Rauterberg (2) 1 - Smartlab - Non-Linear Complex Systems LaboratoryDIBRIS - Universit�  degli Studi di Genova, Genoa (I-16145), Italy. 2 - Department of Industrial Design, Eindhoven University of Technology, 5612AZ Eindhoven, The Netherlands la '@' smartlab.ws "
+http://archive.ics.uci.edu/ml/datasets/EEG+Database,211042,"Original Owner:
+ Henri Begleiter
+Neurodynamics Laboratory, 
+State University of New York Health Center
+Brooklyn, New York
+ Donor:
+ Lester Ingber
+POB 06440 Sears Tower
+Chicago, IL 60606
+ingber '@' ingber.com http://www.ingber.com/  "
+http://archive.ics.uci.edu/ml/datasets/EEG+Eye+State,121008,"Oliver Roesler, it12148 '@' lehre.dhbw-stuttgart.de , Baden-Wuerttemberg Cooperative State University (DHBW), Stuttgart, Germany"
+http://archive.ics.uci.edu/ml/datasets/EEG+Steady-State+Visual+Evoked+Potential+Signals,33481,"This database was obtained by performing the experiments using a commercial device for 30 subjects in order to partially fulfill the requirements for the Ph.D. candidate in Computer Science: Fernandez-Fraga S.M. and was supervised by Dr. M. A. Aceves-Fernandez, Ph.D. from the Autonomous University of Queretaro, Mexico (UAQ). The experiments were carried out complying with the highest ethical standards both locally (Bioethical standards provided by our University) and internationally (documents provided by the World Health Organization) and supervised by an expert physician at all time."
+http://archive.ics.uci.edu/ml/datasets/El+Nino,99495,"Original Owner: Pacific Marine Environmental LaboratoryNational Oceanic and Atmospheric AdministrationUS Department of Commercehttp://www.pmel.noaa.gov/  Donor: Dr Di CookDepartment of StatisticsIowa State Universitydicook '@' iastate.edu http://www.public.iastate.edu/~dicook/ "
+http://archive.ics.uci.edu/ml/datasets/Electrical+Grid+Stability+Simulated+Data+,44209,"   -- Creator and donor: Vadim  Arzamasov (vadim.arzamasov '@' kit.edu),   Department of computer science,   Karlsruhe Institute of Technology;    Karlsruhe, 76131; Germany     -- Date: November, 2018"
+http://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014,73895,"Artur Trindade, artur.trindade '@' elergone.pt, Elergone, NORTE-07-0202-FEDER-038564Data type: TSTask: regression, clusteringNumber of Instances (records in your data set):370Number of Attributes (fields within each record):140256"
+http://archive.ics.uci.edu/ml/datasets/EMG+data+for+gestures,48587,"Creators:
+Lobov S.(1), Krilova N.(2), Kastalskiy I.(3), Kazantsev V.(4), Makarov V.A.(5, 6)
+ 1 Lobachevsky State University of Nizhny Novgorod, Gagarin Ave. 23, 603950 Nizhny Novgorod, Russia. lobov '@' neuro.nnov.ru. 2 Lobachevsky State University of Nizhny Novgorod, Gagarin Ave. 23, 603950 Nizhny Novgorod, Russia. k-nadezhda-k '@' yandex.ru. 3 Lobachevsky State University of Nizhny Novgorod, Gagarin Ave. 23, 603950 Nizhny Novgorod, Russia. kastalskiy '@' neuro.nnov.ru. 4 Lobachevsky State University of Nizhny Novgorod, Gagarin Ave. 23, 603950 Nizhny Novgorod, Russia. kazantsev '@' neuro.nnov.ru. 5 Lobachevsky State University of Nizhny Novgorod, Gagarin Ave. 23, 603950 Nizhny Novgorod, Russia. vmakarov '@' ucm.es. 6 Department of Applied Mathematics, Instituto de Matem�tica Interdisciplinar, Universidad Complutense de Madrid, 28040 Madrid, Spain. vmakarov '@' ucm.es. "
+http://archive.ics.uci.edu/ml/datasets/EMG+dataset+in+Lower+Limb,49428,"Samples obtained with the aid of:Batall�n de sanidad (BASAN)  Universidad Militar Nueva Granada  â€“ Bogot� (samples July 2012).Carrera 7 No 52-48, Bogot�.TecnoParque SENA nodo Manizales (samples march - july 2013).Km 10 route to Magdalena, Manizales.Ph.D Oscar Fernando Aviles Sanchez       oscfer '@' gmail.comUniversidad MIlitar Nueva GranadaPh.D Jose Luis Rodriguez Sotelo              jdw.siul '@' gmail.comMg. Marcelo Herrera Gonzales                 marhego '@' gmail.comMg. Gustavo Adolfo Martínez Hernandez   gamhet2 '@' gmail.comUniversidad Autonoma de Manizales"
+http://archive.ics.uci.edu/ml/datasets/EMG+Physical+Action+Data+Set,86140,"Theo TheodoridisSchool of Computer Science and Electronic EngineeringUniversity of EssexWivenhoe Park, Colchester, CO4 3SQ, UKttheod '@' gmail.com http://sites.google.com/site/ttheod/"
+http://archive.ics.uci.edu/ml/datasets/Energy+efficiency,306615,"The dataset was created by Angeliki Xifara (angxifara '@' gmail.com, Civil/Structural Engineer) and was processed by Athanasios Tsanas (tsanasthanasis '@' gmail.com, Oxford Centre for Industrial and Applied Mathematics, University of Oxford, UK)."
+http://archive.ics.uci.edu/ml/datasets/Entree+Chicago+Recommendation+Data,93464,"Original Owner and Donor:
+ Robin Burke
+University of California, Irvine
+Department of Information and Computer Science
+Irvine, CA 92697
+ Now here:
+http://josquin.cti.depaul.edu/~rburke/"
+http://archive.ics.uci.edu/ml/datasets/Epileptic+Seizure+Recognition,110617,"Qiuyi WuSchool of Mathematical SciencesRochester Institute of Technologyemail: qw9477'@'rit.edu Ernest FokoueSchool of Mathematical SciencesRochester Institute of Technologyemail: epfeqa'@'rit.eduPhone: 585 739 6893"
+http://archive.ics.uci.edu/ml/datasets/Exasens,2686,"Pouya Soltani Zarrin, soltani '@' ihp-microelectronics.com, IHPâ€“Leibniz-institute for innovative microelectronics, 15236 Frankfurt (Oder), GermanyNiels Roeckendorf, Research Center Borstelâ€“Leibniz Lung Center, Priority Area Asthma & Allergy, Division of Mucosal Immunology & Diagnostics, Member of Leibniz Health Technologies and German Center for Lung Research, 23845 Borstel, Germany"
+http://archive.ics.uci.edu/ml/datasets/extention+of+Z-Alizadeh+sani+dataset,11366,"Provide the names, email addresses, institutions, and other contact information of the donors and creators of the data set.
+ Name:Dr Zahra Alizadeh Sani,Associate Professor of cardiology,
+email:Drzas '@' rhc.ac.ir,
+institution: Cardiovascular Imaging Department, Rajaei Cardiovascular, Medical & Research Center, Iran University , Tehran, Iran.
+Post code:1996911151
+website: http://dralizadehsani.rhc.ac.ir/Files/Forms/2016-11-13_01.46.29_dr.alizadeh.CV.pdf  Name:Roohallah Alizadehsani, PhD student
+email: alizadeh_roohallah '@' yahoo.com institution: Institute for Intelligent Systems Research and Innovation (IISRI), Deakin University, Victoria 3217, Australia.
+website: http://ce.sharif.ir/~ralizadeh/  Name: Mohamad Roshanzamir, PhD candidate
+email: mohamad.roshanzamir '@' ec.iut.ac.ir institution: Electrical and Computer Engineering, Isfahan University of Technology, Isfahan, Iran.
+"
+http://archive.ics.uci.edu/ml/datasets/Facebook+Comment+Volume+Dataset,93028,"Kamaljot Singh, Assistant Professor, Lovely Professional University, Jalandhar.Kamaljotsingh2009 '@' gmail.com"
+http://archive.ics.uci.edu/ml/datasets/Facebook+Live+Sellers+in+Thailand,35267,"Nassim Dehouche, Mahidol University International College, nassim.deh '@' mahidol.edu"
+http://archive.ics.uci.edu/ml/datasets/Facebook+metrics,164993,"Created by: S�rgio Moro, Paulo Rita and Bernardo Vala (ISCTE-IUL) @ 2016"
+http://archive.ics.uci.edu/ml/datasets/Farm+Ads,74326,"Chris Mesterharm and Michael J. PazzaniRutgers, The State University of New Jerseymesterha '@' cs.rutgers.edu "
+http://archive.ics.uci.edu/ml/datasets/Fertility,201449,"David Gil,dgil '@' dtic.ua.es, Lucentia Research Group, Department of Computer Technology, University of Alicante Jose Luis Girela,girela '@' ua.es,Department of Biotechnology, University of Alicante"
+http://archive.ics.uci.edu/ml/datasets/Firm-Teacher_Clave-Direction_Classification,28904,"Name: Mehmet Vurka�, Ph.D.
+E-mail address: mehmet.vurkac '@' gmail.com, mehmet.vurkac '@' oit.edu, engineer '@' fastmail.com Institutions: Oregon Institute of Technology (current), Portland State University (where data were obtained)
+Other contact information: Daytime phone: 1-541-885-1258"
+http://archive.ics.uci.edu/ml/datasets/First-order+theorem+proving,42987,"James P Bridge, Sean B Holden and Lawrence C Paulson University of CambridgeComputer LaboratoryWilliam Gates Building15 JJ Thomson AvenueCambridge CB3 0FDUK  +44 (0)1223 763500 forename.surname '@' cl.cam.ac.uk"
+http://archive.ics.uci.edu/ml/datasets/Flags,302025,"Creators:  Collected primarily from the ""Collins Gem Guide to Flags"": Collins Publishers (1986). Donor:  Richard S. Forsyth 8 Grosvenor AvenueMapperley ParkNottingham NG3 5DX0602-621676"
+http://archive.ics.uci.edu/ml/datasets/FMA%3A+A+Dataset+For+Music+Analysis,84832,"Michaël Defferrard, Kirell Benzi, Pierre Vandergheynst, Xavier Bresson, EPFL LTS2."
+http://archive.ics.uci.edu/ml/datasets/Folio,58783,"The leaves were taken from plants in the farm of the University of Mauritius and nearby locations. Donors: Trishen Munisamitrishen.munisami '@' gmail.com  Mahess Ramsurnramsurn.mahess '@' umail.uom.ac.mu  Somveer Kishnahs.kishnah '@' uom.ac.mu  Sameerchand Pudaruthsameerchand.pudaruth '@' gmail.com"
+http://archive.ics.uci.edu/ml/datasets/Forest+Fires,901139,"Paulo Cortez, pcortez '@' dsi.uminho.pt, Department of Information Systems, University of Minho, Portugal.
+Aníbal Morais, araimorais '@' gmail.com, Department of Information Systems, University of Minho, Portugal.  "
+http://archive.ics.uci.edu/ml/datasets/Forest+type+mapping,58991,"Brian Johnsonjohnson '@' iges.or.jp Institute for Global Environmental Strategies "
+http://archive.ics.uci.edu/ml/datasets/Function+Finding,54018,"Donor:  Cullen SchafferDepartment of Computer ScienceRutgers UniversityNew Brunswick, NJ  08903schaffer '@' paul.rutgers.edu  Source:  Cullen Schaffer, Domain-Independent Scientific Function Finding.  PhD Thesis, Department of Computer Science, Rutgers University, 1990 (Technical Report LCSR-TR-149)."
+http://archive.ics.uci.edu/ml/datasets/Gas+Sensor+Array+Drift+Dataset,143094,"Creators: 		Alexander Vergara (vergara '@' ucsd.edu)			BioCircutis Institute			University of California San Diego			San Diego, CA, USADonors of the Dataset:	Alexander Vergara (vergara '@' ucsd.edu)			Ramon Huerta (rhuerta '@' ucsd.edu)"
+http://archive.ics.uci.edu/ml/datasets/Gas+Sensor+Array+Drift+Dataset+at+Different+Concentrations,69948,"Creators: Alexander Vergara (vergara '@' ucsd.edu) BioCircutis Institute University of California San Diego San Diego, CA, USA Donors of the Dataset:	Alexander Vergara (vergara '@' ucsd.edu) Jordi Fonollosa (fonollosa '@'ucsd.edu)Irene Rodriguez-Lujan (irrodriguezlujan '@' ucsd.edu)Ramon Huerta (rhuerta '@' ucsd.edu) "
+http://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+exposed+to+turbulent+gas+mixtures,41327,"Creators: Jordi Fonollosa (fonollosa '@'ucsd.edu) BioCircutis Institute University of California San Diego San Diego, CA, USA  Donors of the Dataset: Jordi Fonollosa (fonollosa '@'ucsd.edu) Irene Rodriguez-Lujan (irrodriguezlujan '@' ucsd.edu) Marco Trincavelli (marco.trincavelli '@' oru.se) Alexander Vergara Ramon Huerta (rhuerta '@' ucsd.edu) "
+http://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+temperature+modulation,20825,"Javier Burgu�s (jburgues8 '@'ibecbarcelona.eu, jburgues8 '@'gmail.com) Institute of Bioengineering of Catalonia (IBEC)Baldiri Reixac 10-12Barcelona, Spain"
+http://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+dynamic+gas+mixtures,52895,"Creators: Jordi Fonollosa (fonollosa '@'ucsd.edu) 
+BioCircutis Institute 
+University of California San Diego 
+San Diego, CA, USA 
+ Donors of the Dataset:	
+Jordi Fonollosa (fonollosa '@'ucsd.edu) 
+Ramon Huerta (rhuerta '@' ucsd.edu)
+"
+http://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+flow+modulation,38476,"Creators:
+Andrey Ziyatdinov (andrey.ziyatdinov '@' upc.edu)
+Department of ESAII, Universitat Politenica de Catalunya, Pau Gargallo 5, Barcelona, Spain
+Centro de Investigacion Biomedica en Red en BioingenierÄ±a, Biomateriales y Nanomedicina (CIBER-BBN), Barcelona, Spain
+ Jordi Fonollosa (fonollosa '@' ucsd.edu)
+BioCircuits Institute, University of California, San Diego, La Jolla, CA 92093, USA
+ Donors:
+ Luis Fernandez (lfernandez '@' el.ub.es)
+Agustin Gutierrez-Galvez (agutierrez '@' el.ub.es)
+Santiago Marco (smarco '@' el.ub.es)
+Signal and Information Processing for Sensing Systems Institute for Bioengineering of Catalonia (IBEC), Baldiri Reixac, 4-8, 08028 Barcelona, Spain
+Departament dElectronica, Universitat de Barcelona, Marti i Franques 1, 08028 Barcelona, Spain
+ Alexandre Perera (Alexandre.Perera '@' upc.edu)
+Department of ESAII, Universitat Politenica de Catalunya, Pau Gargallo 5, Barcelona, Spain
+Centro de Investigacion Biomedica en Red en BioingenierÄ±a, Biomateriales y Nanomedicina (CIBER-BBN), Barcelona, Spain
+"
+http://archive.ics.uci.edu/ml/datasets/Gas+sensor+arrays+in+open+sampling+settings,46026,"Creators:Alexander Vergara (vergara '@' ucsd.edu)BioCircutis InstituteUniversity of California San DiegoSan Diego, CA, USA Donors of the Dataset:Alexander Vergara (vergara '@' ucsd.edu)Jordi Fonollosa (fonollosa '@' ucsd.edu)Marco Trincavelli (marco.trincavelli '@' oru.se)Nikolai F. Rulkov (nrulkov '@' ucsd.edu)Ramon Huerta (rhuerta '@' ucsd.edu)"
+http://archive.ics.uci.edu/ml/datasets/Gas+sensors+for+home+activity+monitoring,81785,"Creators:
+Flavia Huerta
+Ramon Huerta, University of California San Diego, USA
+ Donors:
+Flavia Huerta
+Ramon Huerta, University of California San Diego, USA (rhuerta â€˜@â€™ ucsd.edu)
+Thiago Mosqueiro, University of California San Diego, USA (thmosqueiro â€˜@â€™ ucsd.edu)
+Jordi Fonollosa, Institute for Bioengineering of Catalunya, Spain (jfonollosa â€˜@â€™ ibecbarcelona.eu)
+Nikolai Rulkov, University of California San Diego, USA ( nrulkov â€˜@â€™ ucsd.edu )
+Irene Rodriguez-Lujan, Universidad Autonoma de Madrid, Spain ( Irene.rodriguez â€˜@â€™ uam.es )
+"
+http://archive.ics.uci.edu/ml/datasets/Gastrointestinal+Lesions+in+Regular+Colonoscopy,17677,"Pablo Mesejo, pablomesejo '@' gmail.com, Inria, FranceDaniel Pizarro, dani.pizarro '@' gmail.com, University of Alcal�, Spain"
+http://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq,59319,"Samuele Fiorini, samuele.fiorini '@' dibris.unige.it, University of Genoa, redistributed under Creative Commons license (http://creativecommons.org/licenses/by/3.0/legalcode) from https://www.synapse.org/#!Synapse:syn4301332."
+http://archive.ics.uci.edu/ml/datasets/Geographical+Original+of+Music,86578,"Creators:Fang Zhou (fang.zhou '@' nottingham.edu.cn)The University of Nottinghan, Ningbo, China Donors of the Dataset:Fang Zhou (fang.zhou '@' nottingham.edu.cn)Claire Q (eskoala '@' gmail.com)Ross D. King (ross.king '@' manchester.ac.uk)"
+http://archive.ics.uci.edu/ml/datasets/Geo-Magnetic+field+and+WLAN+dataset+for+indoor+localisation+from+wristband+and+smartphone,31865,"Paolo Barsocchi, Antonino Crivello, Davide La Rosa, Filippo Palumbo Italian National Council of Research, ISTI-CNR, Pisa, Italy {name.surname}@isti.cnr.it "
+http://archive.ics.uci.edu/ml/datasets/Gesture+Phase+Segmentation,52373,"Creators:      Renata Cristina Barros Madeo (Madeo, R. C. B.)     Priscilla Koch Wagner (Wagner, P. K.)		     Sarajane Marques Peres (Peres, S. M.)     {renata.si, priscilla.wagner, sarajane} at usp.br http://each.uspnet.usp.br/sarajane/  Donor:      University of Sao Paulo - Brazil"
+http://archive.ics.uci.edu/ml/datasets/Gisette,117652,"a. Original ownersThe data set was constructed from the MNIST data that is made available by Yann LeCun and Corinna Cortes at http://yann.lecun.com/exdb/mnist/. b. Donor of databaseThis version of the database was prepared for the NIPS 2003 variable and feature selection benchmark by Isabelle Guyon, 955 Creston Road, Berkeley, CA 94708, USA (isabelle '@' clopinet.com)."
+http://archive.ics.uci.edu/ml/datasets/Glass+Identification,348898,"Creator: 
+ B. German
+Central Research Establishment
+Home Office Forensic Science Service
+Aldermaston, Reading, Berkshire RG7 4PN
+ Donor: 
+ Vina Spiehler, Ph.D., DABFT
+Diagnostic Products Corporation
+(213) 776-0180 (ext 3014)"
+http://archive.ics.uci.edu/ml/datasets/GNFUV+Unmanned+Surface+Vehicles+Sensor+Data,21198,"Dr Christos Anagnostopoulos; School of Computing Science, University of Glasgow; email: christos.anagnostopoulos '@' glasgow.ac.uk; G12 8QQ Scotland, UK. (NETLAB Group: https://netlab.dcs.gla.ac.uk/)"
+http://archive.ics.uci.edu/ml/datasets/GNFUV+Unmanned+Surface+Vehicles+Sensor+Data+Set+2,9780,"Dr Christos Anagnostopoulos; School of Computing Science, University of Glasgow; email: christos.anagnostopoulos '@' glasgow.ac.uk; G12 8QQ Scotland, UK. (NETLAB Group: https://netlab.dcs.gla.ac.uk/) "
+http://archive.ics.uci.edu/ml/datasets/GPS+Trajectories,107769,"M. O. CruzH. T. MacedoR. BarretoA. P. Guimar�es"
+http://archive.ics.uci.edu/ml/datasets/Grammatical+Facial+Expressions,71847,"     (a) Creators: 
+		Fernando de Almeida Freitas (Freitas, F. A.)
+		{fernando} at incluirtecnologia.com.br
+		Felipe Ven�ncio Barbosa (Barbosa, F. V.)		
+                Sarajane Marques Peres (Peres, S. M.)
+        	{felipebarbosa, sarajane} at usp.br
+ http://each.uspnet.usp.br/sarajane/       (b) Donor: 
+		University of S�o Paulo
+		School of Art, Sciences and Humanities
+		Sao Paulo, SP, Brazil
+ http://www5.usp.br/en/  		Incluir Tecnologia LTDA ME
+		Itajub�, MG, Brazil
+		www.incluirtecnologia.com.br"
+http://archive.ics.uci.edu/ml/datasets/Greenhouse+Gas+Observing+Network,56093,"D. Lucas (ddlucas .at. alum.mit.edu), Lawrence Livermore National Laboratory. This data was created under work funded by the National Institute of Standards and Technology and Laboratory Directed Research and Development projects at the Lawrence Livermore National Laboratory. The work was performed under the auspices of the US Department of Energy by Lawrence Livermore National Laboratory under Contract DE-AC52-07NA27344, and is released under UCRL number LLNL-MISC-668913. "
+http://archive.ics.uci.edu/ml/datasets/Haberman%27s+Survival,211780,"Donor:    Tjen-Sien Lim (limt '@' stat.wisc.edu)"
+http://archive.ics.uci.edu/ml/datasets/Hayes-Roth,101315,"Creators:  Barbara and Frederick Hayes-Roth Donor:  David W. Aha (aha '@' ics.uci.edu) (714) 856-8779   "
+http://archive.ics.uci.edu/ml/datasets/HCC+Survival,32639,"Donors: 
+Miriam Seoane Santos, Department of Informatics Engineering, Faculty of Sciences and Technology, University of Coimbra (miriams '@' student.dei.uc.pt)
+Pedro Henriques Abreu, Department of Informatics Engineering, Faculty of Sciences and Technology, University of Coimbra (pha '@' dei.uc.pt)
+Armando Carvalho, Internal Medicine Service, Hospital and University Centre of Coimbra (aspcarvalho '@' gmail.com)
+Ad�lia Sim�o, Internal Medicine Service, Hospital and University Centre of Coimbra (adeliasimao '@' gmail.com)"
+http://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter,48814,"Amir Karami  karami '@' sc.edu University of South Carolina"
+http://archive.ics.uci.edu/ml/datasets/Heart+Disease,1270649,"Creators: 
+ 1. Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.
+2. University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.
+3. University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.
+4. V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D.
+ Donor: 
+ David W. Aha (aha '@' ics.uci.edu) (714) 856-8779   "
+http://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records,8666,"Provide the names, email addresses, institutions, and other contact information of the donors and creators of the data set.The original dataset version was collected by Tanvir Ahmad, Assia Munir, Sajjad Haider Bhatti, Muhammad Aftab, and Muhammad Ali Raza (Government College University, Faisalabad, Pakistan) and made available by them on FigShare under the Attribution 4.0 International (CC BY 4.0: freedom to share and adapt the material) copyright in July 2017.  The current version of the dataset was elaborated by Davide Chicco (Krembil Research Institute, Toronto, Canada) and donated to the University of California Irvine Machine Learning Repository under the same Attribution 4.0 International (CC BY 4.0) copyright in January 2020. Davide Chicco can be reached at <davidechicco '@' davidechicco.it> "
+http://archive.ics.uci.edu/ml/datasets/Hepatitis,256793,"Creator:
+ unknown
+ Donor: 
+ G.Gong  (Carnegie-Mellon University) via 
+Bojan Cestnik
+Jozef Stefan Institute
+Jamova 39
+61000 Ljubljana
+Yugoslavia (tel.: (38)(+61) 214-399 ext.287) }"
+http://archive.ics.uci.edu/ml/datasets/Hepatitis+C+Virus+%28HCV%29+for+Egyptian+patients,47175,"- Professor: Sanaa Kamal  (Professor of Medicine, Ain Shams University - Faculty of Medicine-Egypt).- Prof. Dr. Khalid Abdelhameed ElBahnasy  (Professor of Information Systems, Faculty of Computer and Information Sciences, Ain Shams University-Egypt).- Dr. Mohamed Hamdy ElEleimy  (Associate Professor at Information Systems Department, Faculty of Computer and Information Sciences, Ain Shams University-Egypt).- Dr. Doaa Hegazy  (Assistant Professor at Information Systems Department, Faculty of Computer and Information Sciences, Ain Shams University-Egypt).- Mr. Mahmoud Nasr (MSc. Faculty of computer and information sciences - Ain Shams University-Egypt).* For any inquiries please contact me at:m.nasr '@' cis.asu.edu.eg"
+http://archive.ics.uci.edu/ml/datasets/HEPMASS,63325,"Daniel Whiteson daniel '@' uci.edu, Assistant Professor, Physics & Astronomy, Univ. of California Irvine"
+http://archive.ics.uci.edu/ml/datasets/Heterogeneity+Activity+Recognition,102017,"Allan Stisen, allans, '@' cs.au.dk, Aarhus University, Denmark Henrik Blunck, blunck '@' cs.au.dk, Aarhus University, Denmark Sourav Bhattacharya, sourav.bhattacharya '@' bell-labs.com, Bell Laboratories, Dublin, Ireland Thor Siiger Prentow, prentow '@' cs.au.dk, Aarhus University, Denmark Mikkel Baun Kjærgaard, mikkelbk '@' cs.au.dk, Aarhus University, Denmark Anind Dey, anind '@' cs.cmu.edu, Carnegie Mellon University, USA Tobias Sonne,tsonne '@' cs.au.dk, Aarhus University, Denmark Mads Møller Jensen, mmjensen '@' cs.au.dk , Aarhus University, Denmark"
+http://archive.ics.uci.edu/ml/datasets/HIGGS,149351,"Daniel Whiteson daniel '@' uci.edu, Assistant Professor, Physics & Astronomy, Univ. of California Irvine"
+http://archive.ics.uci.edu/ml/datasets/Hill-Valley,71030,"Lee Graham (lee '@' stellaralchemy.com)
+ Franz Oppacher (oppacher '@' scs.carleton.ca)
+Carleton University, Department of Computer Science
+Intelligent Systems Research Unit
+1125 Colonel By Drive, Ottawa, Ontario, Canada, K1S5B6
+"
+http://archive.ics.uci.edu/ml/datasets/HIV-1+protease+cleavage,60295,"Thorsteinn Rögnvaldsson, denni63 '@' gmail.com, Halmstad University."
+http://archive.ics.uci.edu/ml/datasets/Horse+Colic,147494,"Creators:  Mary McLeish & Matt CecileDepartment of Computer ScienceUniversity of GuelphGuelph, Ontario, Canada N1G 2W1mdmcleish '@' water.waterloo.edu  Donor: Will Taylor (taylor '@' pluto.arc.nasa.gov)"
+http://archive.ics.uci.edu/ml/datasets/HTRU2,61898,"Dr Robert Lyon, University of Manchester, School of Physics and Astronomy, Alan Turing Building, Manchester M13 9PL, United Kingdom, robert.lyon '@' manchester.ac.uk"
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+from+Continuous+Ambient+Sensor+Data,22345,"-- Creators: Diane J. Cook, Aaron S. Crandall, and Brian L. Thomas    -- School of Electrical Engineering and Computer Science,       Voiland College of Engineering and Architecture,       Washington State University-- Donor: Diane J. Cook (djcook '@' wsu.edu) (509-335-4985)          School of Electrical Engineering and Computer Science          EME 121 Spokane Street          Box 642752          Washington State University          Pullman, WA 99164-2752"
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones,1010043,"Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)1 - Smartlab - Non-Linear Complex Systems LaboratoryDITEN - Università  degli Studi di Genova, Genoa (I-16145), Italy. 2 - CETpD - Technical Research Centre for Dependency Care and Autonomous LivingUniversitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spainactivityrecognition '@' smartlab.ws "
+http://archive.ics.uci.edu/ml/datasets/Hybrid+Indoor+Positioning+Dataset+from+WiFi+RSSI%2C+Bluetooth+and+magnetometer,14791,"Zsolt Tóth University of Miskolc <tothzs '@' iit.uni-miskolc.hu>Judit Tamás University of Miskolc <tamas13 '@' iit.uni-miskolc.hu>"
+http://archive.ics.uci.edu/ml/datasets/ICMLA+2014+Accepted+Papers+Data+Set,15332,"Diego Vallejo-Huanga, dvallejoh '@' asig.com.ec, Professor of the Department of Mathematics, Universidad San Francisco de Quito."
+http://archive.ics.uci.edu/ml/datasets/ICU,93532,"AIM-94 data set provided by Isaac Kohane, MD, PhD, The Children's Hospital, Boston, MA"
+http://archive.ics.uci.edu/ml/datasets/IDA2016Challenge,16487,"-- Creator: Scania CV AB               Vagnmakarv�gen 1                151 32 S�dert�lje                Stockholm               Sweden    -- Donor:   Tony Lindgren (tony '@' dsv.su.se) and Jonas Biteus (jonas.biteus '@' scania.com)   -- Date:    September, 2016"
+http://archive.ics.uci.edu/ml/datasets/ILPD+%28Indian+Liver+Patient+Dataset%29,133380,"1. Bendi Venkata Ramana ramana.bendi '@' gmail.com    Associate Professor,   Department of Information Technology,   Aditya Instutute of Technology and Management,   Tekkali - 532201, Andhra Pradesh, India. 2. Prof. M. Surendra Prasad Babu drmsprasadbabu '@' yahoo.co.in    Deptartment of Computer Science & Systems Engineering,   Andhra University College of Engineering,   Visakhapatnam-530 003 Andhra Pradesh,  India. 3.Prof. N. B. Venkateswarlu venkat_ritch '@' yahoo.com   Department of Computer Science and Engineering,  Aditya Instutute of Technology and Management,  Tekkali - 532201, Andhra Pradesh, India."
+http://archive.ics.uci.edu/ml/datasets/Image+Segmentation,198808,"Creators: 
+ Vision Group, University of Massachusetts
+ Donor: 
+ Vision Group (Carla Brodley, brodley '@' cs.umass.edu)"
+http://archive.ics.uci.edu/ml/datasets/Immunotherapy+Dataset,49477,"Name: Fahime Khozeimeh, MDemail: fahime.khozeime '@' yahoo.com institution: Faculty of  Medicine, Mashhad University of Medical Sciences, Mashhad, Iran. Name: Pouran Layegh, Professor of Dermatologyemail: layeghpo '@' mums.ac.ir institution: Mashhad University of Medical Sciences, Mashhad, Iranwebsite: http://research.mums.ac.ir/webdocument/load.action?webdocument_code=8001&masterCode=8000703  Name:Roohallah Alizadehsani, PhD studentemail: alizadeh_roohallah '@' yahoo.cominstitution: Institute for Intelligent Systems Research and Innovation (IISRI), Deakin University, Victoria 3217, Australia.website: http://ce.sharif.ir/~ralizadeh/  Name: Mohamad Roshanzamir, PhD candidateemail: mohamad.roshanzamir '@' ec.iut.ac.irinstitution: Electrical and Computer Engineering, Isfahan University of Technology, Isfahan, Iran. "
+http://archive.ics.uci.edu/ml/datasets/Incident+management+process+enriched+event+log,21060,"Claudio Aparecido Lira do Amaral, claudio.amaral '@' usp.br, University of S�o Paulo, BrazilMarcelo Fantinato, m.fantinato '@' usp.br, University of S�o Paulo, BrazilSarajane Marques Peres, sarajane '@' usp.br, University of S�o Paulo, Brazil"
+http://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption,366946,"Georges Hebrail (georges.hebrail '@' edf.fr), Senior Researcher, EDF R&D, Clamart, France
+Alice Berard, TELECOM ParisTech Master of Engineering Internship at EDF R&D, Clamart, France"
+http://archive.ics.uci.edu/ml/datasets/Indoor+User+Movement+Prediction+from+RSS+data,62798,"Davide Bacciu (a), Paolo Barsocchi (b), Stefano Chessa (a), Claudio Gallicchio (a), Alessio Micheli (a) (a) Department of Computer Science, University of Pisa.Largo Bruno Pontecorvo 3, 56127 Pisa, Italy(b) Institute of Information Science and Technologies,  Italian National Research Council.Via G. Moruzzi 1, 56124 Pisa, Italy For info about this dataset contactPaolo Barsocchi: paolo.barsocchi '@' isti.cnr.itClaudio Gallicchio: gallicch '@' di.unipi.it"
+http://archive.ics.uci.edu/ml/datasets/Insurance+Company+Benchmark+%28COIL+2000%29,154830,"Original Owner and Donor:
+ Peter van der Putten
+Sentient Machine Research
+Baarsjesweg 224
+1058 AA Amsterdam
+The Netherlands
++31 20 6186927
+pvdputten '@' hotmail.com, putten '@' liacs.nl  TIC Benchmark Homepage: http://www.liacs.nl/~putten/library/cc2000/ "
+http://archive.ics.uci.edu/ml/datasets/Internet+Advertisements,355927,"Creator & donor:  Nicholas Kushmerick <nick '@' ucd.ie>"
+http://archive.ics.uci.edu/ml/datasets/Internet+Usage+Data,115756,"Original Owner: Graphics, Visualization, & Usability CenterCollege of ComputingGeogia Institute of TechnologyAtlanta, GAhttp://www.gvu.gatech.edu/gvu/user_surveys/survey-1997-10/  Donor: Dr Di CookDepartment of StatisticsIowa State Universityhttp://www.public.iastate.edu/~dicook/ "
+http://archive.ics.uci.edu/ml/datasets/Ionosphere,231746,"Donor:  Vince Sigillito (vgs '@' aplcen.apl.jhu.edu) Source:  Space Physics GroupApplied Physics LaboratoryJohns Hopkins UniversityJohns Hopkins RoadLaurel, MD 20723 "
+http://archive.ics.uci.edu/ml/datasets/IPUMS+Census+Database,41282,"Original Owner: IPUMSHistorical Census ProjectsUniversity of Minnesota614 Social Sciences267 19th Avenue SouthMinneapolis, MN 55455ipums '@' hist.umn.edu http://www.ipums.umn.edu/  Donor: Stephen BayDepartment of Information and Computer Science,University of California, IrvineIrvine, CA 92697sbay '@' ics.uci.edu "
+http://archive.ics.uci.edu/ml/datasets/Iris,3438990,"Creator:  R.A. Fisher Donor:  Michael Marshall (MARSHALL%PLU '@' io.arc.nasa.gov)"
+http://archive.ics.uci.edu/ml/datasets/ISOLET,122817,"Creators:  Ron Cole and Mark FantyDepartment of Computer Science and Engineering,Oregon Graduate Institute, Beaverton, OR 97006.cole '@' cse.ogi.edu, fanty '@' cse.ogi.edu  Donor:  Tom DietterichDepartment of Computer ScienceOregon State University, Corvallis, OR 97331tgd '@' cs.orst.edu"
+http://archive.ics.uci.edu/ml/datasets/ISTANBUL+STOCK+EXCHANGE,136096,"Dr.Oguz Akbilgic,oguzakbilgic '@' gmail.com University of Tennessee, Knoxville"
+http://archive.ics.uci.edu/ml/datasets/Japanese+Credit+Screening,107379,"Creator:  Chiharu Sano  Donor:  Chiharu Sanocsano '@' bonnie.ICS.UCI.EDU"
+http://archive.ics.uci.edu/ml/datasets/Japanese+Vowels,108408,"Original Owner and Donor:
+ Mineichi Kudo, Jun Toyama, Masaru Shimbo
+Information Processing Laboratory
+Division of Systems and Information Engineering
+Graduate School of Engineering
+Hokkaido University, Sapporo 060-8628, JAPAN
+{mine,jun,shimbo}@main.eng.hokudai.ac.jp
+"
+http://archive.ics.uci.edu/ml/datasets/KASANDR,33836,"Massih-Reza AminiUniv. Grenoble Alpes, CNRS/LIGmassih-reza.amini '@' univ-grenoble-alpes.fr  Charlotte LaclauUniv. Grenoble Alpes, CNRS/LIGcharlotte.laclau '@' univ-grenoble-alpes.fr  Sumit SidanaUniv. Grenoble Alpes, CNRS/LIGsumit.sidana '@' imag.fr"
+http://archive.ics.uci.edu/ml/datasets/KDC-4007+dataset+Collection,31104,"Arazo M. Mustafa, (arazo.2007 '@' yahoo.com), School of Computer Science University of Sulaimania, Kurdistan, Iraq"
+http://archive.ics.uci.edu/ml/datasets/KDD+Cup+1998+Data,78103,"Ismail ParsaEpsilon50 Cambridge StreetBurlington MA 01803 USATEL: (781) 685-6734FAX: (781) 685-0806 "
+http://archive.ics.uci.edu/ml/datasets/KEGG+Metabolic+Reaction+Network+%28Undirected%29,53800,"1. Muhammad Naeem, Centre of Research in Data Engineering(CORDE) & Department of Computer Science, MAJU Islamabad Pakistan(naeems.naeem '@' gmail.com).2. Sohail Asghar, Director/Associate Professor University Institute of IT PMAS-Arid Agriculture University,Rawalpindi Pakistan, Centre of Research in Data Engineering (CORDE),(sohail.asghar '@' gmail.com)"
+http://archive.ics.uci.edu/ml/datasets/KEGG+Metabolic+Relation+Network+%28Directed%29,56566,"1. Muhammad Naeem, Centre of Research in Data Engineering(CORDE) & Department of Computer Science, MAJU Islamabad Pakistan,	(naeems.naeem '@' gmail.com).
+2. Sohail Asghar, Director/Associate Professor University Institute of IT PMAS-Arid Agriculture University, Rawalpindi, Pakistan Centre of Research in Data Engineering (CORDE), (sohail.asghar '@' gmail.com)"
+http://archive.ics.uci.edu/ml/datasets/Kinship,76204,"Creator:  Geoff Hinton Donor:  J. Ross Quinlan"
+http://archive.ics.uci.edu/ml/datasets/Kitsune+Network+Attack+Dataset,114874,"Creators: 
+Yisroel Mirsky, Tomer Doitshman, Yuval Elovici, and Asaf Shabtai.
+Ben-Gurion University of the Negev, Department of Information Systems Engineering
+ Donor:
+Yisroel Mirsky
+yisroel  post.bgu.ac.il
+16/10/2019"
+http://archive.ics.uci.edu/ml/datasets/Labor+Relations,78116,"Creators:  Collective Barganing Review, montly publication,Labour Canada, Industrial Relations Information Service,Ottawa, Ontario, K1A 0J2, Canada, (819) 997-3117 The data includes all collective agreements reached in the business and personal services sector for locals with at least 500 members (teachers, nurses, university staff, police, etc) in Canada in 87 and first quarter of 88.    Donor:  Stan Matwin, Computer Science DeptUniversity of Ottawa,34 Somerset East, K1N 9B4, (stan '@' uotcsi2.bitnet)"
+http://archive.ics.uci.edu/ml/datasets/Las+Vegas+Strip,93577,"S.Moro, P.Rita, J.Coelho (ISCTE-IUL)"
+http://archive.ics.uci.edu/ml/datasets/Leaf,125370,"This dataset was created by Pedro F. B. Silva and Andr� R. S. Mar�al using leaf specimens collected by Rubim Almeida da Silva at the Faculty of Science, University of Porto, Portugal."
+http://archive.ics.uci.edu/ml/datasets/LED+Display+Domain,69411,"Original Source:
+ Breiman,L., Friedman,J.H., Olshen,R.A., & Stone,C.J. (1984).  
+Classification and Regression Trees.  Wadsworth International Group: Belmont, California.  (see pages 43-49).
+ Donor: 
+ David Aha "
+http://archive.ics.uci.edu/ml/datasets/Legal+Case+Reports,88204,"Filippo Galganigalganif '@' cse.unsw.edu.au School of Computer Science and EngineeringThe Univeristy of New South Wales, Australia"
+http://archive.ics.uci.edu/ml/datasets/Lenses,173869,"Original Source:
+ Cendrowska, J. ""PRISM: An algorithm for inducing modular rules"", International Journal of Man-Machine Studies, 1987, 27, 349-370
+ Donor: 
+ Benoit Julien (Julien '@' ce.cmu.edu)"
+http://archive.ics.uci.edu/ml/datasets/Letter+Recognition,391541,"Creator:  David J. SlateOdesta Corporation; 1890 Maple Ave; Suite 115; Evanston, IL 60201 Donor:  David J. Slate (dave '@' math.nwu.edu) (708) 491-3867   "
+http://archive.ics.uci.edu/ml/datasets/Libras+Movement,84958,"Creators:    Daniel Baptista Dias (Dias, D.B.)   Sarajane Marques Peres (Peres, S. M.)   Helton Hideraldo Bíscaro (Bíscaro. H. H.)   {danielbdias,heltonhb, sarajane} at usp.br Donor:   University of São Paulo - Brazil"
+http://archive.ics.uci.edu/ml/datasets/Liver+Disorders,179051,"Creators:  BUPA Medical Research Ltd. Donor:  Richard S. Forsyth8 Grosvenor AvenueMapperley ParkNottingham NG3 5DX0602-621676"
+http://archive.ics.uci.edu/ml/datasets/Localization+Data+for+Person+Activity,105864,"- Creators: Mitja Lustrek (mitja.lustrek '@' ijs.si), Bostjan Kaluza (bostjan.kaluza '@' ijs.si), Rok Piltaver (rok.piltaver '@' ijs.si), Jana Krivec (jana.krivec '@' ijs.si), Vedrana Vidulin (vedrana.vidulin '@' ijs.si)   - Jozef Stefan Institute, Jamova cesta 39, 1000 Ljubljana, Slovenija- Donor: Bozidara Cvetkovic (boza.cvetkovic '@' ijs.si) - Jozef Stefan Institute, Jamova cesta 39, 1000 Ljubljana, Slovenija- Date received: October, 2010"
+http://archive.ics.uci.edu/ml/datasets/Logic+Theorist,34106,Donated by Paul O'Rorke's (described in Machine Learning) 
+http://archive.ics.uci.edu/ml/datasets/Low+Resolution+Spectrometer,53000,"Originator:  Infra-Red Astronomy Satellite Project Database Donor:  John Stutz <STUTZ '@' pluto.arc.nasa.gov> It's possible that one of John's colleagues actually provided this to UCI, perhaps Mike Marshall (MARSHALL%PLU '@' io.arc.nasa.gov)"
+http://archive.ics.uci.edu/ml/datasets/LSVT+Voice+Rehabilitation,34377,The dataset was created by Athanasios Tsanas (tsanasthanasis '@' gmail.com) of the University of Oxford.
+http://archive.ics.uci.edu/ml/datasets/Lung+Cancer,302768,"Data was published in :  Hong, Z.Q. and Yang, J.Y. ""Optimal Discriminant Plane for a Small Number of Samples and Design Method of Classifier on the Plane"",Pattern Recognition, Vol. 24, No. 4, pp. 317-324, 1991. Donor:  Stefan Aeberhard, stefan '@' coral.cs.jcu.edu.au "
+http://archive.ics.uci.edu/ml/datasets/Lymphography,89642,"Donors:  1. Igor Kononenko, University E.KardeljFaculty for electrical engineeringTrzaska 2561000 Ljubljana (tel.: (38)(+61) 265-161 2. Bojan CestnikJozef Stefan InstituteJamova 3961000 LjubljanaYugoslavia (tel.: (38)(+61) 214-399 ext.287) "
+http://archive.ics.uci.edu/ml/datasets/M.+Tuberculosis+Genes,37898,"  Ross D. King  Department of Computer Science,   University of Wales Aberystwyth,   SY23 3DB, Wales rdk '@' aber.ac.uk http://users.aber.ac.uk/rdk"
+http://archive.ics.uci.edu/ml/datasets/Machine+Learning+based+ZZAlpha+Ltd.+Stock+Recommendations+2012-2014,51645,"(a) Original owners of data: ZZAlpha Ltd., 4729 E. Sunrise #109, Tucson AZ 85718 USA, info '@' zzalpha.com    (b) Donor of database: Kevin Pratt, Chief Scientist, ZZAlpha Ltd. on behalf of ZZAlpha Ltd."
+http://archive.ics.uci.edu/ml/datasets/Madelon,135366,"Isabelle GuyonClopinet955 Creston RoadBerkeley, CA 90708isabelle '@' clopinet.com "
+http://archive.ics.uci.edu/ml/datasets/MAGIC+Gamma+Telescope,115046,"Original Owner:
+ R. K. Bock
+Major Atmospheric Gamma Imaging Cherenkov Telescope project (MAGIC)
+http://wwwmagic.mppmu.mpg.de rkb '@' mail.cern.ch  Donor:
+ P. Savicky
+Institute of Computer Science, AS of CR
+Czech Republic
+savicky '@' cs.cas.cz "
+http://archive.ics.uci.edu/ml/datasets/Mammographic+Mass,172853,"Matthias Elter
+Fraunhofer Institute for Integrated Circuits (IIS)
+Image Processing and Medical Engineering Department (BMT) 
+Am Wolfsmantel 33
+91058 Erlangen, Germany
+matthias.elter '@' iis.fraunhofer.de (49) 9131-7767327 
+ Prof. Dr. Rüdiger Schulz-Wendtland
+Institute of Radiology, Gynaecological Radiology, University Erlangen-Nuremberg
+Universitätsstraße 21-23
+91054 Erlangen, Germany"
+http://archive.ics.uci.edu/ml/datasets/Mechanical+Analysis,99144,"Original Owners of Database: 1. F. Bergadano, A. Giordana, L. SaittaUniversity of Torino, ItalyCorso Svizzera 185, Torino - tel. (39) 11 7712002e-mail: bergadan '@' itoinfo.bitnet  2. F. Bracadori, D. De MarchiSogesta, Localita' Crocicchio, Urbino, Italy Donor:  Enichem (Eni), Ravenna through Sogesta (Eni), Urbino."
+http://archive.ics.uci.edu/ml/datasets/Meta-data,74679,"Creator:  LIACC - University of PortoR.Campo Alegre 8234150 PORTO Donor:  P.B.Brazdil or J.GamaLIACC, University of Porto		Rua Campo Alegre 823			4150 Porto, Portugal Tel.:  +351 600 1672Fax.:  +351 600 3654Email:  statlog-adm '@' ncc.up.pt"
+http://archive.ics.uci.edu/ml/datasets/Metro+Interstate+Traffic+Volume,43754,"John Hogue, john.d.hogue '@' live.com, Social Data Science & General Mills"
+http://archive.ics.uci.edu/ml/datasets/MEU-Mobile+KSD,12518,"Ms. Noor Al-Obaidi, noor_mahmood_2012 '@' hotmail.com, Middle East University, Faculty of Information Technology, Amman, Jordan. "
+http://archive.ics.uci.edu/ml/datasets/MEx,12006,"Anjana Wijekoon, Nirmalie Wiratunga, Kay CooperRobert Gordon UniversityAberdeen, UK"
+http://archive.ics.uci.edu/ml/datasets/MHEALTH+Dataset,99662,"Oresti Banos, Department of Computer Architecture and Computer Technology, University of Granada 
+Rafael Garcia, Department of Computer Architecture and Computer Technology, University of Granada
+Alejandro Saez, Department of Computer Architecture and Computer Technology, University of Granada
+ Email to whom correspondence should be addressed: oresti '@' ugr.es (oresti.bl '@' gmail.com)"
+http://archive.ics.uci.edu/ml/datasets/Mice+Protein+Expression,79082,"Clara Higuera Department of Software Engineering and Artificial Intelligence, Faculty of Informatics and the Department of Biochemistry and Molecular Biology, Faculty of Chemistry, University Complutense, Madrid, Spain.Email: clarahiguera '@' ucm.es  Katheleen J. Gardiner, creator and owner of the protein expression data, is currently with the Linda Crnic Institute for Down Syndrome, Department of Pediatrics, Department of Biochemistry and Molecular Genetics, Human Medical Genetics and Genomics, and Neuroscience Programs, University of Colorado, School of Medicine, Aurora, Colorado, USA.Email: katheleen.gardiner '@' ucdenver.edu  Krzysztof J. Cios is currently with the Department of Computer Science, Virginia Commonwealth University, Richmond, Virginia, USA, and IITiS Polish Academy of Sciences, Poland. Email: kcios '@' vcu.edu "
+http://archive.ics.uci.edu/ml/datasets/microblogPCU,49525,"Jun Liu(liukeen '@' mail.xjtu.cn), Hao Chen(lechenhao '@' gmail.com) , Mengting Zhan, Jianhong Mi,Yanzhang Lv MOEKLINNS Lab, Department of Computer Science ,Xi'an Jiaotong University, China"
+http://archive.ics.uci.edu/ml/datasets/MicroMass,47083,"Pierre Mahé, pierre.mahe '@' biomerieux.com, bioMérieuxJean-Baptiste Veyrieras, jean-baptiste.veyrieras '@' biomerieux.com, bioMérieux"
+http://archive.ics.uci.edu/ml/datasets/MiniBooNE+particle+identification,52085,"Byron Roe (byronroe '@' umich.edu)Department of Physics University of MichiganAnn Arbor, MI  48109"
+http://archive.ics.uci.edu/ml/datasets/Miskolc+IIS+Hybrid+IPS,13341,"Zsolt T�th University of Miskolc <tothzs '@' iit.uni-miskolc.hu>Judit Tam�s University of Miskolc <tamas13 '@' iit.uni-miskolc.hu>"
+http://archive.ics.uci.edu/ml/datasets/Mobile+Robots,73865,"Donors:
+ Volker Klingspor, Katharina J. Morik, Anke D. Rieger
+Computer Science Dept. LS VIII
+University of Dortmund, Germany "
+http://archive.ics.uci.edu/ml/datasets/MoCap+Hand+Postures,21558,"[1] A. Gardner, R. R. Selmic, J. Kanno    Louisiana Tech University abg010 '@' latech.edu, rselmic '@' latech.edu, jkanno '@' latech.edu [2] C. A. Duncan    Quinnipiac University christian.duncan '@' quinnipiac.edu"
+http://archive.ics.uci.edu/ml/datasets/Molecular+Biology+%28Promoter+Gene+Sequences%29,78137,"Creators: 
+ 1.  promoter instances: C. Harley (CHARLEY '@' McMaster.CA) and R. Reynolds 
+ 2. non-promoter instances and domain theory: M. Noordewier
+-- (non-promoters derived from work of lab of Prof. Tom Record, University of Wisconsin Biochemistry Department)
+ Donor: 
+ M. Noordewier and J. Shavlik, {noordewi,shavlik}@cs.wisc.edu"
+http://archive.ics.uci.edu/ml/datasets/Molecular+Biology+%28Protein+Secondary+Structure%29,55986,"The data set was contributed to the benchmark collection by Terry Sejnowski, now at the Salk Institute and the University of California at San Deigo.  The data set was developed in collaboration with Ning Qian of Johns-Hopkins University."
+http://archive.ics.uci.edu/ml/datasets/Molecular+Biology+%28Splice-junction+Gene+Sequences%29,101540,"Creators:  1. All examples taken from Genbank 64.1 (ftp site: genbank.bio.net)2. Categories ""ei"" and ""ie"" include every ""split-gene"" for primates in Genbank 64.13. non-splice examples taken from sequences known not to include a splicing site  Donor:  G. Towell, M. Noordewier, and J. Shavlik, {towell,shavlik}@cs.wisc.edu, noordewi '@' cs.rutgers.edu"
+http://archive.ics.uci.edu/ml/datasets/MONK%27s+Problems,211055,"Donor:  Sebastian ThrunSchool of Computer ScienceCarnegie Mellon UniversityPittsburgh, PA 15213, USAE-mail: thrun '@' cs.cmu.edu"
+http://archive.ics.uci.edu/ml/datasets/Moral+Reasoner,39876,"Creators:  T.R. Shultz & J.M. Daley  Donor:  James L. Wogulis University of California, IrvineIrvine, CA USA"
+http://archive.ics.uci.edu/ml/datasets/Motion+Capture+Hand+Postures,29244,"[1] A. Gardner, R. R. Selmic, J. Kanno    Louisiana Tech University andrew.gardner1 '@' ieee.org, rselmic '@' latech.edu, jkanno '@' latech.edu [2] C. A. Duncan    Quinnipiac University christian.duncan '@' quinnipiac.edu"
+http://archive.ics.uci.edu/ml/datasets/Movie,209087," Original Owner and Donor Gio Wiederhold Stanford University 650-725-8363 gio '@' cs.stanford.edu "
+http://archive.ics.uci.edu/ml/datasets/MSNBC.com+Anonymous+Web+Data,81499,David Heckerman (heckerma '@' microsoft.com)
+http://archive.ics.uci.edu/ml/datasets/Mturk+User-Perceived+Clusters+over+Images,8734,"Shan-Hung WuAssociate Professor, CS, National Tsing Hua University(NTHU) Email: shwu [AT] cs.nthu.edu.tw "
+http://archive.ics.uci.edu/ml/datasets/Multimodal+Damage+Identification+for+Humanitarian+Computing,11981,"Hussein Mouzannar, American University of Beirut (hmm46 '@' aub.edu.lb)Yara Rizk, American University of Beirut (yar01 '@' aub.edu.lb)Mariette Awad, American University of Beirut (mariette.awad '@' aub.edu.lb)"
+http://archive.ics.uci.edu/ml/datasets/Multiple+Features,111235,"Robert P.W. DuinDepartment of Applied Physics Delft University of Technology P.O. Box 5046, 2600 GA DelftThe Netherlands email: duin '@' ph.tn.tudelft.nl http : //www.ph.tn.tudelft.nl/~duintel +31 15 2786143"
+http://archive.ics.uci.edu/ml/datasets/Mushroom,546738,"Origin: Mushroom records drawn from The Audubon Society Field Guide to North American Mushrooms (1981). G. H. Lincoff (Pres.), New York: Alfred A. Knopf Donor:  Jeff Schlimmer (Jeffrey.Schlimmer '@' a.gp.cs.cmu.edu)"
+http://archive.ics.uci.edu/ml/datasets/Musk+%28Version+1%29,66919,"Creators:  
+ AI Group at Arris Pharmaceutical Corporation
+contact:  David Chapman or Ajay Jain
+Arris Pharmaceutical Corporation
+385 Oyster Point Blvd.
+South San Francisco, CA 94080
+415-737-8600
+zvona '@' arris.com, jain '@' arris.com  Donor:     
+ Tom Dietterich
+Department of Computer Science
+Oregon State University
+Corvallis, OR 97331
+503-737-5559
+tgd '@' cs.orst.edu"
+http://archive.ics.uci.edu/ml/datasets/Musk+%28Version+2%29,72150,"Creators:   AI Group at Arris Pharmaceutical Corporationcontact:  David Chapman or Ajay JainArris Pharmaceutical Corporation385 Oyster Point Blvd.South San Francisco, CA 94080415-737-8600zvona '@' arris.com, jain '@' arris.com  Donor:      Tom DietterichDepartment of Computer ScienceOregon State UniversityCorvallis, OR 97331503-737-5559tgd '@' cs.orst.edu"
+http://archive.ics.uci.edu/ml/datasets/News+Aggregator,87843,"Provided by Artificial Intelligence Lab @ Faculty of Engineering, Roma Tre University - Italy Contact: Fabio Gasparetti, Faculty of Engineering, Roma Tre University - Italy (gaspare '@' dia.uniroma3.it)"
+http://archive.ics.uci.edu/ml/datasets/News+Popularity+in+Multiple+Social+Media+Platforms,56516,"Nuno MonizLIAAD - INESC Tec; Sciences College, University of PortoEmail: nmmoniz '@' inesctec.pt Lu�s TorgoLIAAD - INESC Tec; Sciences College, University of PortoEmail: ltorgo '@' dcc.fc.up.pt"
+http://archive.ics.uci.edu/ml/datasets/Newspaper+and+magazine+images+segmentation+dataset,27601,"Creators: Aleksey Vilkin and Ilia Safonov, NRNU MEPhI, Moscow, Russia, Date: 2012"
+http://archive.ics.uci.edu/ml/datasets/NIPS+Conference+Papers+1987-2015,50319,"Valerio Perrone
+v.perrone '@' warwick.ac.uk Department of Statistics
+University of Warwick
+Coventry (UK)"
+http://archive.ics.uci.edu/ml/datasets/NoisyOffice,66866,"M.J. Castro-Bleda (1), S. España-Boquera (1), J. Pastor-Pellicer (1), F. Zamora-Martinez (2) mcastro '@' dsic.upv.es, sespana '@' dsic.upv.es, jpastor '@' dsic.upv.es, francisco.zamora '@' uch.ceu.es(1) Departamento de Sistemas Informáticos  y Computación, Universitat Politècnica  de València, Valencia, Spain(2) Departamento de Ciencias Físicas, Matemáticas y de la Computación, Universidad CEU Cardenal Herrera, Alfara del Patriarca, València, Spain"
+http://archive.ics.uci.edu/ml/datasets/Nomao,52075,"(a) Original owner of database (name / phone / snail address / email address)
+Nomao / 00 33 5 62 48 33 90 / 1 avenue Jean Rieux, 31500 Toulouse / challenge '@' nomao.com (b) Donor of database (name / phone / snail address / email address) 
+Laurent Candillier / - /  1 avenue Jean Rieux, 31500 Toulouse  / laurent '@' nomao.com"
+http://archive.ics.uci.edu/ml/datasets/Northix,38211,"Farid Bourennani, University of Ontario Institute of Technology, farid.bourennani '@' uoit.ca"
+http://archive.ics.uci.edu/ml/datasets/NSF+Research+Award+Abstracts+1990-2003,47750,"Original Owner and Donor Abstracts provided by: Michael J. PazzaniICS Department, School of Computer Science, UCI, Irvine CA, 92697, USApazzani '@' ics.uci.edu  Bag-of-word data provided by: Amnon MeyersICS Department, School of Computer Science, UCI, Irvine CA, 92697, USAameyers '@' ics.uci.edu "
+http://archive.ics.uci.edu/ml/datasets/Nursery,199758,"Creator: 
+ Vladislav Rajkovic et al. (13 experts)
+ Donors: 
+ Marko Bohanec   (marko.bohanec '@' ijs.si)
+Blaz Zupan      (blaz.zupan '@' ijs.si)"
+http://archive.ics.uci.edu/ml/datasets/NYSK,53307,- Aurélien Lauf (alu '@' amisw.com)- Leila Khouas (lkh '@' amisw.com)- Mohamed Dermouche (mde '@' amisw.com)
+http://archive.ics.uci.edu/ml/datasets/Occupancy+Detection+,141182,"Luis Candanedo, luismiguel.candanedoibarra '@' umons.ac.be, UMONS."
+http://archive.ics.uci.edu/ml/datasets/OCT+data+%26+Color+Fundus+Images+of+Left+%26+Right+Eyes,15547,Tahereh Mahmudi; Rahele Kafieh; Hossein Rabbani; Alireza Mehri dehnavi; Mohammadreza Akhlagi
+http://archive.ics.uci.edu/ml/datasets/One-hundred+plant+species+leaves+data+set,71803,"James Cope, Thibaut Beghin, Paolo Remagnino, Sarah Barman.The colour images are not included in this submission.The Leaves were collected in the Royal Botanic Gardens, Kew, UK.email: james.cope '@' kingston.ac.uk  This dataset consists of work carried out by James Cope, Charles Mallah, and James Orwell. Kingston University London.Donor of database Charles Mallah: charles.mallah '@' kingston.ac.uk; James Cope: james.cope '@' kingston.ac.uk"
+http://archive.ics.uci.edu/ml/datasets/Online+Handwritten+Assamese+Characters+Dataset,47303,"Creators: 
+Udayan BaruahÂ¹ Â² and Shyamanta M HazarikaÂ¹
+ 1.	Department of Computer Science and Engineering
+	Tezpur University
+	Assam, India, 784028.
+ udayanbaruah '@' yahoo.co.in  shyamanta '@' ieee.org  2.	Department of Information Technology
+        Sikkim Manipal Institute of Technology
+        Sikkim, India, 737136.
+ udayanbaruah '@' yahoo.co.in  Donor: 
+ Udayan Baruah
+Department of Information Technology
+Sikkim Manipal Institute of Technology
+Sikkim, India, 737136.
+udayanbaruah '@' yahoo.co.in "
+http://archive.ics.uci.edu/ml/datasets/Online+News+Popularity,294019,"Kelwin Fernandes (kafc â€˜@â€™ inesctec.pt, kelwinfc â€™@â€™ gmail.com) - INESC TEC, Porto, Portugal/Universidade do Porto, Portugal.Pedro Vinagre (pedro.vinagre.sousa â€™@â€™ gmail.com) - ALGORITMI Research Centre, Universidade do Minho, PortugalPaulo Cortez - ALGORITMI Research Centre, Universidade do Minho, PortugalPedro Sernadela - Universidade de Aveiro"
+http://archive.ics.uci.edu/ml/datasets/Online+Retail,489566,"Dr Daqing Chen, Director: Public Analytics group. chend '@' lsbu.ac.uk, School of Engineering, London South Bank University, London SE1 0AA, UK. "
+http://archive.ics.uci.edu/ml/datasets/Online+Retail+II,71232,"Dr. Daqing Chen, Course Director: MSc Data Science. chend '@' lsbu.ac.uk, School of Engineering, London South Bank University, London SE1 0AA, UK."
+http://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset,86113,"Source
+1. C. Okan Sakar
+Department of Computer Engineering, Faculty of
+Engineering and Natural Sciences, Bahcesehir University,
+34349 Besiktas, Istanbul, Turkey
+ 2. Yomi Kastro
+Inveon Information Technologies Consultancy and Trade,
+34335 Istanbul, Turkey"
+http://archive.ics.uci.edu/ml/datasets/Online+Video+Characteristics+and+Transcoding+Time+Dataset,43002,"Tewodros Deneke, tdeneke '@' abo.fi "
+http://archive.ics.uci.edu/ml/datasets/Open+University+Learning+Analytics+dataset,62991,"Jakub Kuzilek (jakub.kuzilek '@' gmail.com)
+Knowledge Media Institute, The Open University
+Walton Hall, Milton Keynes, MK7 6AA, UK
+CIIRC, CTU in Prague
+Zikova 1903/4, Prague, CZ
+Martin Hlosta (martin.hlosta '@' open.ac.uk)
+Knowledge Media Institute, The Open University
+Walton Hall, Milton Keynes, MK7 6AA, UK
+Zdenek Zdrahal (zdenek.zdrahal '@' open.ac.uk)
+Knowledge Media Institute, The Open University
+Walton Hall, Milton Keynes, MK7 6AA, UK
+CIIRC, CTU in Prague
+Zikova 1903/4, Prague, CZ
+"
+http://archive.ics.uci.edu/ml/datasets/Opinion+Corpus+for+Lebanese+Arabic+Reviews+%28OCLAR%29,4065,"Marwan Al Omari, Centre for Language Sciences and Communication, Lebanese University, Beirut, Lebanon, marwanalomari '@' yahoo.com Moustafa Al-Hajj, Centre for Language Sciences and Communication, Lebanese University, Beirut, Lebanon, moustafa.alhajj '@' ul.edu.lb Nacereddine Hammami, college of Computer and Information Sciences, Jouf University, Aljouf, KSA, n.hammami '@' ju.edu.sa Amani Sabra, Centre for Language Sciences and Communication, Lebanese University, Beirut, Lebanon, amani.sabra '@' ul.edu.lb"
+http://archive.ics.uci.edu/ml/datasets/Opinosis+Opinion+%26frasl%3B+Review,49236,"Kavita Ganesankganes2 '@' illinois.edu http://kavita-ganesan.com/opinosis-opinion-dataset"
+http://archive.ics.uci.edu/ml/datasets/OpinRank+Review+Dataset,51010,"Kavita Ganesan & ChengXiang ZhaiUniversity of Illinois @ Urbana Champaignhttp://www.kavita-ganesan.com/entity-ranking-data"
+http://archive.ics.uci.edu/ml/datasets/OPPORTUNITY+Activity+Recognition,98464,"Daniel Roggen, Wearable Computing Laboratory ETH Zurich, droggen '@' gmail.com Alberto Calatroni, Wearable Computing Laboratory ETH Zurich, calatroni.alberto '@' gmail.com Long-Van Nguyen-Dinh, Wearable Computing Laboratory ETH ZurichRicardo Chavarriaga, Chair in Non-Invasive Brain-Machine Interface, EPFL, ricardo.chavarriaga '@' epfl.ch Hesam Sagha, Chair in Non-Invasive Brain-Machine Interface, EPFL, hesam.sagha '@' epfl.ch Sundara Tejaswi Digumarti, Chair in Non-Invasive Brain-Machine Interface, EPFL"
+http://archive.ics.uci.edu/ml/datasets/Optical+Interconnection+Network+,25363,"Cigdem Inan ACI- Mersin University, Dept of Computer Engineering, caci '@' mersin.edu.trMehmet Fatih AKAY- Cukurova University, Dept of Computer Engineering, mfakay '@' cu.edu.tr"
+http://archive.ics.uci.edu/ml/datasets/Optical+Recognition+of+Handwritten+Digits,276536,"E. Alpaydin, C. Kaynak
+Department of Computer Engineering
+Bogazici University, 80815 Istanbul Turkey
+alpaydin '@' boun.edu.tr"
+http://archive.ics.uci.edu/ml/datasets/Othello+Domain+Theory,27891,"Tom Fawcett (fawcett '@' cs.umass.edu)COINS Deptartment, LGRCUniversity of MassachusettsAmherst, MA  10373"
+http://archive.ics.uci.edu/ml/datasets/Ozone+Level+Detection,138784,"Kun Zhang, zhang.kun05 '@' gmail.com, Department of Computer Science, Xavier University of LousianaWei Fan, wei.fan '@' gmail.com,  IBM T.J.Watson ResearchXiaoJing Yuan, xyuan '@' uh.edu, Engineering Technology Department, College of Technology, University of Houston"
+http://archive.ics.uci.edu/ml/datasets/p53+Mutants,79410,"Richard H. Lathrop, UC Irvine, http://www.ics.uci.edu/~rickl "
+http://archive.ics.uci.edu/ml/datasets/Page+Blocks+Classification,97928,"Original Owner: Donato MalerbaDipartimento di InformaticaUniversity of Barivia Orabona 470126 Bari - Italyphone: +39 - 80 - 5443269fax: +39 - 80 - 5443196malerbad '@' vm.csata.it  Donor:  Donato Malerba"
+http://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring,93948,"Attila Reiss, Department Augmented Vision, DFKI, Germany, attila.reiss '@' dfki.de
+Date: August 2012."
+http://archive.ics.uci.edu/ml/datasets/PANDOR,14453,"Massih-Reza Amini
+Univ. Grenoble Alpes, CNRS/LIG
+massih-reza.amini '@' univ-grenoble-alpes.fr
+ Charlotte Laclau
+Univ. Grenoble Alpes, CNRS/LIG
+charlotte.laclau '@' univ-grenoble-alpes.fr
+ Sumit Sidana
+Univ. Grenoble Alpes, CNRS/LIG
+sumit.sidana '@' imag.fr"
+http://archive.ics.uci.edu/ml/datasets/Paper+Reviews,50255,"Brian Keith, Exequiel Fuentes and Claudio Meneses. 
+Department of Computing & Systems Engineering, Universidad Cat�lica del Norte.
+brian.keith '@' ucn.cl, exequiel.fuentes '@' ucn.cl, cmeneses '@' ucn.cl"
+http://archive.ics.uci.edu/ml/datasets/Parking+Birmingham,49113,"Daniel H. Stolfi, dhstolfi '@' lcc.uma.es, University of Malaga - Spain."
+http://archive.ics.uci.edu/ml/datasets/Parkinson%27s+Disease+Classification,60392,"C. Okan Sakar a, Gorkem Serbes b, Aysegul Gunduz c, Hunkar C. Tunc a, Hatice Nizam d, Betul Erdogdu Sakar e, Melih Tutuncu c, Tarkan Aydin a, M. Erdem Isenkul d, Hulya Apaydin c a Department of Computer Engineering, Bahcesehir University, Istanbul, 34353, Turkeyb Department of Biomedical Engineering, Yildiz Technical University, Istanbul, 34220, Turkey c Department of Neurology, CerrahpaÅŸa Faculty of Medicine, Istanbul University, Istanbul 34098, Turkeyd Department of Computer Engineering, Istanbul University, Istanbul, 34320, Turkey e Department of Software Engineering, Bahcesehir University, Istanbul, 34353, Turkeye-mails: {okan.sakar '@' eng.bau.edu.tr; gserbes '@' yildiz.edu.tr;draysegulgunduz '@' yahoo.com; hunkarcan.tunc '@' stu.bahcesehir.edu.tr; haticenizam92 '@' gmail.com; betul.erdogdu '@' eng.bau.edu.tr; tutuncumelih '@' yahoo.com; tarkan.aydin '@' eng.bau.edu.tr; eisenkul '@' istanbul.edu.tr; hulyapay '@' istanbul.edu.tr}"
+http://archive.ics.uci.edu/ml/datasets/Parkinson+Dataset+with+replicated+acoustic+features+,19851,"Carlos J. P�rezDepartamento de Matem�ticas, Universidad de Extremadura, C�ceres (Spain)Email: carper '@' unex.es "
+http://archive.ics.uci.edu/ml/datasets/Parkinson+Disease+Spiral+Drawings+Using+Digitized+Graphics+Tablet,44869,"1. M. Erdem ISENKUL, PhD., 
+Istanbul University, 
+Department of Computer Engineering, 
+34320, Istanbul, Turkey 
+Phone: +90 (212) 473 7070 - 17455 
+Email: eisenkul '@' istanbul.edu.tr 
+-----------------------------------
+2. Betul ERDOGDU SAKAR, PhD., 
+Bahcesehir University, 
+Department of Software Engineering, 
+34381, Istanbul, Turkey 
+Phone: +90 (212) 381 0589 
+Email: betul.erdogdu '@' eng.bahcesehir.edu.tr"
+http://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with++Multiple+Types+of+Sound+Recordings,99046,"1. Olcay KURSUN, PhD., Istanbul University, Department of Computer Engineering, 34320, Istanbul, Turkey Phone: +90 (212) 473 7070 - 17827 Email: okursun '@' istanbul.edu.tr  2. Betul ERDOGDU SAKAR, PhD., Bahcesehir University, Department of Software Engineering, 34381, Istanbul, Turkey Phone: +90 (212) 381 0589 Email: betul.erdogdu '@' eng.bahcesehir.edu.tr  3. M. Erdem ISENKUL, M.S., Istanbul University, Department of Computer Engineering, 34320, Istanbul, Turkey Email: eisenkul '@' istanbul.edu.tr  4. C. Okan SAKAR, PhD., Bahcesehir University, Department of Computer Engineering, 34381, Istanbul, Turkey Phone: +90 (212) 381 0571 Email: okan.sakar '@' eng.bahcesehir.edu.tr  5. Ahmet SERTBAS, PhD, Istanbul University, Department of Computer Engineering, 34320, Istanbul, Turkey Email: asertbas '@' istanbul.edu.tr  6. Fikret GURGEN, PhD., Bogazici University, Department of Computer Engineering, 34342, Istanbul, Turkey Email: gurgen '@' boun.edu.tr  7. Sakir DELIL, M.D., PhD., Istanbul University,CerrahpaÅŸa Faculty of Medicine, Department of Neurology, 34098, Istanbul, Turkey Email: sakir.delil '@' ctf.edu.tr  8. Hulya APAYDIN, M.D., PhD., Istanbul University, CerrahpaÅŸa Faculty of Medicine, Department of Neurology, 34098, Istanbul, Turkey Email: hulya.apaydin '@' ctf.edu.tr  Donor:C. Okan SAKAR, PhD., Bahcesehir University, Department of Computer Engineering, 34381, Istanbul, Turkey Phone: +90 (212) 381 0571 Email: okan.sakar '@' eng.bahcesehir.edu.tr "
+http://archive.ics.uci.edu/ml/datasets/Parkinsons,264327,"The dataset was created by Max Little of the University of Oxford, in collaboration with the National Centre for Voice and Speech, Denver, Colorado, who recorded the speech signals. The original study published the feature extraction methods for general voice disorders."
+http://archive.ics.uci.edu/ml/datasets/Parkinsons+Telemonitoring,149279,"The dataset was created by Athanasios Tsanas (tsanasthanasis '@' gmail.com) and Max Little (littlem '@' physics.ox.ac.uk) of the University of Oxford, in collaboration with 10 medical centers in the US and Intel Corporation who developed the telemonitoring device to record the speech signals. The original study used a range of linear and nonlinear regression methods to predict the clinician's Parkinson's disease symptom score on the UPDRS scale."
+http://archive.ics.uci.edu/ml/datasets/PEMS-SF,69620,"Source: California Department of Transportation, www.pems.dot.ca.govCreator: Marco Cuturi, Kyoto University, mcuturi '@' i.kyoto-u.ac.jp"
+http://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits,226756,"E. Alpaydin, Fevzi. AlimogluDepartment of Computer EngineeringBogazici University, 80815 Istanbul Turkeyalpaydin '@' boun.edu.tr"
+http://archive.ics.uci.edu/ml/datasets/Perfume+Data,141055,"Prof. Dr. Bekir KARLIK, bkarlik '@' selcuk.edu.tr, Department of Computer Engineering, Selcuk University, Konya-Turkey Assoc. Prof. Dr. Yousif Al-Bastaki, Department of Computer Science, Bahrain University, Kingdom of Bahrain"
+http://archive.ics.uci.edu/ml/datasets/Phishing+Websites,145660,"Rami Mustafa A Mohammad ( University of Huddersfield, rami.mohammad '@' hud.ac.uk, rami.mustafa.a '@' gmail.com)Lee McCluskey (University of Huddersfield,t.l.mccluskey '@' hud.ac.uk ) Fadi Thabtah (Canadian University of Dubai,fadi '@' cud.ac.ae)"
+http://archive.ics.uci.edu/ml/datasets/Physical+Unclonable+Functions,15457,"Ahmad O. Aseeri (a.aseeri '@' psau.edu.sa), Yu Zhuang (yu.zhuang '@' ttu.edu) - Department of Computer Science, Texas Tech University, United StatesMohammed Saeed Alkatheiri (msalkatheri '@' uj.edu.sa) - Faculty of Computing and Information Technology, University of Jeddah, Saudi Arabia"
+http://archive.ics.uci.edu/ml/datasets/Physicochemical+Properties+of+Protein+Tertiary+Structure,54975,"Prashant Singh Rana, psrana '@' gmail.com, ABV - Indian Institute of Information Technology & Management, Gwalior, MP, India."
+http://archive.ics.uci.edu/ml/datasets/Pioneer-1+Mobile+Robot+Data,39123,"Matthew D. Schmill, Paul R. CohenExperimental Knowledge Systems Laboratory Department of Computer Science Box 34610 University of Massachusetts, Amherst Amherst, MA 01003-4610 schmill '@' cs.umass.edu, cohen '@' cs.umass.edu"
+http://archive.ics.uci.edu/ml/datasets/Pittsburgh+Bridges,102453,"Creators: Yoram Reich & Steven J. FenvesDepartment of Civil Engineering      andEngineering Design Research CenterCarnegie Mellon UniversityPittsburgh, PA 15213 Compiled from various sources. Donor:  Yoram Reich (yoram.reich '@' cs.cmu.edu)"
+http://archive.ics.uci.edu/ml/datasets/Planning+Relax,59224,"Rajen Bhatt, rajen.bhatt '@' gmail.com, IIT Delhi"
+http://archive.ics.uci.edu/ml/datasets/Plants,191947,"Original source: USDA plants database: http://plants.usda.gov/index.html  Extracted and encoded by W. Hämäläinen, Department of Computer Science, University of Helsinki, Finland. whamalai '@' cs.helsinki.fi "
+http://archive.ics.uci.edu/ml/datasets/PM2.5+Data+of+Five+Chinese+Cities,83868,"Song Xi Chen, csx '@' gsm.pku.edu.cn, Guanghua School of Management, Center for Statistical Science, Peking University."
+http://archive.ics.uci.edu/ml/datasets/PMU-UD,10405,"Ghazanfar Latif, College of Computer Engineering and Sciences, Prince Mohammad bin Fahd University, Al Khobar, Saudi Arabia. glatif '@' pmu.edu.sa"
+http://archive.ics.uci.edu/ml/datasets/Poker+Hand,609688,"Creators:
+ Robert Cattral (cattral '@' gmail.com)
+ Franz Oppacher (oppacher '@' scs.carleton.ca)
+Carleton University, Department of Computer Science
+Intelligent Systems Research Unit
+1125 Colonel By Drive, Ottawa, Ontario, Canada, K1S5B6"
+http://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data,104739,"Creator: Sebastian Tomczak -- Department of Operations Research, WrocÅ‚aw University of Science and Technology, wybrzeÅ¼e WyspiaÅ„skiego 27, 50-370, WrocÅ‚aw, Poland Donor: Sebastian Tomczak (sebastian.tomczak '@' pwr.edu.pl), Maciej Zieba (maciej.zieba '@' pwr.edu.pl), Jakub M. Tomczak (jakub.tomczak '@' pwr.edu.pl), Tel. (+48) 71 320 44 53 "
+http://archive.ics.uci.edu/ml/datasets/Post-Operative+Patient,106177,"Creators: 
+ Sharon Summers, School of Nursing, University of Kansas
+Medical Center, Kansas City, KS 66160
+Linda Woolery, School of Nursing, University of Missouri,
+Columbia, MO 65211
+ Donor:
+ Jerzy W. Grzymala-Busse (jerzy '@' cs.ukans.edu) (913)864-4488"
+http://archive.ics.uci.edu/ml/datasets/PPG-DaLiA,17754,"Attila Reiss, Robert Bosch GmbH, Corporate Research, Germany, firstname.lastname '@' de.bosch.comIna Indlekofer, Bosch Sensortec GmbH, Germany, firstname.lastname '@' bosch-sensortec.comPhilip Schmidt, Robert Bosch GmbH, Corporate Research, Germany, firstname.lastname '@' de.bosch.com"
+http://archive.ics.uci.edu/ml/datasets/Predict+keywords+activities+in+a+online+social+media,45147,"François Kawala (1,2) Ahlame Douzal (1) Eric Gaussier (1) Eustache Diemert (2) Institutions :(1) Université Joseph Fourier (Grenoble I) - Laboratoire d'informatique de Grenoble (LIG) - Equipe AMA(2) TechMediaNetwork - www.techmedianetwork.comCorresponding author:François Kawala : francois.kawala '@' imag.fr / fkawala '@' techmedianetwork.com"
+http://archive.ics.uci.edu/ml/datasets/Primary+Tumor,132154,"Donors: 
+ 1. Igor Kononenko, 
+University E.Kardelj
+Faculty for electrical engineering
+Trzaska 25
+61000 Ljubljana (tel.: (38)(+61) 265-161
+ 2. Bojan Cestnik
+Jozef Stefan Institute
+Jamova 39
+61000 Ljubljana
+Yugoslavia (tel.: (38)(+61) 214-399 ext.287) "
+http://archive.ics.uci.edu/ml/datasets/Pseudo+Periodic+Synthetic+Time+Series,45606,"Eamonn J. Keogh and Michael J. PazzaniDepartment of Information and Computer ScienceUniversity of California, Irvine, California 92697 USAeamonn '@' ics.uci.edu, pazzani '@' ics.uci.edu "
+http://archive.ics.uci.edu/ml/datasets/PubChem+Bioassay+Data,38752,"Virtual Screening of Bioassay DataAmanda C Schierz,Smart Technology Research Centre, Bournemouth University, Talbot Campus, Poole, Dorset, BH12 5BB, UKJournal of Cheminformatics 2009, 1:21 doi:10.1186/1758-2946-1-21  "
+http://archive.ics.uci.edu/ml/datasets/QSAR+androgen+receptor,3269,"Francesca Grisoni (francesca.grisoni '@' unimib.it), Davide Ballabio (davide.ballabio '@' unimib.it), Viviana Consonni, Milano Chemometrics and QSAR Research Group (http://www.michem.unimib.it/), Universit� degli Studi Milano - Bicocca, Milano (Italy)"
+http://archive.ics.uci.edu/ml/datasets/QSAR+aquatic+toxicity,14204,"Davide Ballabio (davide.ballabio '@' unimib.it), Matteo Cassotti, Viviana Consonni, Roberto Todeschini, Milano Chemometrics and QSAR Research Group (http://www.michem.unimib.it/), Universit� degli Studi Milano - Bicocca, Milano (Italy)"
+http://archive.ics.uci.edu/ml/datasets/QSAR+Bioconcentration+classes+dataset,5677,"Francesca Grisoni (francesca.grisoni '@' unimib.it), Viviana Consonni (viviana.consonni '@' unimib.it), Marco Vighi, Sara Villa, Roberto Todeschini "
+http://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation,47400,"Kamel Mansouri, Tine Ringsted, Davide Ballabio (davide.ballabio '@' unimib.it), Roberto Todeschini, Viviana Consonni, Milano Chemometrics and QSAR Research Group (http://michem.disat.unimib.it/chm/), Universit� degli Studi Milano â€“ Bicocca, Milano (Italy)"
+http://archive.ics.uci.edu/ml/datasets/QSAR+fish+bioconcentration+factor+%28BCF%29,5907,"Francesca Grisoni, University of Milano-Bicocca, Dept. of Earth and Environmental Sciences, Milano Chemometrics & QSAR Research Group, francesca.grisoni '@' unimib.it Viviana Consonni,  University of Milano-Bicocca, Dept. of Earth and Environmental Sciences, Milano Chemometrics & QSAR Research Group,  viviana.consonni '@' unimib.it Marco Vighi, University of Milano-Bicocca, Dept. of Earth and Environmental SciencesSara Villa, University of Milano-Bicocca, Dept. of Earth and Environmental SciencesRobertoTodeschini,  University of Milano-Bicocca, Dept. of Earth and Environmental Sciences, Milano Chemometrics & QSAR Research Group, roberto.todeschini '@' unimib.it"
+http://archive.ics.uci.edu/ml/datasets/QSAR+fish+toxicity,25505,"Davide Ballabio (davide.ballabio @ unimib.it), Matteo Cassotti, Viviana Consonni, Roberto Todeschini, Milano Chemometrics and QSAR Research Group (http://www.michem.unimib.it/), Universit� degli Studi Milano - Bicocca, Milano (Italy)"
+http://archive.ics.uci.edu/ml/datasets/QSAR+oral+toxicity,6042,"Davide Ballabio (davide.ballabio '@' unimib.it), Francesca Grisoni, Roberto Todeschini, Viviana Consonni, Milano Chemometrics and QSAR Research Group (http://www.michem.unimib.it/), Universit� degli Studi Milano - Bicocca, Milano (Italy)"
+http://archive.ics.uci.edu/ml/datasets/QtyT40I10D100K,41246,"Omid Shakeri, M.Sc 
+omid.shakeri '@' tmu.ac.ir ; omid.shakeri '@' gmail.com Data Mining Lab., Computer Engineering Department, Kharazmi University, Karaj/Tehran, Iran
+ Mir Mohsen Pedram, Ph.D
+pedram '@' tmu.ac.ir Data Mining Lab., Computer Engineering Department, Kharazmi University, Karaj/Tehran, Iran"
+http://archive.ics.uci.edu/ml/datasets/Quadruped+Mammals,66719,"Origin:
+ Gennari, J.~H., Langley, P, \& Fisher, D. (1989). 
+Models of incremental concept formation. {\it Artificial Intelligence\/}, {\it 40\/}, 11--61.
+ Donor: 
+ John H. Gennari (gennari '@' camis.stanford.edu 8/1992)"
+http://archive.ics.uci.edu/ml/datasets/Qualitative_Bankruptcy,80820,Source Information    -- Creator      :  Mr.A.Martin(jayamartin '@' yahoo.com)                          Mr.J.Uthayakumar (uthayakumar17691 '@' gmail.com)                          Mr.M.Nadarajan(nadaraj.muthuvel '@' gmail.com)    -- Guided By    :  Dr.V.Prasanna Venkatesan    -- Institution  :  Sri Manakula Vinayagar Engineering College and Pondicherry University    -- Country      :  India    -- Date         :  February 2014
+http://archive.ics.uci.edu/ml/datasets/Qualitative+Structure+Activity+Relationships,27106,"Ross D. KingBiomolecular Modelling LaboratoryImperial Cancer Research FundP.O. Box 12344 Lincoln's Inn FieldsLondon WC2A 3PXU.K.+44-71-242-0200 x3023rd_king '@' icrf.ac.uk"
+http://archive.ics.uci.edu/ml/datasets/Quality+Assessment+of+Digital+Colposcopies,19579,"Kelwin Fernandes (kafc _at_ inesctec _dot_ pt) - INESC TEC & FEUP, Porto, Portugal.Jaime S. Cardoso - INESC TEC & FEUP, Porto, Portugal.Jessica Fernandes - Universidad Central de Venezuela, Caracas, Venezuela."
+http://archive.ics.uci.edu/ml/datasets/Query+Analytics+Workloads+Dataset,13923,"Source: Dr Christos Anagnostopoulos; School of Computing Science, University of Glasgow; email: christos.anagnostopoulos '@' glasgow.ac.uk; G12 8QQ Scotland, UK. (Essence: Pervasive & Distributed Intelligence: http://www.dcs.gla.ac.uk/essence/)"
+http://archive.ics.uci.edu/ml/datasets/Real+estate+valuation+data+set,72976,"Original Owner and DonorName: Prof. I-Cheng YehInstitutions: Department of Civil Engineering, Tamkang University, Taiwan.Email: 140910 '@' mail.tku.edu.tw TEL: 886-2-26215656 ext. 3181 Date Donated: Aug. 18, 2018"
+http://archive.ics.uci.edu/ml/datasets/REALDISP+Activity+Recognition+Dataset,44901,"Oresti Banos, Department of Computer Architecture and Computer Technology, University of Granada, oresti '@' ugr.es (oresti.bl '@' gmail.com)
+Mate Attila Toth, Signal Processing Systems, TU Eindhoven, A.M.Toth '@' tue.nl Oliver Amft, Signal Processing Systems, TU Eindhoven, amft '@' tue.nl "
+http://archive.ics.uci.edu/ml/datasets/Real-time+Election+Results%3A+Portugal+2019,11800,"Nuno Moniz
+LIAAD - INESC Tec; Sciences College, University of Porto
+Email: nmmoniz '@' inesctec.pt"
+http://archive.ics.uci.edu/ml/datasets/Record+Linkage+Comparison+Patterns,80492,"The underlying records stem from the epidemiological cancer registry of theGerman state of North Rhine-Westphalia (Epidemiologisches Krebsregister NRW,http://www.krebsregister.nrw.de). Creation of comparison patterns andassignment of matching status were undertaken by staff members ofthe Institute for Medical Biostatistics, Epidemiology and Informatics (IMBEI)at the University Medical Center of the Johannes Gutenberg University in Mainz, Germany (http://www.imbei.uni-mainz.de)."
+http://archive.ics.uci.edu/ml/datasets/Relative+location+of+CT+slices+on+axial+axis,56666,"F. Graf, H.-P. Kriegel, M. Schubert, S. Poelsterl, A. Cavallaro
+ Ludwig-Maximilians-Universit�t Munich
+Database Systems Group
+OettingenstraÃŸe 67
+80538 Munich, Germany"
+http://archive.ics.uci.edu/ml/datasets/Repeat+Consumption+Matrices,21013,"Dimitrios Kotzias, dkotzias '@' ics.uci.edu, University of California Irvine"
+http://archive.ics.uci.edu/ml/datasets/Residential+Building+Data+Set,45780,"Donor and Creator:  Mohammad H. Rafiei, Ph.D.
+        	    Postdoctoral Researcher, The Ohio State University, Columbus, OH 43210
+ rafiei.4 '@' osu.edu 	 	    www.mhraf.com "
+http://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data,141767,"Creators: Rafael Ponce Medell�n and Juan Gabriel Gonz�lez Sernarafaponce '@' cenidet.edu.mx, gabriel '@' cenidet.edu.mx Department of Computer Science.National Center for Research and Technological Development CENIDET, M�xicoDonors of database:Blanca Vargas-Govea and Juan Gabriel Gonz�lez Sernablanca.vargas '@' cenidet.edu.mx/blanca.vg@gmail.com, gabriel '@' cenidet.edu.mx Department of Computer Science.National Center for Research and Technological Development CENIDET, M�xico"
+http://archive.ics.uci.edu/ml/datasets/Reuter_50_50,65189,"Dataset creator and donator: ZhiLiu, e-mail: liuzhi8673 '@' gmail.com, institution: National Engineering Research Center for E-Learning, Hubei Wuhan, China  "
+http://archive.ics.uci.edu/ml/datasets/Reuters+RCV1+RCV2+Multilingual%2C+Multiview+Text+Categorization+Test+collection,59985,"Massih-Reza Amini
+Universit� Joseph Fourier
+Laboratoire d'Informatique de Grenoble
+Email : Massih-Reza.Amini '@' imag.fr  Cyril Goutte
+National Research Council Canada
+Interactive Language Technology group
+Email : Cyril.Goutte '@' nrc.ca"
+http://archive.ics.uci.edu/ml/datasets/Reuters+Transcribed+Subset,56978,"Shourya Roy
+shourya.roy '@' gmail.com and
+Shantanu Godbole
+shantanu '@' godbole.net "
+http://archive.ics.uci.edu/ml/datasets/Reuters-21578+Text+Categorization+Collection,189716,"David D. Lewis
+AT&T Labs - Research     
+lewis '@' research.att.com  Documents came from Reuters newswire in 1987."
+http://archive.ics.uci.edu/ml/datasets/Rice+Leaf+Diseases,40680,"Jitesh P. Shah, Email: jitesh2k12 '@' gmail.com, Institute: Department of Information Technology, Dharmsinh Desai University,Nadiad-387001, Gujarat, INDIA. Creator Name: Harshadkumar B. Prajapati, Email: prajapatihb.it '@' ddu.ac.in, Institute: Department of Information Technology, Dharmsinh Desai University,Nadiad-387001, Gujarat, INDIA. Creator Name: Vipul K. Dabhi, Email: vipuldabhi.it '@' ddu.ac.in, Institute: Department of Information Technology, Dharmsinh Desai University,Nadiad-387001, Gujarat, INDIA. "
+http://archive.ics.uci.edu/ml/datasets/Robot+Execution+Failures,101354,"Original Owner and Donor: Luis Seabra Lopes and Luis M. Camarinha-MatosUniversidade Nova de Lisboa, Monte da Caparica, Portugal"
+http://archive.ics.uci.edu/ml/datasets/Roman+Urdu+Data+Set,20633,"Zareen Sharf, zareensharf76 '@' gmail.com, Shaheed Zulfiqar Ali Bhutto Institute of Science and Technology (SZABIST)."
+http://archive.ics.uci.edu/ml/datasets/Sales_Transactions_Dataset_Weekly,69649,"James Tan, jamestansc '@' suss.edu.sg, Singapore University of Social Sciences"
+http://archive.ics.uci.edu/ml/datasets/SCADI,29373,"--Creators: S.M.M. Fatemi Bushehri, Moslem Dehghanizadeh, Shokoofeh Kalantar, Mohsen Sardari Zarchi  * S.M.M. Fatemi Bushehri: Department of Software Engineering, Yazd Branch, Islamic Azad University, Yazd, Iran * Moslem Dehghanizadeh: Department of Occupational Therapy, School of Rehabilitation, Iran University of Medical Sciences, Tehran, Iran * Shokoofeh Kalantar: Student Senior Counseling & Guidance, Islamic Azad University, Department of Human Science, Yazd, Iran * Mohsen Sardari Zarchi: Department of Computer Engineering, Meybod University, Meybod, Iran  -- Donator: S.M.M. Fatemi Bushehri "
+http://archive.ics.uci.edu/ml/datasets/SECOM,121270,"Authors: Michael McCann, Adrian Johnston "
+http://archive.ics.uci.edu/ml/datasets/seeds,307657,"MaÅ‚gorzata Charytanowicz, Jerzy NiewczasInstitute of Mathematics and Computer Science,The John Paul II Catholic University of Lublin, Konstantyn�w 1 H,PL 20-708 Lublin, Polande-mail: {mchmat,jniewczas}@kul.lublin.pl Piotr Kulczycki, Piotr A. Kowalski, Szymon Lukasik, Slawomir ZakDepartment of Automatic Control and Information Technology,Cracow University of Technology, Warszawska 24, PL 31-155 Cracow, PolandandSystems Research Institute, Polish Academy of Sciences, Newelska 6,PL 01-447 Warsaw, Polande-mail: {kulczycki,pakowal,slukasik,slzak}@ibspan.waw.pl"
+http://archive.ics.uci.edu/ml/datasets/seismic-bumps,65730,"Provide the names, email addresses, institutions, and other contact information of the donors and creators of the data set. Marek Sikora^{1,2} (marek.sikora '@' polsl.pl), Lukasz Wrobel^{1} (lukasz.wrobel '@' polsl.pl)(1) Institute of Computer Science, Silesian University of Technology, 44-100 Gliwice, Poland(2) Institute of Innovative Technologies EMAG, 40-189 Katowice, Poland"
+http://archive.ics.uci.edu/ml/datasets/selfBACK,2998,"Sadiq Sani, Nirmalie Wiratunga, Kay Cooper
+Robert Gordon University
+Aberdeen, UK"
+http://archive.ics.uci.edu/ml/datasets/Semeion+Handwritten+Digit,127767,"The dataset was created by Tactile Srl, Brescia, Italy (http://www.tattile.it) and donated in 1994 to Semeion Research Center of Sciences of Communication, Rome, Italy (http://www.semeion.it), for machine learning research. For any questions, e-mail Massimo Buscema (m.buscema '@' semeion.it) or Stefano Terzi (s.terzi '@' semeion.it)"
+http://archive.ics.uci.edu/ml/datasets/sEMG+for+Basic+Hand+movements,68041,"Christos Sapsanis (csapsanis @ gmail.com) and Anthony Tzes
+ANeMoS Lab
+School of Electrical and Computer Engineering
+University of Patras
+ G. Georgoulas 
+KIC Laboratory
+Department of Informatics and Telecommunications Technology, 
+Technological Educational Institute of Epirus"
+http://archive.ics.uci.edu/ml/datasets/Sentence+Classification,75977,"America Chambers, ahollowa '@' ics.uci.edu, University of California, Irvine"
+http://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences,174051,Dimitrios Kotzias dkotzias '@' ics.uci.edu
+http://archive.ics.uci.edu/ml/datasets/ser+Knowledge+Modeling+Data+%28Students%27+Knowledge+Levels+on+DC+Electrical+Machines%29,37684," -- Creators: Hamdi Tolga Kahraman, Ilhami Colak, Seref Sagiroglu   -- Institution: Faculty of Technology, Department of Software Engineering, Karadeniz Technical University, Trabzon, Turkiye   -- Donor: Students of Department of Electrical Education of Gazi University      -- Date: October, 2009Kahraman, H. T. (2009). Designing and Application of Web-Based Adaptive Intelligent Education System. Gazi University Ph. D. Thesis, Turkey, 1-156."
+http://archive.ics.uci.edu/ml/datasets/Servo,106815,"Creator: Karl Ulrich (MIT) Donor:  Ross Quinlan"
+http://archive.ics.uci.edu/ml/datasets/SGEMM+GPU+kernel+performance,26042,"Enrique G. Paredes (egparedes '@' ifi.uzh.ch). Visualization and MultiMedia Lab, Department of Informatics, University of Zurich. Zurich, 8050. SwitzerlandRafael Ballester-Ripoll (rballester '@' ifi.uzh.ch). Visualization and MultiMedia Lab, Department of Informatics, University of Zurich. Zurich, 8050. Switzerland"
+http://archive.ics.uci.edu/ml/datasets/Shoulder+Implant+X-Ray+Manufacturer+Classification,1843,"Kazunori Okada, kazokada '@' sfsu.edu, BIDAL: Biomedical Image and Data Analyses Lab, Department of Computer Science, San Francisco State UniversityMaya Belen Stark, maya.b.stark '@' gmail.com, BIDAL: Biomedical Image and Data Analyses Lab, Department of Computer Science, San Francisco State UniversityBrian Feeley, brian.feeley '@' ucsf.edu, Department of Orthopedic Surgery, University of California, San Francisco"
+http://archive.ics.uci.edu/ml/datasets/Shuttle+Landing+Control,103637,"Original source:  unknownNASA: Mr. Roger Burke's autolander design team Donor:  Bojan CestnikJozef Stefan InstituteJamova 3961000 LjubljanaYugoslavia (tel.: (38)(+61) 214-399 ext.287) "
+http://archive.ics.uci.edu/ml/datasets/SIFT10M,32020,"Xiping Fu, Brendan McCane, Steven Mills, Michael Albert and Lech SzymanskiDepartment of Computer Science, University of Otago, Dunedin, New Zealand{xiping, mccane, steven, malbert, lechszym}@cs.otago.ac.nz"
+http://archive.ics.uci.edu/ml/datasets/Simulated+Falls+and+Daily+Living+Activities+Data+Set,79305,"Ahmet Turan 耓zdemirPhone: +90 352 207 6666 (int 32233)Addr: Erciyes University, Electrical and Electronic Department, TR 38039, Melikgazi/Kayseri/Turkeyaturan '@' erciyes.edu.tr www.aturan.com  Billur BarshanPhone: +90 312 290 2161Addr: Bilkent University, Electrical and Electronic Department, TR 06800, Bilkent/Ankara/Turkeyhttp://kilyos.ee.bilkent.edu.tr/~billur/ billur '@' ee.bilkent.edu.tr "
+http://archive.ics.uci.edu/ml/datasets/SkillCraft1+Master+Table+Dataset,63836,"   -- Creators: Mark Blair, Joe Thompson, Andrew Henrey, Bill Chen     -- Mark Blair: Department of Psychology; Simon Fraser University; Burnaby;          8888 University Drive; mblair '@' sfu.ca)      -- Date: September, 20, 2013"
+http://archive.ics.uci.edu/ml/datasets/Skin+Segmentation,203490,"Rajen Bhatt, Abhinav Dhall, rajen.bhatt '@' gmail.com, IIT Delhi."
+http://archive.ics.uci.edu/ml/datasets/Smartphone+Dataset+for+Human+Activity+Recognition+%28HAR%29+in+Ambient+Assisted+Living+%28AAL%29,48257,"-- Creators: Kadian Alicia Davis (1), Evans Boateng Owusu (2)     1 -- Department of Electrical, Electronic, Telecommunications Engineering and Naval Architecture (DITEN),           University of Genova, Genoa - Italy     2 -- Independent Researcher,           Eindhoven,           The Netherlands      Donors: E. B. Owusu (owboateng '@' gmail.com), K. A. Davis (kadian.davis '@' gmail.com)     -- Date: March, 2016"
+http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions,173081,"Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Luca Oneto(1) and Xavier Parra(2)
+1 - Smartlab, DIBRIS - Universit�  degli Studi di Genova, Genoa (16145), Italy. 
+2 - CETpD - Universitat Polit�cnica de Catalunya. Vilanova i la Geltr� (08800), Spain
+har '@' smartlab.ws 
+www.smartlab.ws"
+http://archive.ics.uci.edu/ml/datasets/SML2010,127384,"Dr. Francisco Zamora-Martinez, Pablo Romeu-Guallart, Dr. Juan Pardo.francisco.zamora '@' uch.ceu.es Embedded Systems and Artificial Intelligence (ESAI) research groupDep. de Ciencias F�sicas, Matem�ticas y de la Computaci�nUniversidad CEU Cardenal Herrera"
+http://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection,310824,"Tiago A. Almeida (talmeida  ufscar.br)Department of Computer ScienceFederal University of Sao Carlos (UFSCar)Sorocaba, Sao Paulo - Brazil Jos� Mar�a G�mez Hidalgo (jmgomezh  yahoo.es)R&D Department OptenetLas Rozas, Madrid - Spain"
+http://archive.ics.uci.edu/ml/datasets/Solar+Flare,149151,"Donor:  Gary Bradshaw <gbradshaw '@' clipr.colorado.EDU>"
+http://archive.ics.uci.edu/ml/datasets/Somerville+Happiness+Survey,18565,"Waldemar W. Koczkodaj, wkoczkodaj@gmail, independent researcher."
+http://archive.ics.uci.edu/ml/datasets/South+German+Credit,2345,"Ulrike GrömpingBeuth University of Applied Sciences BerlinWebsite with contact information: https://prof.beuth-hochschule.de/groemping/"
+http://archive.ics.uci.edu/ml/datasets/Soybean+%28Large%29,127503,"Origin: R.S. Michalski and R.L. Chilausky ""Learning by Being Told and Learning from Examples: An Experimental Comparison of the Two Methods of Knowledge Acquisition in the Context of Developing an Expert System for Soybean Disease Diagnosis"", International Journal of Policy Analysis and Information Systems, Vol. 4, No. 2, 1980. Donor:  Ming Tan & Jeff Schlimmer (Jeff.Schlimmer%cs.cmu.edu)"
+http://archive.ics.uci.edu/ml/datasets/Soybean+%28Small%29,101965,"Origin: Michalski,R.S. Learning by being told and learning from examples: an experimental comparison of the two methodes of knowledge acquisition in the context of developing an expert system for soybean desease diagnoiss"", International Journal of Policy Analysis and Information Systems, 1980, 4(2), 125-161. Donor:  Doug Fisher (dfisher%vuse '@' uunet.uucp)"
+http://archive.ics.uci.edu/ml/datasets/Spambase,516387,"Creators:  Mark Hopkins, Erik Reeber, George Forman, Jaap SuermondtHewlett-Packard Labs, 1501 Page Mill Rd., Palo Alto, CA 94304 Donor:  George Forman (gforman at nospam hpl.hp.com)  650-857-7835"
+http://archive.ics.uci.edu/ml/datasets/Speaker+Accent+Recognition,2976,"Ernest FokoueSchool of Mathematical SciencesRochester Institute of TechnologyRochester, NY 14623, USAepfeqa '@' rit.edu"
+http://archive.ics.uci.edu/ml/datasets/SPECT+Heart,204736,"Original Owners: 
+ Krzysztof J. Cios, Lukasz A. Kurgan
+University of Colorado at Denver, Denver, CO 80217, U.S.A.
+Krys.Cios '@' cudenver.edu Lucy S. Goodenday
+Medical College of Ohio, OH, U.S.A.
+ Donors: 
+ Lukasz A.Kurgan, Krzysztof J. Cios"
+http://archive.ics.uci.edu/ml/datasets/SPECTF+Heart,93748,"Original owners:  1. Krzysztof J. Cios, Lukasz A. KurganUniversity of Colorado at Denver, Denver, CO 80217, U.S.A.Krys.Cios '@' cudenver.edu  2. Lucy S. GoodendayMedical College of Ohio, OH, U.S.A. Donors:  Lukasz A.Kurgan, Krzysztof J. Cios"
+http://archive.ics.uci.edu/ml/datasets/Spoken+Arabic+Digit,77922,"Data Collected by the Laboratory of Automatic and Signals,
+University of Badji-Mokhtar
+Annaba, Algeria.
+ Direction: Prof.Mouldi Bedda
+Participants: H.Dahmani, C.Snani, MC.Amara Korba, S.Atoui
+Adapted and preprocessed by :
+                        Nacereddine Hammami and Mouldi Bedda
+                          Faculty of Engineering,
+                          Al-Jouf University
+Sakaka, Al-Jouf
+Kingdom of Saudi Arabia
+                          e-mail: nacereddine.hammami '@' gmail.com mouldi_bedda '@' yahoo.fr Date: October, 2008"
+http://archive.ics.uci.edu/ml/datasets/Sponge,93881,"Creators:  Iosune Uriz and Marta DomingoCentre d'Estudis Aban\c{c}ats de Blanes (CSIC)Cami de Santa Barbara. Blanes (Girona). Spain Donor:  Javier B\'ejar and Ulises Cort\'es (bejar '@' lsi.upc.es)Dept. Llenguatges i Sistemes Inform\`atics;Universitat Politecnica de Catalunya. Barcelona; Spain"
+http://archive.ics.uci.edu/ml/datasets/Sports+articles+for+objectivity+analysis,34490,"Yara Rizk, American University of Beirut (yar01 '@' aub.edu.lb)Mariette Awad, American University of Beirut (mariette.awad '@' aub.edu.lb)"
+http://archive.ics.uci.edu/ml/datasets/Statlog+%28Australian+Credit+Approval%29,168169,"(confidential) Submitted by quinlan '@' cs.su.oz.au"
+http://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29,625844,"Professor Dr. Hans Hofmann  Institut f""ur Statistik und ""Okonometrie  Universit""at Hamburg  FB Wirtschaftswissenschaften  Von-Melle-Park 5    2000 Hamburg 13 "
+http://archive.ics.uci.edu/ml/datasets/Statlog+%28Image+Segmentation%29,61416,"Creators:  Vision Group, University of Massachusetts Donor:  Vision Group (Carla Brodley, brodley '@' cs.umass.edu)"
+http://archive.ics.uci.edu/ml/datasets/Statlog+%28Landsat+Satellite%29,133621,"    Ashwin Srinivasan     Department of Statistics and Data Modeling     University of Strathclyde     Glasgow     Scotland     UK ross '@' uk.ac.turing  	The original Landsat data for this database was generated	from data purchased from NASA by the Australian Centre	for Remote Sensing, and used for research at:		The Centre for Remote Sensing		University of New South Wales		Kensington, PO Box 1		NSW 2033		Australia.      The sample database was generated taking a small section (82     rows and 100 columns) from the original data. The binary values     were converted to their present ASCII form by Ashwin Srinivasan.     The classification for each pixel was performed on the basis of     an actual site visit by Ms. Karen Hall, when working for Professor     John A. Richards, at the Centre for Remote Sensing at the University     of New South Wales, Australia. Conversion to 3x3 neighbourhoods and     splitting into test and training sets was done by Alistair Sutherland."
+http://archive.ics.uci.edu/ml/datasets/Statlog+%28Shuttle%29,138580,"Donor: Jason Catlett Basser Department of Computer Science, University of Sydney, N.S.W., Australia  "
+http://archive.ics.uci.edu/ml/datasets/Statlog+%28Vehicle+Silhouettes%29,127860,"SOURCE: 	Drs.Pete Mowforth and Barry Shepherd	Turing Institute	George House	36 North Hanover St.	Glasgow	G1 2AD CONTACT: 	Alistair Sutherland	Statistics Dept.	Strathclyde University	Livingstone Tower	26 Richmond St.	GLASGOW G1 1XH	Great Britain 	Tel: 041 552 4400 x3033 	Fax: 041 552 4711  	e-mail: alistair '@' uk.ac.strathclyde.stams "
+http://archive.ics.uci.edu/ml/datasets/Statlog+Project,47497,"Origin: The Stalog databases are a subset of the datasets used in the European Statlog project. Donor:  Ross D. KingDepartment of Statistics and Modelling ScienceUniversity of StrathclydeGlasgow G1 1XHScotlandU.K.+44 41 552-4400 x 3033Fax +44 41 552-4711ross '@' turing.uk.ac"
+http://archive.ics.uci.edu/ml/datasets/Steel+Plates+Faults,81708,"Semeion, Research Center of Sciences of Communication, Via Sersale 117, 00128, Rome, Italy.www.semeion.it"
+http://archive.ics.uci.edu/ml/datasets/Stock+portfolio+performance,64432,"Name: I-Cheng Yehemail addresses: (1) 140910 '@' mail.tku.edu.tw (2) icyeh '@' chu.edu.tw institutions: (1) Department of Information Management, Chung Hua University, Taiwan. (2) Department of Civil Engineering, Tamkang University, Taiwan.other contact information: 886-2-26215656 ext. 3181"
+http://archive.ics.uci.edu/ml/datasets/StoneFlakes,62631,"Owner: Thomas Weber
+       Landesamt f�r Denkmalpflege und Arch�ologie Sachsen-Anhalt
+       Richard-Wagner-Str. 9
+       06114 Halle/Germany
+ tweber '@' lda.mk.sachsen-anhalt.de  Donor: Gunter Ritter
+       University of Passau
+       94030 Passau/Germany
+ ritter '@' fim.uni-passau.de"
+http://archive.ics.uci.edu/ml/datasets/Student+Academics+Performance,64126,"Dr Sadiq Hussain, Dibrugarh University, Dibrugarh, Assam, India, sadiq '@' dibru.ac.in"
+http://archive.ics.uci.edu/ml/datasets/Student+Loan+Relational,67873,"Donor:  Michael J. Pazzani University of California, IrvineIrvine, CA USA"
+http://archive.ics.uci.edu/ml/datasets/Student+Performance,731076,"Paulo Cortez, University of Minho, Guimar�es, Portugal, http://www3.dsi.uminho.pt/pcortez "
+http://archive.ics.uci.edu/ml/datasets/Superconductivty+Data,42447,"Kam Ham idieh, khamidieh '@' gmail.com, University of Pennsylvania, Statistics"
+http://archive.ics.uci.edu/ml/datasets/SUSY,70007,"Daniel Whiteson daniel '@' uci.edu, Assistant Professor, Physics & Astronomy, Univ. of California Irvine"
+http://archive.ics.uci.edu/ml/datasets/Swarm+Behaviour,2088,"Dr Shadi Abpeikar- s.abpeikar '@' adfa.edu.au, University of New South Wales, Australia. A/Prof Kathryn Kasmarik- kathryn.kasmarik '@' adfa.edu.au, University of New South Wales, Australia. A/Prof Michael Barlow- m.barlow '@' adfa.edu.au, University of New South Wales, Australia.Md Mohiuddin Khan- mohiuddin.khan '@' student.unsw.edu.au, University of New South Wales, Australia."
+http://archive.ics.uci.edu/ml/datasets/Synthetic+Control+Chart+Time+Series,80071,"Dr Robert Alcock rob '@' skyblue.csd.auth.gr "
+http://archive.ics.uci.edu/ml/datasets/Syskill+and+Webert+Web+Page+Ratings,67595,"Michael PazzaniDepartment of Information and Computer Science,University of California, IrvineIrvine, CA 92697-3425 pazzani '@' ics.uci.edu http://www.ics.uci.edu/~pazzani"
+http://archive.ics.uci.edu/ml/datasets/Tamilnadu+Electricity+Board+Hourly+Readings,74033,"K.Kalyani ,kkalyanims '@' gmail.com,T.U.K Arts College,Karanthai,Thanjavur."
+http://archive.ics.uci.edu/ml/datasets/Tarvel+Review+Ratings,51016,"Shini Renjith, shinirenjith '@' gmail.com"
+http://archive.ics.uci.edu/ml/datasets/Taxi+Service+Trajectory+-+Prediction+Challenge%2C+ECML+PKDD+2015,81736,Challenge Chair: Luis Moreira-MatiasSteering Committee: - Michel Ferreira - Joao Mendes-Moreiratst.challenge '@' ecmlpkdd2015.orghttp://www.geolink.pt/ecmlpkdd2015-challenge/whoweare.html
+http://archive.ics.uci.edu/ml/datasets/Teaching+Assistant+Evaluation,161779,"Collector: 
+ Wei-Yin Loh (Department of Statistics, UW-Madison)
+ Donor:
+ Tjen-Sien Lim (limt '@' stat.wisc.edu)"
+http://archive.ics.uci.edu/ml/datasets/Tennis+Major+Tournament+Match+Statistics,100483,"Shruti JauhariDepartment of Computer ScienceRochester Institute of TechnologyRochester, NY 14623eMail: sxj6633 '@' rit.edu  Aniket MorankarDepartment of Computer ScienceRochester Institute of TechnologyRochester, NY 14623eMail: asm6887 '@' rit.edu  Ernest FokoueCenter for Quality of Applied StatisticsRochester Institute of TechnologyRochester, NY 14623eMail: ernest.fokoue '@' rit.edu Phone: 585 475 7525 or 575 643 5549"
+http://archive.ics.uci.edu/ml/datasets/Thoracic+Surgery+Data,100717,"Creators: Marek Lubicz (1), Konrad Pawelczyk (2), Adam Rzechonek (2), Jerzy Kolodziej (2)  -- (1) Wroclaw University of Technology, wybrzeze Wyspianskiego 27, 50-370, Wroclaw, Poland  -- (2) Wroclaw Medical University, wybrzeze L. Pasteura 1, 50-367 Wroclaw, Poland Donor: Maciej Zieba (maciej.zieba '@' pwr.wroc.pl), Jakub M. Tomczak (jakub.tomczak '@' pwr.wroc.pl), (+48) 71 320 44 53    Date: November, 2013"
+http://archive.ics.uci.edu/ml/datasets/Thyroid+Disease,237967,Ross Quinlan
+http://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame,242052,"Creator:  David W. Aha (aha '@' cs.jhu.edu) Donor:  David W. Aha (aha '@' cs.jhu.edu)"
+http://archive.ics.uci.edu/ml/datasets/Trains,154933,"Original owners:  Ryszard S. Michalski (michalski '@' aic.gmu.edu) and Robert Stepp Donor:  GMU, Center for AI, Software Librarian, Eric E. Bloedorn (bloedorn '@' aic.gmu.edu) "
+http://archive.ics.uci.edu/ml/datasets/Travel+Reviews,70477,"Shini Renjith, shinirenjith '@' gmail.com"
+http://archive.ics.uci.edu/ml/datasets/TTC-3600%3A+Benchmark+dataset+for+Turkish+text+categorization,14579,"Assist.Prof.Dr. Deniz KILIN耡, Faculty of Technology, Celal Bayar University, Turkey
+drdenizkilinc'@'gmail.com"
+http://archive.ics.uci.edu/ml/datasets/Turkiye+Student+Evaluation,99876,"Ernest Fokoue
+Center for Quality and Applied Statistics
+Rochester Institute of Technology
+98 Lomb Memorial Drive
+Rochester, NY 14623, USA 
+eMaÄ±l: epfeqa '@' rit.edu  Necla Gunduz
+Department of Statistics 
+Faculty of Science, Gazi University
+Teknikokullar,06500 Ankara, Turkey 
+eMail: ngunduz '@' gazi.edu.tr gunduznecla '@' yahoo.com "
+http://archive.ics.uci.edu/ml/datasets/TV+News+Channel+Commercial+Detection+Dataset,72227,"Dr. Prithwijit Guha , Raghvendra D. Kannao and Ravishankar SoniMultimedia Analytics Lab, Department of Electrical and Electronics Engineering, Indian Institute of Technology, Guwahati, Indiardkannao '@' gmail.com , prithwijit.guha '@' gmail.com "
+http://archive.ics.uci.edu/ml/datasets/Twenty+Newsgroups,114232,"Original Owner and Donor:
+ Tom Mitchell
+School of Computer Science 
+Carnegie Mellon University
+tom.mitchell '@' cmu.edu http://www.cs.cmu.edu/~tom/"
+http://archive.ics.uci.edu/ml/datasets/Twin+gas+sensor+arrays,47611,"Jordi Fonollosa, jfonollosa '@' ibecbarcelona.eu, Institute for Bioengineering of Catalunya. "
+http://archive.ics.uci.edu/ml/datasets/Twitter+Data+set+for+Arabic+Sentiment+Analysis,90919,"N. A. Abdulla, naabdulla11 '@' cit.just.edu.jo"
+http://archive.ics.uci.edu/ml/datasets/UbiqLog+%28smartphone+lifelogging%29,30464,Reza Rawassizadeh rrawassizadeh '@' acm.org. University of California Riverside.
+http://archive.ics.uci.edu/ml/datasets/UJI+Pen+Characters,97231,"D. Llorens, F. Prat, A. Marzal, J. M. Vilar
+Departamento de Lenguajes y Sistemas Informáticos
+Universitat Jaume I, 12071 Castellón (SPAIN)
+fprat '@' lsi.uji.es"
+http://archive.ics.uci.edu/ml/datasets/UJI+Pen+Characters+%28Version+2%29,65185,"        F. Prat(*), M. J. Castro(+), D. Llorens(*), A. Marzal(*), and J. M. Vilar(*)         * Departamento de Lenguajes y Sistemas Informáticos          Universitat Jaume I (UJI), 12071 Castellón, SPAIN         + Departamento de Sistemas Informáticos y Computación          Universidad Politécnica de Valencia (UPV), 46071 Valencia, SPAIN  fprat '@' lsi.uji.es         December 2008"
+http://archive.ics.uci.edu/ml/datasets/UJIIndoorLoc,97057,"Donors/Contact Joaquín Torres-Sospedra jtorres +@+ uji.es Raul Montoliu montoliu +@+ uji.es Adolfo Martínez-Usó admarus +@+ upv.es Joaquín Huerta huerta +@+ uji.es UJI - Institute of New Imaging Technologies, Universitat Jaume I, Avda. Vicente Sos Baynat S/N, 12071, Castellón, Spain. UPV - Departamento de Sistemas Informáticos y Computación, Universitat Politècnica de València, Valencia, Spain. Creators Joaquín Torres-Sospedra, Raul Montoliu, Adolfo Martínez-Usó, Tomar J. Arnau, Joan P. Avariento, Mauri Benedito-Bordonau, Joaquín Huerta, Yasmina Andreu, óscar Belmonte, Vicent Castelló, Irene Garcia-Martí, Diego Gargallo, Carlos Gonzalez, Nadal Francisco, Josep López, Ruben Martínez, Roberto Mediero, Javier Ortells, Nacho Piqueras, Ianisse Quizán, David Rambla, Luis E. Rodríguez, Eva Salvador Balaguer, Ana Sanchís, Carlos Serra, and Sergi Trilles."
+http://archive.ics.uci.edu/ml/datasets/UJIIndoorLoc-Mag,42843,"DonorsDavid Rambla, Joaqu�n Torres-Sospedra, Ra�l Montoliu, Oscar Belmonte and Joaqu�n HuertaInstitute of New Imaging Technologies, Universitat Jaume I, Castell�n, Spain ContactJoaqu�n Torres-Sospedra jtorres +@+ uji.es Raul Montoliu montoliu +@+ uji.es "
+http://archive.ics.uci.edu/ml/datasets/Ultrasonic+flowmeter+diagnostics,16637,"Kojo Sarfo GyamfiCoventry University, UKgyamfik '@' uni.coventry.ac.uk  Craig MarshallNational Engineering Laboratory, TUV-NEL, UKCraig.Marsall '@' tuv-sud.co.uk"
+http://archive.ics.uci.edu/ml/datasets/University,220698,"Original Owner: 
+ unknown
+ Donor:  
+ Steve Souders <souders '@' ads.com>"
+http://archive.ics.uci.edu/ml/datasets/University+of+Tehran+Question+Dataset+2016+%28UTQD.2016%29,12470,"Mohammad Razzaghnoori/Dept. of Mathematics, Statistics and Computer Science, College of Science, University of Tehran/m.razzaghnoori@ut.ac.ir
+Hedieh Sajedi/ Dept. of Mathematics, Statistics and Computer Science, College of Science, University of Tehran/hhsajedi '@' ut.ac.ir Iman Khani Jazani/Dept. of Computer Engineering and Information Technology, AmirKabirUniversity of Technology/imankhanijazani '@' aut.ac.ir"
+http://archive.ics.uci.edu/ml/datasets/UNIX+User+Data,55223,"Terran Lane:terran '@' ecn.purdue.edu"
+http://archive.ics.uci.edu/ml/datasets/Urban+Land+Cover,46854,"Brian Johnson; 
+Institute for Global Environmental Strategies; 
+2108-11 Kamiyamaguchi, Hayama, Kanagawa,240-0115 Japan; 
+Email: Johnson '@' iges.or.jp "
+http://archive.ics.uci.edu/ml/datasets/URL+Reputation,138461,"Identifying Malicious URLs: An Application of Large-Scale Online Learning' (ICML-09)
+Justin Ma, Lawrence K. Saul, Stefan Savage, Geoffrey M. Voelker
+ Please visit [http://sysnet.ucsd.edu/projects/url/] for more information."
+http://archive.ics.uci.edu/ml/datasets/US+Census+Data+%281990%29,156644,"The USCensus1990raw data set was obtained from the (U.S. Department of Commerce) Census Bureau website using the Data Extraction System. This system can be found at http://dataferrett.census.gov/. 
+ Donors:
+ Chris Meek, Microsoft, meek '@' microsoft.com Bo Thiesson, Microsoft, thiesson '@' microsoft.com David Heckerman, Microsoft, heckerma '@' microsoft.com "
+http://archive.ics.uci.edu/ml/datasets/User+Identification+From+Walking+Activity,73025,"Pierluigi Casale, Computer Vision Center, Barcelona, Spain. Email: plcasale '@' ieee.org"
+http://archive.ics.uci.edu/ml/datasets/User+Knowledge+Modeling,126250,"-- Creators: Hamdi Tolga Kahraman (htolgakahraman '@' yahoo.com)   -- Institution: Faculty of Technology, Department of Software Engineering, Karadeniz Technical University, Trabzon, Turkiye -- Creators: Ilhami Colak (icolak '@' gazi.edu.tr)-- Institution: Faculty of Technology, Department of Electrical and Electronics Engineering, Gazi University, Ankara, Turkiye-- Creators: Seref Sagiroglu (ss '@' gazi.edu.tr)-- Institution: Faculty of Technology, Department of Computer Engineering, Gazi University, Ankara, Turkiye    -- Donor: undergraduate students of Department of Electrical Education of Gazi University in the  2009 semester   -- Date: October, 2009"
+http://archive.ics.uci.edu/ml/datasets/USPTO+Algorithm+Challenge%2C+run+by+NASA-Harvard+Tournament+Lab+and+TopCoder++++Problem%3A+Pat,33422,"-- Creator: TopCoder, Inc.-- Released under Apache License, Version 2.0http://www.apache.org/licenses/LICENSE-2.0.html"
+http://archive.ics.uci.edu/ml/datasets/Vertebral+Column,170386,"Guilherme de Alencar Barreto (guilherme '@' deti.ufc.br) & Ajalmar R�go da Rocha Neto (ajalmar '@' ifce.edu.br), Department of Teleinformatics Engineering, Federal University of Cear�, Fortaleza, Cear�, Brazil. Henrique Antonio Fonseca da Mota Filho (hdamota '@' gmail.com), Hospital Monte Klinikum, Fortaleza, Cear�, Brazil."
+http://archive.ics.uci.edu/ml/datasets/Vicon+Physical+Action+Data+Set,52601,"Theo TheodoridisSchool of Computer Science and Electronic EngineeringUniversity of EssexWivenhoe Park, Colchester, CO4 3SQ, UKttheod '@' gmail.com http://sites.google.com/site/ttheod/"
+http://archive.ics.uci.edu/ml/datasets/Victorian+Era+Authorship+Attribution,16425,"They're extracted from the GDELT database. The GDELT Project is an open platform for research and analysis of global society and thus all datasets released by the GDELT Project are available for unlimited and unrestricted use for any academic, commercial, or governmental use of any kind without fee."
+http://archive.ics.uci.edu/ml/datasets/Volcanoes+on+Venus+-+JARtool+experiment,48318,"Michael C. Burl
+MS 126-347, JPL
+4800 Oak Grove Drive
+Pasadena, CA 91109
+(818) 393-5345
+Michael.C.Burl '@' jpl.nasa.gov http://www-aig.jpl.nasa.gov/mls/home/burl/"
+http://archive.ics.uci.edu/ml/datasets/Wall-Following+Robot+Navigation+Data,62588,"(a) Creators: 	Ananda Freire, Marcus Veloso and Guilherme Barreto 		Department of Teleinformatics Engineering 		Federal University of Cear�			Fortaleza, Cear�, Brazil   (b) Donors of database: Ananda Freire (anandalf '@' gmail.com)			Guilherme Barreto (guilherme '@' deti.ufc.br)"
+http://archive.ics.uci.edu/ml/datasets/Water+Treatment+Plant,145232,"Creators: 
+ Manel Poch (igte2 '@' cc.uab.es)
+Unitat d'Enginyeria Quimica
+Universitat Autonoma de Barcelona. Bellaterra. Barcelona; Spain
+ Donor: 
+ Javier Bejar and Ulises Cortes (bejar '@' lsi.upc.es)
+Dept. Llenguatges i Sistemes Informatics;
+Universitat Politecnica de Catalunya. Barcelona; Spain"
+http://archive.ics.uci.edu/ml/datasets/Wave+Energy+Converters,17675,"Creator/Donor:  Mehdi Neshat , Optimization and Logistic group, Computer science department, Adelaide University, neshat.mehdi '@' gmail.com, mehdi.neshat '@' adelaide.edu.au. Supervisors:Dr. Markus Wagnerhttps://cs.adelaide.edu.au/users/markus/ https://cs.adelaide.edu.au/~optlog/research/energy.php Dr. Bradley Alexanderhttps://researchers.adelaide.edu.au/profile/bradley.alexander "
+http://archive.ics.uci.edu/ml/datasets/Waveform+Database+Generator+%28Version+1%29,74614,"Original Owners: Breiman,L., Friedman,J.H., Olshen,R.A., & Stone,C.J. (1984). Classification and Regression Trees.  Wadsworth InternationalGroup: Belmont, California.  (see pages 43-49). Donor:  David Aha "
+http://archive.ics.uci.edu/ml/datasets/Waveform+Database+Generator+%28Version+2%29,60447,"Original Owners: Breiman,L., Friedman,J.H., Olshen,R.A., & Stone,C.J. (1984). Classification and Regression Trees.  Wadsworth InternationalGroup: Belmont, California.  (see pages 43-49). Donor:  David Aha "
+http://archive.ics.uci.edu/ml/datasets/Wearable+Computing%3A+Classification+of+Body+Postures+and+Movements+%28PUC-Rio%29,58904,"Pontifical Catholic University of Rio de Janeiro (PUC-Rio)Research Group: Groupware@LESContact: wugulino '@' inf.puc-rio.br http://groupware.les.inf.puc-rio.br/har"
+http://archive.ics.uci.edu/ml/datasets/Website+Phishing,83416," Neda AbdelhamidAuckland Institute of Studiesnedah '@' ais.ac.nz"
+http://archive.ics.uci.edu/ml/datasets/Weight+Lifting+Exercises+monitored+with+Inertial+Measurement+Units,44682,"Wallace Ugulino (wugulino '@' inf.puc-rio.br), Pontifical Catholic University of Rio de Janeiro (Brazil).Eduardo Velloso (e.velloso '@' lancaster.ac.uk), Lancaster University - UK."
+http://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29,37700,"Philip Schmidt, Robert Bosch GmbH, Corporate Research, Germany, firstname.lastname '@' de.bosch.com Attila Reiss, Robert Bosch GmbH, Corporate Research, Germany, firstname.lastname '@' de.bosch.com"
+http://archive.ics.uci.edu/ml/datasets/Wholesale+customers,344519,"Margarida G. M. S. Cardoso, margarida.cardoso '@' iscte.pt, ISCTE-IUL, Lisbon, Portugal"
+http://archive.ics.uci.edu/ml/datasets/wiki4HE,47677,"E. Aibar, J. Llad�s, A. Meseguer, J. Minguill�n (jminguillona[at]uoc[dot]edu), M. Lerga. Universitat Oberta de Catalunya, Barcelona, Spain."
+http://archive.ics.uci.edu/ml/datasets/Wilt,59614,"Brian Johnson;Institute for Global Environmental Strategies;2108-11 Kamiyamaguchi, Hayama, Kanagawa,240-0115 Japan;Email: Johnson '@' iges.or.jp "
+http://archive.ics.uci.edu/ml/datasets/Wine,1452842,"Original Owners: Forina, M. et al, PARVUS - An Extendible Package for Data Exploration, Classification and Correlation. Institute of Pharmaceutical and Food Analysis and Technologies, Via Brigata Salerno, 16147 Genoa, Italy. Donor: Stefan Aeberhard, email: stefan '@' coral.cs.jcu.edu.au"
+http://archive.ics.uci.edu/ml/datasets/Wine+Quality,1267393,"Paulo Cortez, University of Minho, Guimarães, Portugal, http://www3.dsi.uminho.pt/pcortez A. Cerdeira, F. Almeida, T. Matos and J. Reis, Viticulture Commission of the Vinho Verde Region(CVRVV), Porto, Portugal @2009"
+http://archive.ics.uci.edu/ml/datasets/Wireless+Indoor+Localization,44669,"Rajen Bhatt, rajen.bhatt '@' gmail.com"
+http://archive.ics.uci.edu/ml/datasets/WISDM+Smartphone+and+Smartwatch+Activity+and+Biometrics+Dataset+,55928,"Dr. Gary Weiss, gaweiss '@' fordham.edu, Computer and Information Sciences Department, Fordham University."
+http://archive.ics.uci.edu/ml/datasets/Yacht+Hydrodynamics,95331,"Creator: 
+ Ship Hydromechanics Laboratory, Maritime and Transport Technology Department, Technical University of Delft. 
+ Donor: 
+ Dr Roberto Lopez
+E-mail: roberto-lopez '@' users.sourceforge.net "
+http://archive.ics.uci.edu/ml/datasets/YearPredictionMSD,177558,"This data is a subset of the Million Song Dataset:http://labrosa.ee.columbia.edu/millionsong/ a collaboration between LabROSA (Columbia University) and The Echo Nest.Prepared by T. Bertin-Mahieux <tb2332 '@' columbia.edu>"
+http://archive.ics.uci.edu/ml/datasets/Yeast,307503,"Creator and Maintainer: Kenta NakaiInstitue of Molecular and Cellular BiologyOsaka, University1-3 Yamada-oka, Suita 565 Japannakai '@' imcb.osaka-u.ac.jp http://www.imcb.osaka-u.ac.jp/nakai/psort.html  Donor:  Paul Horton (paulh '@' cs.berkeley.edu)"
+http://archive.ics.uci.edu/ml/datasets/YouTube+Comedy+Slam+Preference+Data,92322,"Provided by Google, Inc. Please contact duhadway '@' google.com if you have any questions."
+http://archive.ics.uci.edu/ml/datasets/YouTube+Multiview+Video+Games+Dataset,128065," Omid Madani , madani '@' google.com, Google Inc."
+http://archive.ics.uci.edu/ml/datasets/YouTube+Spam+Collection,81581,This corpus has been collected using the YouTube Data API v3.
+http://archive.ics.uci.edu/ml/datasets/Z-Alizadeh+Sani,21616,"Provide the names, email addresses, institutions, and other contact information of the donors and creators of the data set. Name:Dr Zahra Alizadeh Sani,Associate Professor of cardiology,email:Drzas '@' rhc.ac.ir,institution: Cardiovascular Imaging Department, Rajaei Cardiovascular, Medical & Research Center, Iran University , Tehran, Iran.Post code:1996911151website: http://dralizadehsani.rhc.ac.ir/Files/Forms/2016-11-13_01.46.29_dr.alizadeh.CV.pdf  Name:Roohallah Alizadehsani, PhD studentemail: alizadeh_roohallah '@' yahoo.com institution: Institute for Intelligent Systems Research and Innovation (IISRI), Deakin University, Victoria 3217, Australia.website: http://ce.sharif.ir/~ralizadeh/  Name: Mohamad Roshanzamir, PhD candidateemail: mohamad.roshanzamir '@' ec.iut.ac.ir institution: Electrical and Computer Engineering, Isfahan University of Technology, Isfahan, Iran."
+http://archive.ics.uci.edu/ml/datasets/Zoo,320027,"Creator: Richard Forsyth Donor:  Richard S. Forsyth 8 Grosvenor AvenueMapperley ParkNottingham NG3 5DX0602-621676"

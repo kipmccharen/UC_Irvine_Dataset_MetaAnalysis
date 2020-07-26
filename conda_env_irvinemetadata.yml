@@ -1,0 +1,12 @@
+name: irvine_metadata
+dependencies:
+ - pandas
+ - plotly
+ - numpy
+ - seaborn
+ - bokeh
+ - beautifulsoup4
+ - plotly plotly_express
+ - pip:
+     - pyglet
+     - geoplotlib
