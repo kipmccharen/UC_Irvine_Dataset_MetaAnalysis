@@ -14,7 +14,7 @@ def add_univ_city(dfsrc, uniquedf):
         tester = uniquedf.copy()
         tester['boole'] = tester['LookupVal'].apply(lambda x: x.strip().lower() in rowvals.strip().lower())
         tester = tester[tester['boole'] == True]
-        tester = tester[['University', 'Location']].values.tolist()
+        tester = tester[['University', 'City', 'Country']].values.tolist()
         
         if not tester:
             return ""
@@ -22,7 +22,7 @@ def add_univ_city(dfsrc, uniquedf):
             tester = [list(x) for x in set(tuple(x) for x in tester)]
             return tester
 
-    dfsrc['source_institution_place'] = dfsrc['Source'].apply(get_Univ_Loc_match)
+    dfsrc['source_institution_places'] = dfsrc['Source'].apply(get_Univ_Loc_match)
 
     return dfsrc
 
@@ -160,6 +160,12 @@ def viz_webhits_data_available(base_df, thisdir):
 
     #print(base_df.head())
 
+def join_dfs(cols_source_df, col_to_add, add_to_df, join_on_col):
+    List_cols_to_add = [col_to_add, join_on_col]
+    cols_source_df = cols_source_df[List_cols_to_add]
+    add_to_df = add_to_df.join(cols_source_df.set_index(join_on_col), on=join_on_col)
+    return add_to_df
+
 if __name__ == '__main__':
     start_time = datetime.now()
 
@@ -168,17 +174,29 @@ if __name__ == '__main__':
 
     # 2. src dataset to build on -> dataframe
     src_data = thisdir + r"cleanest_data.csv" #Real dataset
-    #src_data = thisdir + r"dataset_add_Univ_City.csv" #TESTING DATA ONLY
-    base_df = pd.read_csv(src_data, encoding="latin-1")
+    src_df = pd.read_csv(src_data, encoding="latin-1")
+
+    add_loc_data = thisdir + r"dataset_add_Univ_City.csv" #TESTING DATA ONLY
+    add_loc_df = pd.read_csv(add_loc_data, encoding="latin-1")
 
     # # 3. add lookup-text-search institution / location values to src
-    # base_df = add_locations(base_df, thisdir)
+    add_loc_df = add_locations(add_loc_df, thisdir)
+
+    # 3.5 then add those looked up values to the real cleaned dataset
+    src_df = join_dfs(add_loc_df, "source_institution_places",src_df, "NumberofWebHits")
+    src_df['YearAdded'] = src_df['DateDonated'].apply(lambda x: pd.to_datetime(x, infer_datetime_format=True).year)
+    src_df['DatasetAge'] = src_df['YearAdded'].apply(lambda x: 2020-x)
+    
+    def calc_num_cells(x):
+        out = x['NumberofInstances'] * x['NumberofAttributes']
+        return out
+    src_df['DatapointCount'] = src_df.apply(calc_num_cells, axis=1)
 
     # # 4. export finished df to file for easy access
-    # base_df.to_csv(src_data.replace(".csv", "_KMrevised.csv"), encoding="latin-1")
+    src_df.to_csv(src_data.replace(".csv", "_KMaugmented.csv"), encoding="latin-1", index=False)
 
-    viz_stacked_tasks_time(base_df, thisdir)
-    viz_stacked_area_tasks_time(base_df, thisdir)
-    viz_webhits_data_available(base_df, thisdir)
+    # viz_stacked_tasks_time(base_df, thisdir)
+    # viz_stacked_area_tasks_time(base_df, thisdir)
+    # viz_webhits_data_available(base_df, thisdir)
 
     print("--- %s seconds ---" % (datetime.now() - start_time))
