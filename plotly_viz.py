@@ -1,66 +1,22 @@
-import plotly 
 import pandas as pd 
 import numpy as np
 import os
 from datetime import datetime
 import plotly_express as px
 import plotly.graph_objects as go
-
-def add_univ_city(dfsrc, uniquedf):
-
-    def get_Univ_Loc_match(rowvals):
-        if isinstance(rowvals, float) or isinstance(rowvals, int):
-            return ""
-        tester = uniquedf.copy()
-        tester['boole'] = tester['LookupVal'].apply(lambda x: x.strip().lower() in rowvals.strip().lower())
-        tester = tester[tester['boole'] == True]
-        tester = tester[['University', 'Location']].values.tolist()
-        
-        if not tester:
-            return ""
-        else:
-            tester = [list(x) for x in set(tuple(x) for x in tester)]
-            return tester
-
-    dfsrc['source_institution_place'] = dfsrc['Source'].apply(get_Univ_Loc_match)
-
-    return dfsrc
-
-def create_lookup_list(dfsrc):
-    df1 = dfsrc[['University1', 'Location1']]
-    df2 = dfsrc[['University2', 'Location2']]
-    df3 = dfsrc[['University3', 'Location3']]
-    renamecols = ['University', 'Location']
-
-    for i,idf in enumerate([df1, df2, df3]):
-        idf.columns = renamecols
-        if i != 1:
-            df1.append(idf, ignore_index=True, sort=False)
-    
-    unq = df1.groupby(renamecols).size().reset_index()
-    return unq
-
-def add_locations(updatemedf, thisdir):
-    # List of unique identifiers to search in text
-    unique_list_fdir = thisdir + r"uniquelist.csv"
-    uniquedf = pd.read_csv(unique_list_fdir, encoding="latin-1")
-
-    # Use lookup list to find text and look for institution matches, 
-    # once found append unique list of matching institution lookups
-    df = add_univ_city(updatemedf, uniquedf)
-    # Output this to a file for checking and adding more values as needed
-    return df
+import ast
+from collections import Counter
 
 def viz_stacked_tasks_time(df, thisdir):
     
-    df = df[['donated_year', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'reccomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['donated_year'])
+    df = df[['year_donated', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'reccomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['year_donated'])
 
-    df = df.groupby(['donated_year']).sum().reset_index()
+    df = df.groupby(['year_donated']).sum().reset_index()
     df.columns = [x.replace("_", " ").replace(" Task", "").title() for x in list(df.columns.values)]
     # print(df)
     # quit()
     collist = list(df.columns.values)[1:]
-    fig = px.bar(df, x='Donated Year', \
+    fig = px.bar(df, x='Year Donated', \
         y=collist, \
         title="Dataset Count by ML Research Area by Year Submitted", \
         color_discrete_sequence=px.colors.qualitative.Set2)
@@ -75,8 +31,8 @@ def viz_stacked_tasks_time(df, thisdir):
 
 def viz_stacked_area_tasks_time(df, thisdir):
 
-    df = df[['donated_year', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'reccomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['donated_year'])
-    df = df.groupby(['donated_year']).sum().reset_index()
+    df = df[['year_donated', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'reccomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['year_donated'])
+    df = df.groupby(['year_donated']).sum().reset_index()
     df.columns = [x.replace("_", " ").title().replace(" Task", "") for x in list(df.columns.values)]
     collist = list(df.columns.values)[1:]
 
@@ -93,7 +49,7 @@ def viz_stacked_area_tasks_time(df, thisdir):
     # print(df.head())
     # quit()
     # quit()
-    fig2 = px.bar(df, x='Donated Year', \
+    fig2 = px.bar(df, x='Year Donated', \
         y=collist, \
         title="Dataset Count by ML Research Area by Year Submitted", \
         color_discrete_sequence=px.colors.qualitative.Set2)
@@ -114,51 +70,107 @@ def viz_webhits_data_available(base_df, thisdir):
     from plotly.subplots import make_subplots
     import math
 
-    def calc_num_cells(x):
-        out = x['NumberofInstances'] * x['NumberofAttributes']
-        return out
+    base_df = base_df[['DatasetAge', 'DatapointCount', 'NumberofWebHits']]
 
-    base_df['total_cells'] = base_df.apply(calc_num_cells, axis=1)
-    base_df = base_df[['donated_year', 'total_cells', 'NumberofWebHits']]
+    base_df = base_df.groupby(['DatasetAge']).sum().reset_index().sort_values(by=['DatasetAge'])
 
-    base_df = base_df.groupby(['donated_year']).sum().reset_index().sort_values(by=['donated_year'])
-
-    base_df['t_cell_cum'] = base_df['total_cells'].cumsum()
-    base_df['t_cell_cum'] = np.log(base_df['t_cell_cum'])
+    base_df['LogWebhits'] = base_df['NumberofWebHits'].apply(lambda x: np.log(x) +1)
+    base_df['LogDatapointsAdded'] = base_df['DatapointCount'].apply(lambda x: np.log(x) +1)
 
     fig3 = make_subplots(specs=[[{"secondary_y": True}]])
 
     # Add traces
     fig3.add_trace(
-        go.Scatter(x=base_df['donated_year'], 
-            y=base_df['NumberofWebHits'], 
-            name="Sum of Web Hits Across Datasets",
+        go.Scatter(x=base_df['DatasetAge'], 
+            y=base_df['LogWebhits'], 
+            name="Log of Web Hits Across Datasets",
             line_shape='spline'),
             secondary_y=False,
     )
 
     fig3.add_trace(
-        go.Scatter(x=base_df['donated_year'], y=base_df['t_cell_cum'], 
-            name="Log of Accumulating Count of Available Datapoints",
+        go.Scatter(x=base_df['DatasetAge'], y=base_df['LogDatapointsAdded'], 
+            name="Log of Datapoints Added",
             line_shape='spline'),
             secondary_y=True
     )
+
     # Add figure title
-    fig3.update_layout(
-        title_text="Webhits vs Accumulating Census of Datapoints Available",
+    fig3.update_layout(template="plotly_white",
+        title_text="Webhits vs Count of Datapoints Added by Dataset Age on Website",
         legend=dict(
-            x=0.25,
+            x=0.39,
             y=0.80,
             traceorder="normal")
     )
 
     # Set y-axes titles
-    fig3.update_yaxes(title_text="Sum of Web Hits Across Datasets", secondary_y=False)
-    fig3.update_yaxes(title_text="Log of Accumulating Count of Available Datapoints", secondary_y=True)
+    fig3.update_yaxes(title_text="Log of Web Hits to Datasets Added", secondary_y=False)
+    fig3.update_yaxes(title_text="Log of Datapoints Added", secondary_y=True)
 
+    fig3.update_xaxes(autorange="reversed", title_text="Dataset Age / Years Since Dataset Added")
     fig3.write_html(thisdir + "viz_webhits_vs_datapoint_census.html")
 
     #print(base_df.head())
+
+
+def worldmap(df, thisdir):
+    #'multivariate_data', 'time_series_data', 'data_generator_data', 'domain_theory_data', 'image_data', 'relational_data', 'sequential_data', 'spatial_data', 'univariate_data', 'spatio_temporal_data', 'text_data', 'transactional_data'
+    df = df[df['source_institution_places'].str.len() > 6]
+    datasetcount = len(df.index)
+    srclist = df[['source_institution_places']].values.tolist()
+    countrylist = []
+    for x in srclist:
+        if x != [np.nan]:
+            x = ast.literal_eval(x[0])
+            for xsub in x:
+                countrylist.append(xsub)
+    df = pd.DataFrame(countrylist, columns = ['University', 'City', 'Country', 'CODE'])
+    #Countrylist = list(Counter(countrylist))
+    df = df.groupby(['Country', 'CODE'],as_index=False).size().reset_index()
+    df.columns = [*df.columns[:-1], 'Dataset Count']
+    maxcount = df['Dataset Count'].max()
+
+    def dataset_count_calc(x):
+        maxval = 12
+        out = (float(x) * 100.00) / float(datasetcount)
+        out = maxval if out > maxval else out
+        return out
+
+    df['Dataset Count Pct'] = df['Dataset Count'].apply(dataset_count_calc)
+
+    fig = go.Figure(
+        data=go.Choropleth(
+        locations = df['CODE'],
+        z = df['Dataset Count Pct'],
+        text = df['Country'],
+        colorscale = 'Blues',
+        autocolorscale=False,
+        reversescale=False,
+        marker_line_color='darkgray',
+        marker_line_width=0.5,
+        colorbar_title = r'Sourced % Datasets',
+    ))  
+    fig.update_layout(
+        margin={"r":0,"t":0,"l":0,"b":0},
+        title_text='UC Irvine ML Dataset Analysis',
+        geo=dict(
+            showframe=False,
+            showcoastlines=False,
+            projection_type='conic equal area'  #eckert4, conic equal area
+        ),
+    #The available projections are 'equirectangular', 'mercator', 'orthographic', 'natural earth', 'kavrayskiy7', 'miller', 'robinson', 'eckert4', 'azimuthal equal area', 'azimuthal equidistant', 'conic equal area', 'conic conformal', 'conic equidistant', 'gnomonic', 'stereographic', 'mollweide', 'hammer', 'transverse mercator', 'albers usa', 'winkel tripel', 'aitoff' and 'sinusoidal'.
+        annotations = [dict(
+            x=0.55,
+            y=0.1,
+            xref='paper',
+            yref='paper',
+            text='Source: <a href="http://archive.ics.uci.edu/ml/datasets.php">\
+                UCI Machine Learning Repository</a>',
+            showarrow = False
+        )]
+    )
+    fig.write_html(thisdir + "viz_worldmap_sourced_pct_datasets.html")
 
 if __name__ == '__main__':
     start_time = datetime.now()
@@ -167,18 +179,13 @@ if __name__ == '__main__':
     thisdir = os.path.dirname(os.path.abspath(__file__)) + r"\\"
 
     # 2. src dataset to build on -> dataframe
-    src_data = thisdir + r"cleanest_data.csv" #Real dataset
-    #src_data = thisdir + r"dataset_add_Univ_City.csv" #TESTING DATA ONLY
-    base_df = pd.read_csv(src_data, encoding="latin-1")
+    src_data = thisdir + r"cleanest_data_KMaugmented.csv"
+    src_df = pd.read_csv(src_data, encoding="latin-1")
 
-    # # 3. add lookup-text-search institution / location values to src
-    # base_df = add_locations(base_df, thisdir)
-
-    # # 4. export finished df to file for easy access
-    # base_df.to_csv(src_data.replace(".csv", "_KMrevised.csv"), encoding="latin-1")
-
-    viz_stacked_tasks_time(base_df, thisdir)
-    viz_stacked_area_tasks_time(base_df, thisdir)
-    viz_webhits_data_available(base_df, thisdir)
+    # 3. Make visualizations
+    viz_stacked_tasks_time(src_df, thisdir)
+    viz_stacked_area_tasks_time(src_df, thisdir)
+    viz_webhits_data_available(src_df, thisdir)
+    worldmap(src_df, thisdir)
 
     print("--- %s seconds ---" % (datetime.now() - start_time))
