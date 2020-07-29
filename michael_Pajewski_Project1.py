@@ -16,7 +16,10 @@ df = pd.read_csv('cleanest_data.csv')
 
 
 
-    
+df_year_avg_instance = df.groupby(['year_donated','Area']).mean().reset_index()
+
+
+
     
     
 
