@@ -16,5 +16,5 @@ ax1 = df.plot.scatter(x='DateDonated',
 
 ax1.set_ylim(0,100)
 
-
+ax1.show()
 
