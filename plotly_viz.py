@@ -7,6 +7,8 @@ import plotly.graph_objects as go
 import ast
 from collections import Counter
 
+country_codes = pd.read_csv('all_country_codes.csv')
+
 def viz_stacked_tasks_time(df, thisdir):
     
     df = df[['year_donated', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'reccomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['year_donated'])
@@ -131,6 +133,14 @@ def worldmap(df, thisdir):
     df.columns = [*df.columns[:-1], 'Dataset Count']
     maxcount = df['Dataset Count'].max()
 
+    #merge dataframes
+    df = df.merge(country_codes, how='right', on=['CODE'])
+    df['Country'] = df['Country_y']
+    df = df.drop(['Country_x', 'Country_y'], axis=1)
+    df = df[df.Country != 'Antarctica']
+    df=df.fillna(0)
+    df['hover_text'] = 'Country: ' + df['Country'] +  '\nNumber of Datasets: ' + df['Dataset Count'].astype(str)
+
     def dataset_count_calc(x):
         maxval = 12
         out = (float(x) * 100.00) / float(datasetcount)
@@ -143,8 +153,8 @@ def worldmap(df, thisdir):
         data=go.Choropleth(
         locations = df['CODE'],
         z = df['Dataset Count Pct'],
-        text = df['Country'],
-        colorscale = 'Blues',
+        hovertext = df['hover_text'],
+        colorscale = 'sunset',
         autocolorscale=False,
         reversescale=False,
         marker_line_color='darkgray',
@@ -157,7 +167,7 @@ def worldmap(df, thisdir):
         geo=dict(
             showframe=False,
             showcoastlines=False,
-            projection_type='conic equal area'  #eckert4, conic equal area
+            projection_type='mercator'  #eckert4, conic equal area
         ),
     #The available projections are 'equirectangular', 'mercator', 'orthographic', 'natural earth', 'kavrayskiy7', 'miller', 'robinson', 'eckert4', 'azimuthal equal area', 'azimuthal equidistant', 'conic equal area', 'conic conformal', 'conic equidistant', 'gnomonic', 'stereographic', 'mollweide', 'hammer', 'transverse mercator', 'albers usa', 'winkel tripel', 'aitoff' and 'sinusoidal'.
         annotations = [dict(
