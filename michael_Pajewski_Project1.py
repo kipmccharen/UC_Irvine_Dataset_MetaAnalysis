@@ -12,8 +12,15 @@ pyo.init_notebook_mode()
 #import data file
 df = pd.read_csv('cleanest_data.csv') 
 
-#grouping by area of interest 
-df_intrest = df.groupby(['Area']).sum()
+
+
+
+
+    
+    
+    
+
+
 
 # plot histigram of count of area of interest
 fig = px.histogram(df, x="Area",
