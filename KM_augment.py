@@ -91,8 +91,8 @@ if __name__ == '__main__':
 
     # 3.5 then add those looked up values to the real cleaned dataset
     src_df = join_dfs(add_loc_df, "source_institution_places",src_df, "NumberofWebHits")
-    src_df['YearAdded'] = src_df['DateDonated'].apply(lambda x: pd.to_datetime(x, infer_datetime_format=True).year)
-    src_df['DatasetAge'] = src_df['YearAdded'].apply(lambda x: 2020-x)
+    src_df['year_donated'] = src_df['DateDonated'].apply(lambda x: pd.to_datetime(x, infer_datetime_format=True).year)
+    src_df['DatasetAge'] = src_df['year_donated'].apply(lambda x: 2020-x)
     
     def calc_num_cells(x):
         out = x['NumberofInstances'] * x['NumberofAttributes']

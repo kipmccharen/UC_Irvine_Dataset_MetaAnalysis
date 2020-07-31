@@ -153,11 +153,15 @@ def plot6():
             'xanchor': 'center',
             'yanchor': 'top'})
 
+<<<<<<< HEAD
+ax1.show()
+=======
     # add boarders to graph
     fig8.update_xaxes(showline=True, linewidth=1, linecolor='black', mirror=True)
     fig8.update_yaxes(showline=True, linewidth=1, linecolor='black', mirror=True)
     return fig8.show()    
 
+>>>>>>> e3b7ca22cb7a5466acf16470e826079d72b308f3
 
 # =============================================================================
 # plot1()

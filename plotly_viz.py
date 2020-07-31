@@ -186,6 +186,51 @@ def worldmap(df, thisdir):
     print(df)
     #fig.write_html(thisdir + "viz_worldmap_sourced_pct_datasets.html")
 
+
+def mike_stacked_bar_chart(df, save_here):
+    """Mike needs a stacked bar chart adding together columns. """
+
+    sum_col_name = 'sum_int_cols' # rename this to whatever
+    list_of_columns_to_sum = ['nnamed', 'header', 'berofinsta'] #??
+    title_for_y_axis = "unknown sum" #??
+    
+    chart_title = "Sum Of Content Area ____  by Year Submitted"
+
+    def addemtogether(x):
+        summed = 0
+        # Need to list columns to be summed togethert here
+        for colname in list_of_columns_to_sum:
+            summed = summed + int(x[colname])
+        return summed
+
+    # Apply above formula to all rows and make a new column
+    df[sum_col_name] = df.apply(addemtogether, axis = 1)
+    
+    # Limit columns to Year, Area, and sum column, sort by year
+    df = df[['year_donated', 'Area', sum_col_name]].sort_values(by=['year_donated'])
+    
+    # Sum together the values by year and area
+    df = df.groupby(['year_donated', 'Area']).sum().reset_index()
+    
+    # Create the chart
+    fig = px.bar(df, x='year_donated', \
+        y=sum_col_name, \
+        color="Area", \
+        title=chart_title, \
+        color_discrete_sequence=px.colors.qualitative.Set2)
+    # For some reason these things have to be in update_layout
+    fig.update_layout(yaxis_title=title_for_y_axis,
+        legend_title="Are of Content Focus"
+        ## commented below is a way to put the legend inside the graph
+        # ,legend=dict(
+        #     x=0.20,
+        #     y=0.75,
+        #     traceorder="normal"
+        # )
+        )
+    # Safe to an html file for interactivity
+    fig.write_html(save_here + "mike_stacked_bar_chart.html")
+
 if __name__ == '__main__':
     start_time = datetime.now()
 
@@ -196,11 +241,20 @@ if __name__ == '__main__':
     src_data = thisdir + r"cleanest_data_KMaugmented.csv"
     src_df = pd.read_csv(src_data, encoding="latin-1")
 
+<<<<<<< HEAD
+    ## 3. Make visualizations
+    # viz_stacked_tasks_time(src_df, thisdir)
+    # viz_stacked_area_tasks_time(src_df, thisdir)
+    # viz_webhits_data_available(src_df, thisdir)
+    # worldmap(src_df, thisdir)
+    mike_stacked_bar_chart(src_df, thisdir)
+=======
     # 3. Make visualizations
     #viz_stacked_tasks_time(src_df, thisdir)
     #viz_stacked_area_tasks_time(src_df, thisdir)
     #viz_webhits_data_available(src_df, thisdir)
     worldmap(src_df, thisdir)
+>>>>>>> e3b7ca22cb7a5466acf16470e826079d72b308f3
 
     print("--- %s seconds ---" % (datetime.now() - start_time))
 
