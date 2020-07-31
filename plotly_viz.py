@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 from datetime import datetime
-import plotly_express as px
+import plotly.express as px
 import plotly.graph_objects as go
 import ast
 from collections import Counter
@@ -11,14 +11,14 @@ country_codes = pd.read_csv('all_country_codes.csv')
 
 def viz_stacked_tasks_time(df, thisdir):
     
-    df = df[['year_donated', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'reccomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['year_donated'])
+    df = df[['YearAdded', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'recomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['YearAdded'])
 
-    df = df.groupby(['year_donated']).sum().reset_index()
+    df = df.groupby(['YearAdded']).sum().reset_index()
     df.columns = [x.replace("_", " ").replace(" Task", "").title() for x in list(df.columns.values)]
     # print(df)
     # quit()
     collist = list(df.columns.values)[1:]
-    fig = px.bar(df, x='Year Donated', \
+    fig = px.bar(df, x='Yearadded', \
         y=collist, \
         title="Dataset Count by ML Research Area by Year Submitted", \
         color_discrete_sequence=px.colors.qualitative.Set2)
@@ -33,8 +33,8 @@ def viz_stacked_tasks_time(df, thisdir):
 
 def viz_stacked_area_tasks_time(df, thisdir):
 
-    df = df[['year_donated', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'reccomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['year_donated'])
-    df = df.groupby(['year_donated']).sum().reset_index()
+    df = df[['YearAdded', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'recomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['YearAdded'])
+    df = df.groupby(['YearAdded']).sum().reset_index()
     df.columns = [x.replace("_", " ").title().replace(" Task", "") for x in list(df.columns.values)]
     collist = list(df.columns.values)[1:]
 
@@ -51,7 +51,7 @@ def viz_stacked_area_tasks_time(df, thisdir):
     # print(df.head())
     # quit()
     # quit()
-    fig2 = px.bar(df, x='Year Donated', \
+    fig2 = px.bar(df, x='Yearadded', \
         y=collist, \
         title="Dataset Count by ML Research Area by Year Submitted", \
         color_discrete_sequence=px.colors.qualitative.Set2)
@@ -127,7 +127,7 @@ def worldmap(df, thisdir):
             x = ast.literal_eval(x[0])
             for xsub in x:
                 countrylist.append(xsub)
-    df = pd.DataFrame(countrylist, columns = ['University', 'City', 'Country', 'CODE'])
+    df = pd.DataFrame(countrylist, columns = ['University', 'City', 'Country', 'CODE',])
     #Countrylist = list(Counter(countrylist))
     df = df.groupby(['Country', 'CODE'],as_index=False).size().reset_index()
     df.columns = [*df.columns[:-1], 'Dataset Count']
@@ -142,9 +142,9 @@ def worldmap(df, thisdir):
     df['hover_text'] = 'Country: ' + df['Country'] +  '\nNumber of Datasets: ' + df['Dataset Count'].astype(str)
 
     def dataset_count_calc(x):
-        maxval = 12
+        #maxval = 15
         out = (float(x) * 100.00) / float(datasetcount)
-        out = maxval if out > maxval else out
+        #out = maxval if out > maxval else out
         return out
 
     df['Dataset Count Pct'] = df['Dataset Count'].apply(dataset_count_calc)
@@ -154,12 +154,14 @@ def worldmap(df, thisdir):
         locations = df['CODE'],
         z = df['Dataset Count Pct'],
         hovertext = df['hover_text'],
-        colorscale = 'sunset',
+        colorscale = 'rdylbu',
         autocolorscale=False,
         reversescale=False,
         marker_line_color='darkgray',
         marker_line_width=0.5,
-        colorbar_title = r'Sourced % Datasets',
+        colorbar_title = 'Sourced % Datasets',
+        zmin=0,
+        zmax=10
     ))  
     fig.update_layout(
         margin={"r":0,"t":0,"l":0,"b":0},
@@ -180,7 +182,9 @@ def worldmap(df, thisdir):
             showarrow = False
         )]
     )
-    fig.write_html(thisdir + "viz_worldmap_sourced_pct_datasets.html")
+
+    print(df)
+    #fig.write_html(thisdir + "viz_worldmap_sourced_pct_datasets.html")
 
 
 def mike_stacked_bar_chart(df, save_here):
@@ -237,11 +241,20 @@ if __name__ == '__main__':
     src_data = thisdir + r"cleanest_data_KMaugmented.csv"
     src_df = pd.read_csv(src_data, encoding="latin-1")
 
+<<<<<<< HEAD
     ## 3. Make visualizations
     # viz_stacked_tasks_time(src_df, thisdir)
     # viz_stacked_area_tasks_time(src_df, thisdir)
     # viz_webhits_data_available(src_df, thisdir)
     # worldmap(src_df, thisdir)
     mike_stacked_bar_chart(src_df, thisdir)
+=======
+    # 3. Make visualizations
+    #viz_stacked_tasks_time(src_df, thisdir)
+    #viz_stacked_area_tasks_time(src_df, thisdir)
+    #viz_webhits_data_available(src_df, thisdir)
+    worldmap(src_df, thisdir)
+>>>>>>> e3b7ca22cb7a5466acf16470e826079d72b308f3
 
     print("--- %s seconds ---" % (datetime.now() - start_time))
+
