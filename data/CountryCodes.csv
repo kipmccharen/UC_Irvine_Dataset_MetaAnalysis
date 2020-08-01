@@ -1,0 +1,250 @@
+country,country1,country2,country3,Two_Letter,Three_Letter,ISO_3166_1_numeric,ISO_3166_1_alpha_3,ISO_3166_1_alpha_2,ICAO_airport_code,E_164,IOC_country_code,Country_code_top_level_domain,ICAO,E_212,NATO,LOC,ITU_Maritime_ID_s_,ITU_letter_code_s_,FIPS_country_code_s_,License_plate_code,GS1,UNDP_country_code,WMO,ITU_callsign_prefixes
+Afghanistan,Afghanistan,Afghanistan,Afghanistan,AF,AFG,4,AFG,AF,OA,93,AFG,.af,YA-,412,AF,AF,401,AFG,AF,AFG,,AFG,AH,"T6A-T6Z, YAA-YAZ"
+Åland Islands,Åland Islands,Åland Islands,Åland Islands,AX,ALA,248,ALA,AX,,358,,.ax,OH-,244,FI-AL,,,,,AX (unofficial),,,,
+Albania,Albania,Albania,Albania,AL,ALB,8,ALB,AL,LA,355,ALB,.al,ZA-,276,AL,AA,201,ALB,AL,AL,530,ALB,AB,ZAA-ZAZ
+Alderney,Alderney,Alderney,Alderney,,GBA,,,,,44,,,,,,,,,,GBA,,,,
+Algeria,Algeria,Algeria,Algeria,DZ,ALG,12,DZA,DZ,DA,213,ALG,.dz,7T-,603,AG,AE,605,ALG,AG,DZ,316,ALG,AL,"7RA-7RZ, 7TA-7YZ"
+American Samoa,American Samoa,American Samoa,American Samoa,AS,ASA,16,ASM,AS,NS,1684,ASA,.as,N-,544,SS,AS,559,SMA,AQ,,,AMS,ZS,
+Andorra,Andorra,Andorra,Andorra,AD,AND,20,AND,AD,,376,AND,.ad,C3-,213,AN,AN,202,AND,AN,AND,,AND,,C3A-C3Z
+Angola,Angola,Angola,Angola,AO,ANG,24,AGO,AO,FN,244,ANG,.ao,D2-,631,AO,AO,603,AGL,AO,ANG (unofficial),,ANG,AN,D2A-D3Z
+Anguilla,Anguilla,Anguilla,Anguilla,AI,AIA,660,AIA,AI,TQ,+1 264,,.ai,VP-LA-,365,AV,AM,301,AIA,AV,,,ANL,AI,
+Antarctica,Antarctica,Antarctica,Antarctica,AQ,ATA,10,ATA,AQ,"NZ, SA, SC",672,,.aq,,,AY,AY,,ATA,AY,,,,AA,
+Antigua and Barbuda,Antigua and Barbuda,Antigua and Barbuda,Antigua and Barbuda,AG,ANT,28,ATG,AG,TA,+1 268,ANT,.ag,V2-,344,AC,AQ,304,ATG,AC,,,ANT,AT,V2A-V2Z
+Argentina,Argentina,Argentina,Argentina,AR,ARG,32,ARG,AR,SA,54,ARG,.ar,"LQ-, LV-",722,AR,AG,701,ARG,AR,RA,778-779,ARG,AG,"AYA-AZZ,L2A-L9Z,LOA-LWZ"
+Armenia,Armenia,Armenia,Armenia,AM,ARM,51,ARM,AM,UD,374,ARM,.am,EK-,283,AM,AI,216,ARM,AM,AM,485,ARM,AY,EKA-EKZ
+Aruba,Aruba,Aruba,Aruba,AW,ARU,533,ABW,AW,TN,297,ARU,.aw,P4-,363,AA,AW,307,ABW,AA,,,ARU,AW,P4A-P4Z
+Australia,Australia,Australia,Australia,AU,AUS,36,AUS,AU,Y,61,AUS,.au,VH-,505,AS,AT,503,AUS,AS,AUS,930-939,AUL,AU,"AXA-AXZ,VHA-VNZ,VZA-VZZ"
+Austria,Austria,Austria,Austria,AT,AUT,40,AUT,AT,LO,43,AUT,.at,OE-,232,AU,AU,203,AUT,AU,A,900-919,AUS,OS,OEA-OEZ
+Azerbaijan,Azerbaijan,Azerbaijan,Azerbaijan,AZ,AZE,31,AZE,AZ,UB,994,AZE,.az,4K-,400,AJ,AJ,423,AZE,AJ,AZ,476,AZE,AJ,4JA-4KZ
+Bahamas,Bahamas,Bahamas,Bahamas,BS,BAH,44,BHS,BS,MY,+1 242,BAH,.bs,C6-,364,BF,BF,"308, 309, 311",BAH,BF,BS,,BHA,BA,C6A-C6Z
+Bahrain,Bahrain,Bahrain,Bahrain,BH,BRN,48,BHR,BH,OB,973,BRN,.bh,A9C-,426,BA,BA,408,BHR,BA,BRN,608,BAH,BN,A9A-A9Z
+Bangladesh,Bangladesh,Bangladesh,Bangladesh,BD,BAN,50,BGD,BD,VG,880,BAN,.bd,S2-,470,BG,BG,405,BGD,BG,BD,,BGD,BW,S2A-S3Z
+Barbados,Barbados,Barbados,Barbados,BB,BAR,52,BRB,BB,TB,+1 246,BAR,.bb,8P-,342,BB,BB,314,BRB,BB,BDS,,BAR,BR,8PA-8PZ
+Belarus,Belarus,Belarus,Belarus,BY,BLR,112,BLR,BY,UM,375,BLR,.by,EW-,257,BO,BW,206,BLR,BO,BY,481,BYE,BY,EUA-EWZ
+Belgium,Belgium,Belgium,Belgium,BE,BEL,56,BEL,BE,EB,32,BEL,.be,OO-,206,BE,BE,205,BEL,BE,B,540-549,BEL,BX,ONA-OTZ
+Belize,Belize,Belize,Belize,BZ,BIZ,84,BLZ,BZ,MZ,501,BIZ,.bz,V3-,702,BH,BH,312,BLZ,BH,BH,,BZE,BH,V3A-V3Z
+Benin,Benin,Benin,Benin,BJ,BEN,204,BEN,BJ,DB,229,BEN,.bj,TY-,616,BN,DM,610,BEN,BN,DY,,BEN,BJ,TYA-TYZ
+Bermuda,Bermuda,Bermuda,Bermuda,BM,BER,60,BMU,BM,TX,+1 441,BER,.bm,"VP-B-, VQ-B-",350,BD,BM,310,BER,BD,,,BER,BE,
+Bhutan,Bhutan,Bhutan,Bhutan,BT,BHU,64,BTN,BT,VQ,975,BHU,.bt,A5-,402,BT,BT,410,BTN,BT,BHT (unofficial),,BHU,B2,A5A-A5Z
+Bolivia,"Bolivia, Plurinational State of",Plurinational State of Bolivia,Bolivia,BO,BOL,68,BOL,BO,SL,591,BOL,.bo,CP-,736,BL,BO,720,BOL,BL,BOL,777,BOL,BO,CPA-CPZ
+Caribbean Netherlands,"Bonaire, Sint Eustatius and Saba",Sint Eustatius and Saba Bonaire,Bonaire,BQ,BES,535,BES,BQ,TN,599,,.bq,,,,,,,,,,,,PJA-PJZ
+Bosnia and Herzegovina,Bosnia and Herzegovina,Bosnia and Herzegovina,Bosnia and Herzegovina,BA,BIH,70,BIH,BA,LQ,387,BIH,.ba,T9-,218,BK,BN,478,BIH,BK,BIH,387,BIH,BG,E7A-E7Z
+Botswana,Botswana,Botswana,Botswana,BW,BOT,72,BWA,BW,FB,267,BOT,.bw,A2-,652,BC,BS,611,BOT,BC,BW,,BOT,BC,"8OA-8OZ, A2A-A2Z"
+Bouvet Island,Bouvet Island,Bouvet Island,Bouvet Island,BV,BVT,74,BVT,BV,,,,.bv,LN-,242,BV,BV,,BVT,BV,,,,BV,
+Brazil,Brazil,Brazil,Brazil,BR,BRA,76,BRA,BR,"SB, SD, SN, SS, SW",55,BRA,.br,"PP-, PR-, PT-, PU-",724,BR,BL,710,B,BR,BR,789-790,BRA,BZ,"PPA-PYZ, ZVA-ZZZ"
+British Indian Ocean Territory,British Indian Ocean Territory,British Indian Ocean Territory,British Indian Ocean Territory,IO,BIO,86,IOT,IO,FJ,246,,.io,G-,,IO,BI,,BIO,IO,,,,BT,
+British Virgin Islands,"Virgin Islands, British",British Virgin Islands,British Virgin Islands,VG,IVB,92,VGB,VG,TU,+1 284,IVB,.vg,VP-LV-,348,VS,VB,378,VRG,VI,BVI,,BVI,VG,
+Brunei,Brunei Darussalam,Brunei Darussalam,Brunei Darussalam,BN,BRU,96,BRN,BN,WB,673,BRU,.bn,V8-,528,BX,BX,508,BRU,BX,BRU,623,BRU,BD,V8A-V8Z
+Bulgaria,Bulgaria,Bulgaria,Bulgaria,BG,BUL,100,BGR,BG,LB,359,BUL,.bg,LZ-,284,BU,BU,207,BUL,BU,BG,380,BUL,BU,LZA-LZZ
+Burkina Faso,Burkina Faso,Burkina Faso,Burkina Faso,BF,BUR,854,BFA,BF,DF,226,BUR,.bf,XT-,613,UV,UV,633,BFA,UV,BF,,BKF,HV,XTA-XTZ
+Burundi,Burundi,Burundi,Burundi,BI,BDI,108,BDI,BI,HB,257,BDI,.bi,9U-,642,BY,BD,609,BDI,BY,RU,,BDI,BI,9UA-9UZ
+Cape Verde,Cabo Verde,Cabo Verde,Cabo Verde,CV,CPV,132,CPV,CV,GV,238,CPV,.cv,D4-,625,CV,CV,617,CPV,CV,CV (unofficial),,CVI,CV,D4A-D4Z
+Cambodia,Cambodia,Cambodia,Cambodia,KH,CAM,116,KHM,KH,VD,855,CAM,.kh,XU-,456,CB,CB,"514, 515",CBG,CB,K,884,CMB,KP,XUA-XUZ
+Cameroon,Cameroon,Cameroon,Cameroon,CM,CMR,120,CMR,CM,FK,237,CMR,.cm,TJ-,624,CM,CM,613,CME,CM,CAM,617,CMR,CM,TJA-TJZ
+Canada,Canada,Canada,Canada,CA,CAN,124,CAN,CA,C,1,CAN,.ca,"C-, CF-, CG-",302,CA,XXC,316,CAN,CA,CDN,"000-139, 754-755",CAN,CN,"CFA-CKZ, CYA-CZZ, VAA-VGZVOA-VOZ, VXA-VYZ, XJA-XOZ"
+Cayman Islands,Cayman Islands,Cayman Islands,Cayman Islands,KY,CAY,136,CYM,KY,MW,+1 345,CAY,.ky,VR-C-,346,CJ,CJ,319,CYM,CJ,,,CAY,GC,
+Central African Republic,Central African Republic,Central African Republic,Central African Republic,CF,CAF,140,CAF,CF,FE,236,CAF,.cf,TL-,623,CT,CX,612,CAF,CT,RCA,,CAF,CE,TLA-TLZ
+Chad,Chad,Chad,Chad,TD,CHA,148,TCD,TD,FT,235,CHA,.td,TT-,622,CD,CD,670,TCD,CD,"TCH, TD",,CHD,CD,TTA-TTZ
+Chile,Chile,Chile,Chile,CL,CHI,152,CHL,CL,"SC, NE",56,CHI,.cl,CC-,730,CI,CL,725,CHL,CI,RCH,780,CHI,CH,"3GA-3GZ,CAA-CEZ,XQA-XRZ"
+China,China,China,China,CN,CHN,156,CHN,CN,"ZB, ZG, ZH, ZJ, ZL, ZPZS, ZT, ZU, ZW, ZY[note 1]",86,CHN,.cn,B-,"460, 461",CH,CC,"412, 413",CHN,CH,PRC (unofficial),690-699,CPR,CI,"3HA-3UZ,BAA-BZZ,XSA-XSZ"
+Christmas Island,Christmas Island,Christmas Island,Christmas Island,CX,CXR,162,CXR,CX,YP,61,,.cx,VH-,505,KT,XA,516,CHR,KT,,,,KI,
+Cocos (Keeling) Islands,"Cocos, Keeling Islands",Keeling Islands Cocos,Cocos,CC,CCK,166,CCK,CC,,61,,.cc,VH-,505,CK,XB,523,ICO,CK,,,,KK,
+Colombia,Colombia,Colombia,Colombia,CO,COL,170,COL,CO,SK,57,COL,.co,"HJ-, HK-",732,CO,CK,730,CLM,CO,CO,770-771,COL,CO,"5JA-5KZ, HJA-HKZ"
+Comoros,Comoros,Comoros,Comoros,KM,COM,174,COM,KM,FMC,269,COM,.km,D6-,654,CN,CQ,616,COM,CN,COM (unofficial),,COI,IC,D6A-D6Z
+Republic of the Congo,Congo,Congo,Congo,CG,CGO,178,COG,CG,FC,242,CGO,.cg,TN-,629,CF,CF,615,COG,CF,RCB,,PRC[note 3],CG,TNA-TNZ
+Cook Islands,Cook Islands,Cook Islands,Cook Islands,CK,COK,184,COK,CK,NC,682,COK,.ck,,548,CW,CW,518,CKH,CW,COK (unofficial),,CKI,KU,E5A-E5Z
+Costa Rica,Costa Rica,Costa Rica,Costa Rica,CR,CRC,188,CRI,CR,MR,506,CRC,.cr,TI-,712,CS,CR,321,CTR,CS,CR,744,COS,CS,"TEA-TEZ, TIA-TIZ"
+Ivory Coast,Côte d'Ivoire,Côte d'Ivoire,Côte d'Ivoire,CI,CIV,384,CIV,CI,DI,225,CIV,.ci,TU-,612,IV,IV,619,CTI,IV,CI,618,IVC[notes 1],IV,TUA-TUZ
+Croatia,Croatia,Croatia,Croatia,HR,CRO,191,HRV,HR,LD,385,CRO,.hr,9A-,219,HR,CI,238,HRV,HR,HR,385,CRO,HR,9AA-9AZ
+Cuba,Cuba,Cuba,Cuba,CU,CUB,192,CUB,CU,MU,53,CUB,.cu,CU-,368,CU,CU,323,CUB,CU,CU,850,CUB,CU,"CLA-CMZ,COA-COZ,T4A-T4Z"
+Curaçao,Curaçao,Curaçao,Curaçao,CW,CUW,531,CUW,CW,TN,599,,.cw,,362,,NA,306,CUW,,,,,NU,PJA-PJZ
+Cyprus,Cyprus,Cyprus,Cyprus,CY,CYP,196,CYP,CY,LC,357,CYP,.cy,5B-,280,CY,CY,"209, 210, 212",CYP,CY,CY,529,CYP,CY,"5BA-5BZ, C4A-C4ZH2A-H2Z, P3A-P3Z"
+Czech Republic,Czechia,Czechia,Czechia,CZ,CZE,203,CZE,CZ,LK,420,CZE,.cz,OK-,230,CZ,XR,270,CZE,EZ,CZ,859,CEH,CZ,OKA-OLZ
+Denmark,Denmark,Denmark,Denmark,DK,DEN,208,DNK,DK,EK[notes 1],45,DEN,.dk,OY-,238,DA,DK,"219, 220",DNK,DA,DK,570-579,DEN,DN,"5PA-5QZ,OUA-OZZ,XPA-XPZ"
+Djibouti,Djibouti,Djibouti,Djibouti,DJ,DJI,262,DJI,DJ,HD,253,DJI,.dj,J2-,638,DJ,FT,621,DJI,DJ,DJI (unofficial),,DJI,DJ,J2A-J2Z
+Dominica,Dominica,Dominica,Dominica,DM,DMA,212,DMA,DM,TD,+1 767,DMA,.dm,J7-,356,DO,DQ,325,DMA,DO,WD,,DMI,DO,J7A-J7Z
+Dominican Republic,Dominican Republic,Dominican Republic,Dominican Republic,DO,DOM,214,DOM,DO,MD,"+1 809, +1 829, +1 849",DOM,.do,HI-,370,DR,DR,327,DOM,DR,DOM,746,DOM,DR,HIA-HIZ
+Democratic Republic of the Congo,"Congo, Democratic Republic of the",Democratic Republic of the Congo,DR Congo,CD,COD,180,COD,CD,FZ,243,COD,.cd,9Q-,630,CG,CG,676,COD,CG,ZRE,,ZAI[note 2],ZR,9OA-9TZ
+Ecuador,Ecuador,Ecuador,Ecuador,EC,ECU,218,ECU,EC,SE,593,ECU,.ec,HC-,740,EC,EC,735,EQA,EC,EC,786,ECU,EQ,HCA-HDZ
+Egypt,Egypt,Egypt,Egypt,EG,EGY,818,EGY,EG,HE,20,EGY,.eg,SU-,602,EG,UA,622,EGY,EG,ET,622,EGY,EG,"6AA-6BZ,SSA-SSM,SUA-SUZ"
+El Salvador,El Salvador,El Salvador,El Salvador,SV,ESA,222,SLV,SV,MS,503,ESA,.sv,YS-,706,ES,ES,359,SLV,ES,ES,741,ELS,ES,"HUA-HUZ, YSA-YSZ"
+Equatorial Guinea,Equatorial Guinea,Equatorial Guinea,Equatorial Guinea,GQ,GEQ,226,GNQ,GQ,FG,240,GEQ,.gq,3C-,627,EK,EG,631,GNE,EK,GQ (unofficial),,EQG,GQ,3CA-3CZ
+Eritrea,Eritrea,Eritrea,Eritrea,ER,ERI,232,ERI,ER,HH,291,ERI,.er,E3-,657,ER,EA,625,ERI,ER,ER,,ERI,E12,E3A-E3Z
+Estonia,Estonia,Estonia,Estonia,EE,EST,233,EST,EE,EE,372,EST,.ee,ES-,248,EN,ER,276,EST,EN,EST,474,EST,EO,ESA-ESZ
+Eswatini,Eswatini,Eswatini,Eswatini,SZ,SWZ,748,SWZ,SZ,FD,268,SWZ,.sz,3D-,653,WZ,SQ,669,SWZ,WZ,SD,,SWA,SV,3DA-3DM
+Ethiopia,Ethiopia,Ethiopia,Ethiopia,ET,ETH,231,ETH,ET,HA,251,ETH,.et,ET-,636,ET,ET,624,ETH,ET,ETH,,ETH,ET,"9EA-9FZ, ETA-ETZ"
+Falkland Islands,"Falkland Islands, Malvinas",Malvinas Falkland Islands,Falkland Islands,FK,FLK,238,FLK,FK,SF,500,,.fk,VP-F-,,FK,FK,740,FLK,FK,,,,FK,
+Faroe Islands,Faroe Islands,Faroe Islands,Faroe Islands,FO,FRO,234,FRO,FO,,298,,.fo,G-,288,FO,FA,231,FRO,FO,FO,,,FA,
+Fiji,Fiji,Fiji,Fiji,FJ,FIJ,242,FJI,FJ,NF,679,FIJ,.fj,DQ-,542,FJ,FJ,520,FJI,FJ,FJI,,FIJ,FJ,3DN-3DZ
+Finland,Finland,Finland,Finland,FI,FIN,246,FIN,FI,EF,358,FIN,.fi,OH-,244,FI,FI,230,FIN,FI,FIN,640-649,FIN,FI,OFA-OJZ
+France,France,France,France,FR,FRA,250,FRA,FR,LF,33,FRA,.fr,F-,208,FR,FR,226-228,F,FR,F,300-379,FRA,FR,"FAA-FZZ, HWA-HYZ, THA-THZ, TKA-TKZTMA-TMZ, TOA-TQZ, TVA-TXZ"
+French Guiana,French Guiana,French Guiana,French Guiana,GF,GUF,254,GUF,GF,SO,594,,.gf,F-,742,FG,FG,745,GUF,FG,F,,FGU,FG,
+French Polynesia,French Polynesia,French Polynesia,French Polynesia,PF,PYF,258,PYF,PF,NT,689,,.pf,F-,547,FP,FP,546,OCE,FP,F,,FPL,PF,
+French Southern and Antarctic Lands,French Southern Territories,French Southern Territories,French Southern Territories,TF,ATF,260,ATF,TF,,262,,.tf,F-,,FS,FS,501,,FS,F,,,FR,
+Gabon,Gabon,Gabon,Gabon,GA,GAB,266,GAB,GA,FO,241,GAB,.ga,TR-,628,GB,GO,626,GAB,GB,G,,GAB,GO,TRA-TRZ
+Gambia,Gambia,Gambia,Gambia,GM,GAM,270,GMB,GM,GB,220,GAM,.gm,C5-,607,GA,GM,629,GMB,GA,WAG,,GAM,GB,C5A-C5Z
+Georgia,Georgia,Georgia,Georgia,GE,GEO,268,GEO,GE,UG,995,GEO,.ge,4L-,282,GG,GS,213,GEO,GG,GE,486,GEO,GG,4LA-4LZ
+Germany,Germany,Germany,Germany,DE,GER,276,DEU,DE,"ED, ET",49,GER,.de,D-,262,GE,GW,"211, 218",D,GM,D,400-440,GER,DL,"DAA-DRZ, Y2A-Y9Z"
+Ghana,Ghana,Ghana,Ghana,GH,GHA,288,GHA,GH,DG,233,GHA,.gh,9G-,620,GH,GH,627,GHA,GH,GH,603,GHA,GH,9GA-9GZ
+Gibraltar,Gibraltar,Gibraltar,Gibraltar,GI,GIB,292,GIB,GI,LX,350,,.gi,VR-G-,266,GI,GI,236,GIB,GI,GBZ,,,GI,
+Greece,Greece,Greece,Greece,GR,GRE,300,GRC,GR,LG,30,GRE,.gr,SX-,202,GR,GR,"237, 239, 240, 241",GRC,GR,GR,520-521,GRE,GR,"J4A-J4Z, SVA-SZZ"
+Greenland,Greenland,Greenland,Greenland,GL,GRL,304,GRL,GL,BG,299,,.gl,OY-,290,GL,GL,331,GRL,GL,KN (unofficial),,,GL,
+Grenada,Grenada,Grenada,Grenada,GD,GRN,308,GRD,GD,TG,+1 473,GRN,.gd,J3-,352,GJ,GD,330,GRD,GJ,WG,,GRN,GD,J3A-J3Z
+Guadeloupe,Guadeloupe,Guadeloupe,Guadeloupe,GP,GLP,312,GLP,GP,TF,590,,.gp,F-,340,GP,GP,329,GDL,GP,,,GUD,MF,
+Guam,Guam,Guam,Guam,GU,GUM,316,GUM,GU,PG,+1 671,GUM,.gu,N-,535,GQ,GU,,GUM,GQ,,,,GM,
+Guatemala,Guatemala,Guatemala,Guatemala,GT,GUA,320,GTM,GT,MG,502,GUA,.gt,TG-,704,GT,GT,332,GTM,GT,GCA,740,GUA,GU,"TDA-TDZ, TGA-TGZ"
+Guernsey,Guernsey,Guernsey,Guernsey,GG,GGY,831,GGY,GG,,,,.gg,,,,,,,,GBG,,,,
+Guinea,Guinea,Guinea,Guinea,GN,GUI,324,GIN,GN,GU,224,GUI,.gn,3X-,611,GV,GV,632,GUI,GV,RG,,GUI,GN,3XA-3XZ
+Guinea-Bissau,Guinea-Bissau,Guinea-Bissau,Guinea-Bissau,GW,GBS,624,GNB,GW,GG,245,GBS,.gw,J5-,632,PU,PG,630,GNB,PU,GW (unofficial),,GBS,GW,J5A-J5Z
+Guyana,Guyana,Guyana,Guyana,GY,GUY,328,GUY,GY,SY,592,GUY,.gy,8R-,738,GY,GY,750,GUY,GY,GUY,,GUY,GY,8RA-8RZ
+Haiti,Haiti,Haiti,Haiti,HT,HAI,332,HTI,HT,MT,509,HAI,.ht,HH-,372,HA,HT,336,HTI,HA,RH,,HAI,HA,"4VA-4VZ, HHA-HHZ"
+Heard Island and McDonald Islands,Heard Island and McDonald Islands,Heard Island and McDonald Islands,Heard Island and McDonald Islands,HM,HMD,334,HMD,HM,,672,,.hm,VH-,505,HM,HM,,HMD,HM,,,,,
+Vatican City,Holy See,Holy See,Holy See,VA,VAT,336,VAT,VA,,+379[note 2],,.va,HV-,225,VT,VC,208,CVA,VT,V,,HLS[note 3],,HVA-HVZ
+Honduras,Honduras,Honduras,Honduras,HN,HON,340,HND,HN,MH,504,HON,.hn,HR-,708,HO,HO,334,HND,HO,HN (unofficial),742,HON,HO,HQA-HRZ
+Hong Kong,Hong Kong,Hong Kong,Hong Kong,HK,HKG,344,HKG,HK,VH,852,HKG,.hk,B-H/B-K/B-L,454,HK,HK,477,HKG,HK,HK (officially obsolete),489,HOK,HK,VRA-VRZ
+Hungary,Hungary,Hungary,Hungary,HU,HUN,348,HUN,HU,LH,36,HUN,.hu,HA-,216,HU,HU,243,HNG,HU,H,599,HUN,HU,HAA-HGZ
+Iceland,Iceland,Iceland,Iceland,IS,ISL,352,ISL,IS,BI,354,ISL,.is,TF-,274,IC,IC,251,ISL,IC,IS,569,ICE,IL,TFA-TFZ
+India,India,India,India,IN,IND,356,IND,IN,"VA, VE, VI, VO",91,IND,.in,VT-,404,IN,II,419,IND,IN,IND,890,IND,IN,"8TA-8YZ, ATA-AWZ, VTA-VWZ"
+Indonesia,Indonesia,Indonesia,Indonesia,ID,INA,360,IDN,ID,"WA, WI",62,INA,.id,PK-,510,ID,IO,525,INS,ID,RI,899,INS,ID,"7AA-7IZ, 8AA-8IZ, JZA-JZZ,PKA-POZ, YBA-YHZ"
+Iran,"Iran, Islamic Republic of",Islamic Republic of Iran,Iran,IR,IRI,364,IRN,IR,OI,98,IRI,.ir,EP-,432,IR,IR,422,IRN,IR,IR,626,IRA,IR,"9BA-9DZ, EPA-EQZ"
+Iraq,Iraq,Iraq,Iraq,IQ,IRQ,368,IRQ,IQ,OR,964,IRQ,.iq,YI-,418,IZ,IQ,425,IRQ,IZ,IRQ,,IRQ,IQ,"HNA-HNZ, YIA-YIZ"
+Ireland,Ireland,Ireland,Ireland,IE,IRL,372,IRL,IE,EI,353,IRL,.ie,EI-,272,EI,IE,250,IRL,EI,IRL,539,IRE,IE,EIA-EJZ
+Israel,Israel,Israel,Israel,IL,ISR,376,ISR,IL,LL,972,ISR,.il,4X-,425,IS,IS,428,ISR,IS,IL,729,ISR,IS,"4XA-4XZ, 4ZA,4ZZ"
+Italy,Italy,Italy,Italy,IT,ITA,380,ITA,IT,LI,39,ITA,.it,I-,222,IT,IT,247,I,IT,I,800-839,ITA,IY,IAA-IZZ
+Jamaica,Jamaica,Jamaica,Jamaica,JM,JAM,388,JAM,JM,MK,+1 876,JAM,.jm,6Y-,338,JM,JM,339,JMC,JM,JA,,JAM,JM,6YA-6YZ
+Japan,Japan,Japan,Japan,JP,JPN,392,JPN,JP,"RJ, RO",81,JPN,.jp,JA-,441,JA,JA,"431, 432",J,JA,J,"450-459, 490-499",JPN,JP,"7JA-7NZ,8JA-8NZ,JAA-JSZ"
+Jersey,Jersey,Jersey,Jersey,JE,JEY,832,JEY,JE,,44,,.je,,,,,,,JE,GBJ,,,,
+Jordan,Jordan,Jordan,Jordan,JO,JOR,400,JOR,JO,OJ,962,JOR,.jo,JY-,416,JO,JO,438,JOR,JO,HKJ,625,JOR,JD,JYA-JYZ
+Kazakhstan,Kazakhstan,Kazakhstan,Kazakhstan,KZ,KAZ,398,KAZ,KZ,UA,7,KAZ,.kz,UN-,401,KZ,KZ,436,KAZ,KZ,KZ,487,KAZ,KZ,UNA-UQZ
+Kenya,Kenya,Kenya,Kenya,KE,KEN,404,KEN,KE,HK,254,KEN,.ke,5Y-,639,KE,KE,634,KEN,KE,EAK,616,KEN,KN,5YA-5ZZ
+Kiribati,Kiribati,Kiribati,Kiribati,KI,KIR,296,KIR,KI,NG,686,KIR,.ki,T3-,545,KR,GB,529,KIR,KR,KIR (unofficial),,KIR,KB,T3A-T3Z
+Kosovo,Kosovo,Kosovo,Kosovo,KV,KOS,-,-,-,BK,383,KOS,-,Z6,212,-,KV,-,-,KV,RKS,-,KOS,-,-
+Kuwait,Kuwait,Kuwait,Kuwait,KW,KUW,414,KWT,KW,OK,965,KUW,.kw,9K-,419,KU,KU,447,KWT,KU,KWT,627,KUW,KW,9KA-9KZ
+Kyrgyzstan,Kyrgyzstan,Kyrgyzstan,Kyrgyzstan,KG,KGZ,417,KGZ,KG,UC,996,KGZ,.kg,EX-,437,KG,KG,,KGZ,KG,KS,470,KYR,KY,EXA-EXZ
+Lao People's Democratic Republic,Lao People's Democratic Republic,Lao People's Democratic Republic,Laos,LA,LAO,418,LAO,LA,VL,856,LAO,.la,RDPL-,457,LA,LS,531,LAO,LA,LAO,,LAO,LA,XWA-XWZ
+Latvia,Latvia,Latvia,Latvia,LV,LAT,428,LVA,LV,EV,371,LAT,.lv,YL-,247,LG,LV,275,LVA,LG,LV,475,LAT,LV,YLA-YLZ
+Lebanon,Lebanon,Lebanon,Lebanon,LB,LBN,422,LBN,LB,OL,961,LBN,.lb,OD-,415,LE,LE,450,LBN,LE,RL,528,LEB,LB,ODA-ODZ
+Lesotho,Lesotho,Lesotho,Lesotho,LS,LES,426,LSO,LS,FX,266,LES,.ls,7P-,651,LT,LO,644,LSO,LT,LS,,LES,LS,7PA-7PZ
+Liberia,Liberia,Liberia,Liberia,LR,LBR,430,LBR,LR,GL,231,LBR,.lr,EL-,618,LI,LB,"636, 637",LBR,LI,LB,,LIR,LI,"5LA-5MZ, 6ZA-6ZZ, A8A-A8ZD5A-D5Z, ELA-ELZ"
+Libya,Libya,Libya,Libya,LY,LBA,434,LBY,LY,HL,218,LBA,.ly,5A-,606,LY,LY,642,LBY,LY,LAR,624,LIB,LY,5AA-5AZ
+Liechtenstein,Liechtenstein,Liechtenstein,Liechtenstein,LI,LIE,438,LIE,LI,,423,LIE,.li,HB-,295,LS,LH,252,LIE,LS,FL,,LIE,,HB / HB0 / HB3Y
+Lithuania,Lithuania,Lithuania,Lithuania,LT,LTU,440,LTU,LT,EY,370,LTU,.lt,LY-,246,LH,LI,277,LTU,LH,LT,477,LIT,LT,LYA-LYZ
+Luxembourg,Luxembourg,Luxembourg,Luxembourg,LU,LUX,442,LUX,LU,EL,352,LUX,.lu,LX-,270,LU,LU,253,LUX,LU,L,540-549,LUX,BX,LXA-LXZ
+Macau,Macao,Macao,Macao,MO,MAC,446,MAC,MO,VM,853,,.mo,B-M,455,MC,MH,453,MAC,MC,,958,MAC,MU,XXA-XXZ
+Madagascar,Madagascar,Madagascar,Madagascar,MG,MAD,450,MDG,MG,"FMM, FMN, FMS",261,MAD,.mg,5R-,646,MA,MG,647,MDG,MA,RM,,MAG,MG,"5RA-5SZ, 6XA-6XZ"
+Malawi,Malawi,Malawi,Malawi,MW,MAW,454,MWI,MW,FW,265,MAW,.mw,7Q-,650,MI,MW,655,MWI,MI,MW,,MLW,MW,7QA-7QZ
+Malaysia,Malaysia,Malaysia,Malaysia,MY,MAS,458,MYS,MY,"WB, WM",60,MAS,.my,9M-,502,MY,MY,533,MLA,MY,MAL,955,MAL,MS,"9MA-9MZ, 9WA-9WZ"
+Maldives,Maldives,Maldives,Maldives,MV,MDV,462,MDV,MV,VR,960,MDV,.mv,8Q-,472,MV,XC,455,MLD,MV,MV (unofficial),,MDV,MV,8QA-8QZ
+Mali,Mali,Mali,Mali,ML,MLI,466,MLI,ML,GA,223,MLI,.ml,TZ-,610,ML,ML,649,MLI,ML,RMM,,MLI,MI,TZA-TZZ
+Malta,Malta,Malta,Malta,MT,MLT,470,MLT,MT,LM,356,MLT,.mt,9H-,278,MT,MM,"215, 248, 249, 256",MLT,MT,M,535,MAT,ML,9HA-9HZ
+Marshall Islands,Marshall Islands,Marshall Islands,Marshall Islands,MH,MHL,584,MHL,MH,"EN, PK",692,MHL,.mh,V7-,551,RM,XE,538,MHL,RM,MH (unofficial),,MAS,MH,V7A-V7Z
+Martinique,Martinique,Martinique,Martinique,MQ,MTQ,474,MTQ,MQ,TF,596,,.mq,F-,340,MB,MQ,347,MRT,MB,,,MAQ,MR,
+Mauritania,Mauritania,Mauritania,Mauritania,MR,MTN,478,MRT,MR,GQ,222,MTN,.mr,5T-,609,MR,MU,654,MTN,MR,RIM,,MAU,MT,5TA-5TZ
+Mauritius,Mauritius,Mauritius,Mauritius,MU,MRI,480,MUS,MU,FI,230,MRI,.mu,3B-,617,MP,MF,645,MAU,MP,MS,609,MAR,MA,3BA-3BZ
+Mayotte,Mayotte,Mayotte,Mayotte,YT,MYT,175,MYT,YT,FM,269,,.yt,F-,,ME,OT,,MYT,MF,,,,,
+Mexico,Mexico,Mexico,Mexico,MX,MEX,484,MEX,MX,MM,52,MEX,.mx,"XA-, XB-, XC-",334,MX,MX,345,MEX,MX,MEX,750,MEX,MX,"4AA-4CZ,6DA-6JZ,XAA-XIZ"
+Federated States of Micronesia,"Micronesia, Federated States of",Federated States of Micronesia,Micronesia,FM,FSM,582,FSM,FM,PT,691,FSM,.fm,V6-,550,FM,FM,510,FSM,FM,FSM (unofficial),,MIC,KA,V6AV6Z
+Moldova,"Moldova, Republic of",Republic of Moldova,Moldova,MD,MDA,498,MDA,MD,LU,373,MDA,.md,ER-,259,MD,MV,214,MDA,MD,MD,484,MOL,RM,ERA-ERZ
+Monaco,Monaco,Monaco,Monaco,MC,MON,492,MCO,MC,LN,377,MON,.mc,3A-,212,MN,MC,254,MCO,MN,MC,,MNC,M3,3AA-3AZ
+Mongolia,Mongolia,Mongolia,Mongolia,MN,MGL,496,MNG,MN,ZM,976,MGL,.mn,JU-,428,MG,MP,457,MNG,MG,MNG,865,MON,MO,JTA-JVZ
+Montenegro,Montenegro,Montenegro,Montenegro,ME,MNE,499,MNE,ME,LY,382,MNE,.me,4O-,297,,MO,262,MNE,MJ,MNE,389,,M4,4OA-4OZ
+Montserrat,Montserrat,Montserrat,Montserrat,MS,MSR,500,MSR,MS,TR,+1 664,,.ms,VP-M-,354,MH,MJ,348,MSR,MH,,,MOT,M2,
+Morocco,Morocco,Morocco,Morocco,MA,MAR,504,MAR,MA,GM,212,MAR,.ma,CN-,604,MO,MR,242,MRC,MO,MA,611,MOR,MC,"5CA-5GZ, CNA-CNZ"
+Mozambique,Mozambique,Mozambique,Mozambique,MZ,MOZ,508,MOZ,MZ,FQ,258,MOZ,.mz,C9-,643,MZ,MZ,650,MOZ,MZ,MOC,,MOZ,MZ,C8A-C9Z
+Myanmar,Myanmar,Myanmar,Myanmar,MM,MMR,-,MMR,MM,FQ,95,MMR,.mm,C9-,95,MM,MM,506,MMR,MM,MMR,883,MMR,MM,XYXZ
+Namibia,Namibia,Namibia,Namibia,NA,NAM,516,NAM,NA,FY,264,NAM,.na,V5-,649,WA,SX,659,NMB,WA,NAM,,NAM,NM,V5A-V5Z
+Nauru,Nauru,Nauru,Nauru,NR,NRU,520,NRU,NR,AN,674,NRU,.nr,C2-,536,NR,NU,544,NRU,NR,NAU,,NAU,NW,C2A-C2Z
+Nepal,Nepal,Nepal,Nepal,NP,NEP,524,NPL,NP,VN,977,NEP,.np,9N-,429,NP,NP,459,NPL,NP,NEP,,NEP,NP,9NA-9NZ
+Netherlands,Netherlands,Netherlands,Netherlands,NL,NED,528,NLD,NL,EH,31,NED,.nl,PH-,204,NL,NE,"244, 245, 246",HOL,NL,NL,870-879,NET,NL,PAA-PIZ
+New Caledonia,New Caledonia,New Caledonia,New Caledonia,NC,NCL,540,NCL,NC,NW,687,,.nc,F-,546,NC,NL,540,NCL,NC,F,,NCA,NC,
+New Zealand,New Zealand,New Zealand,New Zealand,NZ,NZL,554,NZL,NZ,"NZ, PL",64,NZL,.nz,"ZK-, ZL-, ZM-",530,NZ,NZ,512,NZL,NZ,NZ,940-949,NZE,NZ,ZKA-ZMZ
+Nicaragua,Nicaragua,Nicaragua,Nicaragua,NI,NCA,558,NIC,NI,MN,505,NCA,.ni,YN-,710,NU,NQ,350,NCG,NU,NIC,743,NIC,NK,"H6A-H7Z,HTA-HTZ,YNA-YNZ"
+Niger,Niger,Niger,Niger,NE,NIG,562,NER,NE,DR,227,NIG,.ne,5U-,614,NG,NG,656,NGR,NG,RN,,NER,NR,5UA-5UZ
+Nigeria,Nigeria,Nigeria,Nigeria,NG,NGR,566,NGA,NG,DN,234,NGR,.ng,5N-,234,NI,NR,657,NIG,NI,WAN,615,NIR,NI,5NA-5OZ
+Niue,Niue,Niue,Niue,NU,NIU,570,NIU,NU,NI,683,,.nu,,555,NE,XH,542,NIU,NE,,,NIU,N1,
+Norfolk Island,Norfolk Island,Norfolk Island,Norfolk Island,NF,NFK,574,NFK,NF,,672,,.nf,VH-,505,NF,NX,,NFK,NF,,,,,
+North Korea,"Korea, Democratic People's Republic of",Democratic People's Republic of Korea,North Korea,KP,PRK,408,PRK,KP,ZK,850,PRK,.kp,P-,467,KN,KN,445,KRE,KN,KP (unofficial),867,DRK[notes 1],KR,"HMA-HMZ, P5A-P9Z"
+North Macedonia,North Macedonia,North Macedonia,North Macedonia,MK,MKD,807,MKD,MK,LW,389,MKD,.mk,Z3-,294,FY,XN,274,MKD,MK,NMK,531,MCD,MJ,Z3A-Z3Z
+Northern Mariana Islands,Northern Mariana Islands,Northern Mariana Islands,Northern Mariana Islands,MP,MNP,580,MNP,MP,PG,+1 670,,.mp,,534,CQ,NW,536,MRA,CQ,,,,MY,
+Norway,Norway,Norway,Norway,NO,NOR,578,NOR,NO,EN,47,NOR,.no,LN-,242,NO,NO,"257, 258, 259",NOR,NO,N,700-709,NOR,NO,"3YA-3YZ,JWA-JXZ,LAA-LNZ"
+Oman,Oman,Oman,Oman,OM,OMA,512,OMN,OM,OO,968,OMA,.om,A4O-,422,MU,MK,461,OMA,MU,OM (unofficial),,OMA,OM,A4A-A4Z
+Pakistan,Pakistan,Pakistan,Pakistan,PK,PAK,586,PAK,PK,OP,92,PAK,.pk,AP-,410,PK,PK,463,PAK,PK,PK,896,PAK,PK,"6PA-6SZ, APA-ASZ"
+Palau,Palau,Palau,Palau,PW,PLW,585,PLW,PW,PT,680,PLW,.pw,,552,PS,PW,511,PLW,PS,PAL (unofficial),,TTP[notes 1],,T8A-T8Z
+Palestine,"Palestine, State of",State of Palestine,Palestine,PS,PLE,275,PSE,PS,"OJ, LV",970,PLE,.ps,,,PS[notes 2],"GZ, WJ",443,"XGZ, XWB","GZ, WE",PS (unofficial),,PAL,,E4A-E4Z
+Panama,Panama,Panama,Panama,PA,PAN,591,PAN,PA,MP,507,PAN,.pa,HP-,714,PM,PN,351-357,PNR,PM,PA,745,PAN,PM,"3EA-3FZ, H3A-H3ZH8A-H9Z, HOA-HPZ"
+Papua New Guinea,Papua New Guinea,Papua New Guinea,Papua New Guinea,PG,PNG,598,PNG,PG,AY,675,PNG,.pg,P2-,537,PP,PP,553,PNG,PP,PNG,,PNG,NG,P2A-P2Z
+Paraguay,Paraguay,Paraguay,Paraguay,PY,PAR,600,PRY,PY,SG,595,PAR,.py,ZP-,744,PA,PY,755,PRG,PA,PY,784,PAR,PY,ZPA-ZPZ
+Peru,Peru,Peru,Peru,PE,PER,604,PER,PE,SP,51,PER,.pe,OB-,716,PE,PE,760,PRU,PE,PE,775,PER,PR,"4TA-4TZ, OAA-OCZ"
+Philippines,Philippines,Philippines,Philippines,PH,PHI,608,PHL,PH,RP,63,PHI,.ph,RP-,515,RP,PH,548,PHL,RP,RP,480,PHI,PH,"4DA-4IZ, DUA-DUZ"
+Pitcairn Islands,Pitcairn,Pitcairn,Pitcairn,PN,PCN,612,PCN,PN,,64,,.pn,G-,,PC,PC,555,PTC,PC,,,,PT,
+Poland,Poland,Poland,Poland,PL,POL,616,POL,PL,EP,48,POL,.pl,SP-,260,PL,PL,261,POL,PL,PL,590,POL,PL,"3ZA-3ZZ, HFA-HFZ, SNA-SRZ"
+Portugal,Portugal,Portugal,Portugal,PT,POR,620,PRT,PT,LP,351,POR,.pt,"CR-, CS-",268,PO,PO,263,POR,PO,P,560,POR,PO,CQA-CUZ
+Puerto Rico,Puerto Rico,Puerto Rico,Puerto Rico,PR,PUR,630,PRI,PR,TJ,"+1 787, +1 939",PUR,.pr,N-,330,RQ,PR,358,PTR,RQ,PR,,PUE,PU,
+Qatar,Qatar,Qatar,Qatar,QA,QAT,634,QAT,QA,OT,974,QAT,.qa,A7-,427,QA,QA,466,QAT,QA,Q,,QAT,QT,A7A-A7Z
+Réunion,Réunion,Réunion,Réunion,RE,REU,638,REU,RE,FME,262,,.re,F-,647,RE,RE,660,REU,RE,F,,REU,RE,
+Romania,Romania,Romania,Romania,RO,ROU,642,ROU,RO,LR,40,ROU,.ro,YR-,226,RO,RM,264,ROU,RO,RO,594,ROM,RO,YOA-YRZ
+Russia,Russian Federation,Russian Federation,Russian Federation,RU,RUS,643,RUS,RU,"UE, UH, UI, UL, UNUO, UR, US, UU, UW",7,RUS,.ru,RA-,250,RS,RU,273,RUS,RS,RUS,460-469,RUS,"RA, RS","RAA-RZZ, UAA-UIZ"
+Rwanda,Rwanda,Rwanda,Rwanda,RW,RWA,646,RWA,RW,HR,250,RWA,.rw,9XR-,635,RW,RW,661,RRW,RW,RWA,,RWA,RW,9XA-9XZ
+Saint Barthélemy,Saint Barthélemy,Saint Barthélemy,Saint Barthélemy,BL,BLM,652,BLM,BL,TF,590,,.bl,,,,,,,TB,,,,S2,
+"Saint Helena, Ascension and Tristan da Cunha","Saint Helena, Ascension and Tristan da Cunha",Ascension and Tristan da Cunha Saint Helena,Saint Helena,SH,SHN,654,SHN,SH,FH,290,,.sh,G-,,SH,XJ,665,SHN,SH,,,STH,HE,
+Saint Kitts and Nevis,Saint Kitts and Nevis,Saint Kitts and Nevis,Saint Kitts and Nevis,KN,SKN,659,KNA,KN,TK,+1 869,SKN,.kn,V4-,356,SC,XD,341,SCN,SC,KAN (unofficial),,STK,AT,V4A-V4Z
+Saint Lucia,Saint Lucia,Saint Lucia,Saint Lucia,LC,LCA,662,LCA,LC,TL,+1 758,LCA,.lc,J6-,358,ST,XK,343,LCA,ST,WL,,STL,LC,J6A-J6Z
+Saint Martin,"Saint Martin, French part",French part Saint Martin,Saint Martin,MF,MAF,663,MAF,MF,TF,590,,.mf,,,,,,,RN,F,,,,
+Saint Pierre and Miquelon,Saint Pierre and Miquelon,Saint Pierre and Miquelon,Saint Pierre and Miquelon,PM,SPM,666,SPM,PM,LF,508,,.pm,F-,308,SB[notes 1],XL,361,SPM,SB,F,,FOS (?)[notes 2],FP,
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,VC,VIN,670,VCT,VC,TV,+1 784,VIN,.vc,J8-,360,VC,XM,"375, 376, 377",VCT,VC,WV,,STV,VG,J8A-J8Z
+Samoa,Samoa,Samoa,Samoa,WS,SAM,882,WSM,WS,NS,685,SAM,.ws,5W-,549,SS,WS,561,SMO,WS,WS,,SAM,ZM,5WA-5WZ
+San Marino,San Marino,San Marino,San Marino,SM,SMR,674,SMR,SM,,378,SMR,.sm,T7-,292,SM,SM,268,SMR,SM,RSM,,SNM,,T7A-T7Z
+São Tomé and Príncipe,Sao Tome and Principe,Sao Tome and Principe,Sao Tome and Principe,ST,STP,678,STP,ST,FP,239,STP,.st,S9-,626,TP,SF,668,STP,TP,STP (unofficial),,STP,TP,S9A-S9Z
+Saudi Arabia,Saudi Arabia,Saudi Arabia,Saudi Arabia,SA,KSA,682,SAU,SA,OE,966,KSA,.sa,HZ-,420,SA,SU,403,ARS,SA,KSA,628,SAU,SD,"7ZA-7ZZ, 8ZA-8ZZ, HZA-HZZ"
+Senegal,Senegal,Senegal,Senegal,SN,SEN,686,SEN,SN,GO,221,SEN,.sn,"6V-, 6W-",608,SG,SG,663,SEN,SG,SN,604,SEN,SG,6VA-6WZ
+Serbia,Serbia,Serbia,Serbia,RS,SRB,688,SRB,RS,LY,381,SRB,.rs,YU-,220,RS,,279,SRB,RB,SRB,860,,RB,YTA-YUZ
+Seychelles,Seychelles,Seychelles,Seychelles,SC,SEY,690,SYC,SC,FS,248,SEY,.sc,S7-,633,SE,SE,664,SEY,SE,SY,,SEY,SC,S7A-S7Z
+Sierra Leone,Sierra Leone,Sierra Leone,Sierra Leone,SL,SLE,694,SLE,SL,GF,232,SLE,.sl,9L-,619,SL,SL,667,SRL,SL,WAL,,SIL,SL,9LA-9LZ
+Singapore,Singapore,Singapore,Singapore,SG,SGP,702,SGP,SG,WS,65,SGP,.sg,9V-,525,SN,SI,"563, 564",SNG,SN,SGP,888,SIN,SR,"9VA-9VZ, S6A-S6Z"
+Sint Maarten,"Sint Maarten, Dutch part",Dutch part Sint Maarten,Sint Maarten,SX,SXM,534,SXM,SX,TN,+1 721,,.sx,,,,,,,NN,,,,,PJA-PJZ
+Slovakia,Slovakia,Slovakia,Slovakia,SK,SVK,703,SVK,SK,LZ,421,SVK,.sk,OM-,231,LO,XO,267,SVK,LO,SK,858,SLO,SQ,OMA-OMZ
+Slovenia,Slovenia,Slovenia,Slovenia,SI,SLO,705,SVN,SI,LJ,386,SLO,.si,S5-,293,SI,XV,278,SVN,SI,SLO,383,SVN,LJ,S5A-S5Z
+Solomon Islands,Solomon Islands,Solomon Islands,Solomon Islands,SB,SOL,90,SLB,SB,AG,677,SOL,.sb,H4-,540,BP,BP,557,SLM,BP,SOL (unofficial),,SOI,SO,H4A-H4Z
+Somalia,Somalia,Somalia,Somalia,SO,SOM,706,SOM,SO,HC,252,SOM,.so,6O-,637,SO,SO,666,SOM,SO,SO,,SOM,SI,"6OA-6OZ, T5A-T5Z"
+South Africa,South Africa,South Africa,South Africa,ZA,RSA,710,ZAF,ZA,FA,27,RSA,.za,"ZS-, ZT-, ZU-",655,SF,SA,601,AFS,SF,ZA,600-601,SAF,ZA,"S8A-S8Z, ZRA-ZUZ"
+South Georgia and the South Sandwich Islands,South Georgia and the South Sandwich Islands,South Georgia and the South Sandwich Islands,South Georgia and the South Sandwich Islands,GS,SGS,239,SGS,GS,EG,500,,.gs,G-,,SX,XS,,,SX,,,,,
+South Korea,"Korea, Republic of",Republic of Korea,South Korea,KR,KOR,410,KOR,KR,RK,82,KOR,.kr,HL-,450,KS,KO,"440, 441",KOR,KS,ROK,880,ROK[notes 2],KO,"6KA-6NZ, D7A-D9ZDSA-DTZ, HLA-HLZ"
+South Sudan,South Sudan,South Sudan,South Sudan,SS,SSD,728,SSD,SS,HS,211,SSD,,,659,,,,,,,,,,
+Spain,Spain,Spain,Spain,ES,ESP,724,ESP,ES,"LE, GC, GE",34,ESP,.es,EC-,214,SP,SP,"224, 225",E,SP,E,840-849,SPA,SP,"AMA-AOZ, EAA-EHZ"
+Sri Lanka,Sri Lanka,Sri Lanka,Sri Lanka,LK,SRI,144,LKA,LK,VC,94,SRI,.lk,4R-,413,C,CE,417,CLN,CE,CL,479,SRL,SB,4PA-4SZ
+Sudan,Sudan,Sudan,Sudan,SD,SUD,736,SDN,SD,HS,249,SUD,.sd,ST-,634,SU,SJ,662,SDN,SU,SUD,,SUD,SU,"6TA-6UZ, SSN-SSZ, STA-STZ"
+Suriname,Suriname,Suriname,Suriname,SR,SUR,740,SUR,SR,SM,597,SUR,.sr,PZ-,746,NS,SR,765,SUR,NS,SME,,SUR,SM,PZA-PZZ
+Svalbard and Jan Mayen,Svalbard and Jan Mayen,Svalbard and Jan Mayen,Svalbard and Jan Mayen,SJ,SJM,744,SJM,SJ,,47,,.sj,LN-,242,SV,,,,"SV, JN",,,,SZ,
+Sweden,Sweden,Sweden,Sweden,SE,SWE,752,SWE,SE,ES,46,SWE,.se,SE-,240,SW,SW,"265, 266",S,SW,S,730-739,SWE,SN,"7SA-7SZ,8SA-8SZ, SAA-SMZ"
+Switzerland,Switzerland,Switzerland,Switzerland,CH,SUI,756,CHE,CH,LS,41,SUI,.ch,HB-,228,SZ,SZ,269,SUI,SZ,CH,760-769,SWI,SW,"HBA-HBZ, HEA-HEZ"
+Syria,Syrian Arab Republic,Syrian Arab Republic,Syrian Arab Republic,SY,SYR,760,SYR,SY,OS,963,SYR,.sy,YK-,417,SY,SY,468,SYR,SY,SYR,621,SYR,SY,"6CA-6CZ, YKA-YKZ"
+Taiwan,"Taiwan, Province of China",Province of China Taiwan,Taiwan,TW,TPE,158,TWN,TW,RC,886,TPE,.tw,B-,466,TW,CH,416,,TW,RC,471,,TW,
+Tajikistan,Tajikistan,Tajikistan,Tajikistan,TJ,TJK,762,TJK,TJ,UT,992,TJK,.tj,EY-,436,TI,TA,,TJK,TI,TJ,488,TAJ,TZ,EYA-EYZ
+Tanzania,"Tanzania, United Republic of",United Republic of Tanzania,Tanzania,TZ,TAN,834,TZA,TZ,HT,255,TAN,.tz,5H-,640,TZ,TZ,"674, 677",TZA,TZ,EAT,620,URT[notes 1],TN,5HA-5IZ
+Thailand,Thailand,Thailand,Thailand,TH,THA,764,THA,TH,VT,66,THA,.th,HS-,520,TH,TH,567,THA,TH,T,885,THA,TH,"E2A-E2Z, HSA-HSZ"
+Timor-Leste,Timor-Leste,Timor-Leste,Timor-Leste,TL,TLS,626,TLS,TL,WP,670,TLS,.tl,,514,TM,EM,,TLS,TT,TL (unofficial),,TIM,TM,4WA-4WZ
+Togo,Togo,Togo,Togo,TG,TOG,768,TGO,TG,DX,228,TOG,.tg,5V-,615,TO,TG,671,TGO,TO,TG,,TOG,TG,5VA-5VZ
+Tokelau,Tokelau,Tokelau,Tokelau,TK,TKL,772,TKL,TK,,690,,.tk,ZK-,530,TL,TL,,TKL,TL,,,TOK,TK,
+Tonga,Tonga,Tonga,Tonga,TO,TGA,776,TON,TO,NFT,676,TGA,.to,A3-,539,TN,TO,570,TON,TN,TO (unofficial),,TON,TO,A3A-A3Z
+Trinidad and Tobago,Trinidad and Tobago,Trinidad and Tobago,Trinidad and Tobago,TT,TTO,780,TTO,TT,TT,+1 868,TTO,.tt,9Y-,374,TD,TR,362,TRD,TD,TT,,TRI,TD,9YA-9ZZ
+Tunisia,Tunisia,Tunisia,Tunisia,TN,TUN,788,TUN,TN,DT,216,TUN,.tn,TS-,605,TS,TI,672,TUN,TS,TN,619,TUN,TS,"3VA-3VZ, TSA-TSZ"
+Turkey,Turkey,Turkey,Turkey,TR,TUR,792,TUR,TR,LT,90,TUR,.tr,TC-,286,TU,TU,271,TUR,TU,TR,868-869,TUR,TU,"TAA-TCZ, YMA-YMZ"
+Turkmenistan,Turkmenistan,Turkmenistan,Turkmenistan,TM,TKM,795,TKM,TM,UT,993,TKM,.tm,EZ-,438,TX,TK,434,TKM,TX,TM,483,TUK,TR,EZA-EZZ
+Turks and Caicos Islands,Turks and Caicos Islands,Turks and Caicos Islands,Turks and Caicos Islands,TC,TCA,796,TCA,TC,MB,+1 649,,.tc,VQ-T-,376,TK,TC,364,TCA,TK,,,TCI,TI,
+Tuvalu,Tuvalu,Tuvalu,Tuvalu,TV,TUV,798,TUV,TV,NGF,688,TUV,.tv,T2-,553,TV,TV,572,TUV,TV,TUV (unofficial),,TUV,TV,T2A-T2Z
+United States Virgin Islands,"Virgin Islands, U.S.",U.S. Virgin Islands,US Virgin Islands,VI,ISV,850,VIR,VI,"MI, TI",+1 340,ISV,.vi,N-,332,VI,VI,379,VIR,VQ,,,UVI,VI,
+United States,United States of America,United States of America,U.S.A.,US,USA,840,USA,US,"K,  PA, PB, PF, PH, PJ,PL, PM, PO, PP, PW",1,USA,.us,N[note 1],310-316,US,XXU,"338, 366-369",USA,US,USA,000-139,USA,US,"AAA-ALZ, KAA-KZZNAA-NZZ, WAA-WZZ"
+Uganda,Uganda,Uganda,Uganda,UG,UGA,800,UGA,UG,HU,256,UGA,.ug,5X-,641,UG,UG,675,UGA,UG,EAU,,UGA,UG,5XA-5XZ
+Ukraine,Ukraine,Ukraine,Ukraine,UA,UKR,804,UKR,UA,UK,380,UKR,.ua,UR-,255,UP,UN,272,UKR,UP,UA,482,UKR,UR,"EMA-EOZ, URA-UZZ"
+United Arab Emirates,United Arab Emirates,United Arab Emirates,United Arab Emirates,AE,UAE,784,ARE,AE,OM,971,UAE,.ae,A6-,"050, 051, 052, 053, 054, 056, 057, 058",TC,TS,470,UAE,AE,UAE,629,UAE,ER,A6A-A6Z
+United Kingdom,United Kingdom of Great Britain and Northern Ireland,United Kingdom of Great Britain and Northern Ireland,United Kingdom of Great Britain and Northern Ireland,UK,GBR,826,GBR,GB,EG,44,GBR,.uk ,G-,"234, 235",UK,XXK,232-235,G,UK,GB,500-509,UKM,UK,"2AA-2ZZ, GAA-GZZ, MAA-MZZ, VPA-VQZVSA-VSZ, ZBA-ZJZ, ZNA-ZOZ, ZQA-ZQZ"
+Uruguay,Uruguay,Uruguay,Uruguay,UY,URU,858,URY,UY,SU,598,URU,.uy,CX-,748,UY,UY,770,URG,UY,ROU,773,URU,UY,CVA-CXZ
+Uzbekistan,Uzbekistan,Uzbekistan,Uzbekistan,UZ,UZB,860,UZB,UZ,UT,998,UZB,.uz,UK-,434,UZ,UZ,,UZB,UZ,UZ,478,UZB,UZ,UJA-UMZ
+Vanuatu,Vanuatu,Vanuatu,Vanuatu,VU,VAN,548,VUT,VU,NV,678,VAN,.vu,YJ-,541,NH,NN,576,VUT,NH,VU (unofficial),,VAN,NV,YJA-YJZ
+Venezuela,"Venezuela, Bolivarian Republic of",Bolivarian Republic of Venezuela,Venezuela,VE,VEN,862,VEN,VE,SV,58,VEN,.ve,YV-,734,VE,VE,775,VEN,VE,YV,759,VEN,VN,"4MA-4MZ, YVA-YYZ"
+Vietnam,Viet Nam,Viet Nam,Viet Nam,VN,VIE,704,VNM,VN,VV,84,VIE,.vn,VN-,452,VM,VM,574,VTN,VM,VN,893,VIE,VS,"3WA-3WZ, XVA-XVZ"
+Wallis and Futuna,Wallis and Futuna,Wallis and Futuna,Wallis and Futuna,WF,WLF,876,WLF,WF,NL,681,,.wf,F-,543,WF,WF,578,WAL,WF,F,,WFI,FW,
+Western Sahara,Western Sahara,Western Sahara,Western Sahara,EH,ESH,732,ESH,EH,GS,212,,,CN-,604,WI,SS,,AOE,WI,ME(?),,SAH,EH,
+Yemen,Yemen,Yemen,Yemen,YE,YEM,887,YEM,YE,OY,967,YEM,.ye,7O-,421,YE,YE,"473, 475",YEM,YM,YEM,,YEM,YE,7OA-7OZ
+Zambia,Zambia,Zambia,Zambia,ZM,ZAM,894,ZMB,ZM,FL,260,ZAM,.zm,9J-,645,ZA,ZA,678,ZMB,ZA,RNR,,ZAM,ZB,9IA-9JZ
+Zimbabwe,Zimbabwe,Zimbabwe,Zimbabwe,ZW,ZIM,716,ZWE,ZW,FV,263,ZIM,.zw,Z-,648,ZI,RH,679,ZWE,ZI,ZW,,ZIM,ZW,Z2A-Z2Z

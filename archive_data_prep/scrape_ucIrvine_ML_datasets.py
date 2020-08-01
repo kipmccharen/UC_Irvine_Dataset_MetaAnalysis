@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup, Comment
 import re
 import os
+from hurry.filesize import size
 
 def getparentlist(savehere=None):
     parent_url = r"http://archive.ics.uci.edu/ml/datasets.php"
@@ -67,11 +68,34 @@ def getchildpages(src_df, savehere):
     df2 = pd.DataFrame(getpagedata).set_index('ID')
     df2.to_csv(savehere)
 
-def analysistime(df):
-    yrs = re.compile(r"(\(?(19[6-9]\d)[\)|\.]{1}|\(?(20[0-2]\d)[\)|\.]{1})") #for grabbing years from research columns
+def grab_data_file_URL(df):
+    rootURL = r"http://archive.ics.uci.edu/ml"
+
+    def get_dataset_url(x):
+        x = x.replace("..", rootURL)
+        #print(x)
+        soup = BeautifulSoup(requests.get(x).text, "lxml")
+        tag = soup.find_all("a")
+        urls = [t['href'] for t in tag if "Parent" not in t.text]
+        output = []
+        for u in urls:
+            try:
+                head = requests.head(x+u).headers
+                addme = [u, size(int(head['Content-Length']))]
+                print(addme)
+                output.append(addme)
+            except: 
+                print("                                       no good")
+        return output
+
+    df['data_ext_url'] = df['DataFolder'].apply(get_dataset_url)
+    return df
 
 if __name__ == '__main__':   
-    thisfilesdir = os.path.dirname(os.path.realpath(__file__))
+    thisfilesdir = os.path.dirname(os.path.realpath(__file__)) + "\\"
     save_data = r"UC_Irvine_ML_datasets.csv"
-    parent_list_df = getparentlist()
-    child_page_df = getchildpages(parent_list_df, save_data)
+    #parent_list_df = getparentlist()
+    #child_page_df = getchildpages(parent_list_df, save_data)
+    df = pd.read_csv(thisfilesdir + save_data)
+    df = grab_data_file_URL(df)
+    df.to_csv("getdatasetURLs.csv")
