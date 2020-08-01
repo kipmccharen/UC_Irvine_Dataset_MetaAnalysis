@@ -4,18 +4,6 @@ import numpy as np
 import os
 from datetime import datetime
 
-#Load data
-pre_cleaned_df = pd.read_csv('UC_Irvine_ML_datasets.csv')
-
-
-#select only relevant columns
-pre_cleaned_df = pre_cleaned_df[[
-                                'header', 'DataSetCharacteristics', 'NumberofInstances', 'Area',
-                                'AttributeCharacteristics', 'NumberofAttributes', 'DateDonated',
-                                'AssociatedTasks','MissingValues', 'NumberofWebHits'
-                                ]]
-
-
 def fillna(df):
     df['MissingValues'] = df['MissingValues'].fillna('No')
     df['NumberofInstances'] = df['NumberofInstances'].fillna(0)
@@ -108,21 +96,11 @@ def create_tasks_columns(df):
     return df
 
 def convert_to_datetime(df):
-    df['DateDonated'] = pd.to_datetime(df['DateDonated'])
     return df
 
 def final_na_drop(df):
     df1 = df.dropna()
     return df1
-
-cleandata = fillna(pre_cleaned_df)
-cleandata = create_characteristics_columns(cleandata)
-cleandata = create_attribute_columns(cleandata)
-cleandata = create_tasks_columns(cleandata)
-cleandata = convert_to_datetime(cleandata)
-cleanest_data = final_na_drop(cleandata)
-
-cleanest_data.to_csv('cleanest_data.csv')
 
 def add_univ_city(dfsrc, uniquedf):
     """ Extract University, City, and Country values from "Source"
@@ -196,28 +174,66 @@ def join_dfs(cols_source_df, col_to_add, add_to_df, join_on_col):
 if __name__ == '__main__':
     start_time = datetime.now()
     
-    # 1. src dataset to build on -> dataframe
+    ######################
+    #PHASE 1 CLEANING WORK
+    ######################
 
+    #Load data
+    pre_cleaned_df = pd.read_csv('UC_Irvine_ML_datasets.csv')
+    #select only relevant columns
+    pre_cleaned_df = pre_cleaned_df[[
+                                    'header', 'DataSetCharacteristics', 'NumberofInstances', 'Area',
+                                    'AttributeCharacteristics', 'NumberofAttributes', 'DateDonated',
+                                    'AssociatedTasks','MissingValues', 'NumberofWebHits'
+                                    ]]
+
+    #fill NA values to ensure not empty
+    cleandata = fillna(pre_cleaned_df)
+
+    #de-normalize categorical columns into indicator dummy variables
+    cleandata = create_characteristics_columns(cleandata)
+    cleandata = create_attribute_columns(cleandata)
+    cleandata = create_tasks_columns(cleandata)
+
+    #convert 'DateDonated' to real date value
+    cleandata = convert_to_datetime(cleandata)
+
+    #drop all records with NA values
+    cleanest_data = final_na_drop(cleandata)
+
+    #save file to csv "cleanest_data"
+    cleanest_data.to_csv('cleanest_data.csv')
+
+    ####################################################################
+    
+    ######################
+    #PHASE 2 CLEANING WORK
+    ######################
+    
+    #re-import the file 
     src_df = pd.read_csv('cleanest_data.csv', encoding="latin-1")
 
     add_loc_df = pd.read_csv('dataset_add_Univ_City.csv', encoding="latin-1")
 
-    # # 2. add lookup-text-search institution / location values to src
+    #add lookup-text-search institution / location values to src
     add_loc_df = add_locations(add_loc_df)
 
-    # 2.5 then add those looked up values to the real cleaned dataset
+    #add those looked up values to the real cleaned dataset
     src_df = join_dfs(add_loc_df, "source_institution_places",src_df, "NumberofWebHits")
     
+    #add year from DateDonated column
     src_df['YearAdded'] = src_df['DateDonated'].apply(lambda x: pd.to_datetime(x, infer_datetime_format=True).year)
+    #additionally add the age of the dataset, subtracted from 2020
     src_df['DatasetAge'] = src_df['YearAdded'].apply(lambda x: 2020-x)
     
+    #add column multiply rows*columns to get number of cells in dataset
     def calc_num_cells(x):
         out = x['NumberofInstances'] * x['NumberofAttributes']
         return out
     src_df['DatapointCount'] = src_df.apply(calc_num_cells, axis=1)
 
-    # # 3. export finished df to file for easy access
-    src_df.to_csv('cleanest_data_KMaugmented.csv', encoding="latin-1", index=False)
+    #export finished df to new augmented file
+    src_df.to_csv('cleanest_data_augmented.csv', encoding="latin-1", index=False)
 
     print("--- %s seconds ---" % (datetime.now() - start_time))
 
