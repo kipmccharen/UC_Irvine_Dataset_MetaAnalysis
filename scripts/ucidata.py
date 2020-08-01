@@ -174,19 +174,20 @@ class UC_Irvine_datasets():
             fig4.show()
         else:
             print("fields entered must exist and be a string")
-    def print_special_plot(self, special_plot_name): # as plot | 
-        """based on data existing in this object, print relevant plot ['worldmap', 'stackedtasks', 'stackedareatasks', 'webhitsdatasize']"""
-        plotdf = self.__df__
-        if special_plot_name == 'stackedtasks':
-            kpv.viz_stacked_tasks_time(plotdf)
-        elif special_plot_name == 'stackedareatasks':
-            kpv.viz_stacked_area_tasks_time(plotdf)
-        elif special_plot_name == 'webhitsdatasize':
-            kpv.viz_webhits_data_available(plotdf)
-        elif special_plot_name == 'worldmap':
-            kpv.worldmap(plotdf)
-        else:
-            print("not a special plot name")
+
+    # def print_special_plot(self, special_plot_name): # as plot | 
+    #     """based on data existing in this object, print relevant plot ['worldmap', 'stackedtasks', 'stackedareatasks', 'webhitsdatasize']"""
+    #     plotdf = self.__df__
+    #     if special_plot_name == 'stackedtasks':
+    #         kpv.viz_stacked_tasks_time(plotdf)
+    #     elif special_plot_name == 'stackedareatasks':
+    #         kpv.viz_stacked_area_tasks_time(plotdf)
+    #     elif special_plot_name == 'webhitsdatasize':
+    #         kpv.viz_webhits_data_available(plotdf)
+    #     elif special_plot_name == 'worldmap':
+    #         kpv.worldmap(plotdf)
+    #     else:
+    #         print("not a special plot name")
 
 
 if __name__ == "__main__":

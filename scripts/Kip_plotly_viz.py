@@ -192,8 +192,8 @@ def worldmap(df): #, thisdir):
     )
 
     #print(df)
+    fig.write_html(basedir + "viz_worldmap_sourced_pct_datasets.html")
     return fig
-    #fig.write_html(thisdir + "viz_worldmap_sourced_pct_datasets.html")
 
 if __name__ == '__main__':
     start_time = datetime.now()
