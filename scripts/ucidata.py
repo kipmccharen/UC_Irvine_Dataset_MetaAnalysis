@@ -6,6 +6,8 @@ import scripts.Kip_plotly_viz as kpv
 #import Kip_plotly_viz as kpv
 import ast
 import operator
+import re 
+import copy
 
 
 def df_first_row_to_header(df):
@@ -38,7 +40,7 @@ class UC_Irvine_datasets():
 
     def list_all_datasets(self): # as str
         """returns string output of all dataset IDs and Titles """
-        listall = self.__df__[['shortname', 'header']]
+        listall = self.__df__[['shortname', 'header']].copy()
         listall.columns = ["ID", "Title1"]
         def cleanx(x):
             x = str(x)
@@ -47,15 +49,24 @@ class UC_Irvine_datasets():
             return x
         listall['Title'] = listall['Title1'].apply(cleanx)
         listall = listall[['ID', 'Title']]
-        return str(listall.to_string(index=False))
+        print(f"{' '*20}there are ##  {len(listall.index)}  ## datasets returned")
+        print(str(listall.to_string(index=False))+"\n\n")
     
     def to_df(self): # as df
         """returns underlying class dataframe"""
         return self.__df__
     
+    def copy(self):
+        new_copy = UC_Irvine_datasets()
+        new_copy.__df__ = self.__df__.copy()
+        return new_copy
+
     def small_datasets_only(self): # as df
         """returns all small datasets from underlying dataframe """
-        self.__df__ = self.__df__[self.__df__['small'] == 1]
+        new_copy = copy.deepcopy(self)
+        print(type(new_copy))
+        new_copy.limit("small", 1)
+        return new_copy
 
     def load_small_dataset_df(self, dataset_ID): # as df
         """returns df of "small" returnable  datasets 
@@ -72,8 +83,9 @@ class UC_Irvine_datasets():
         df = df[df['shortname'] == dataset_ID].to_dict('records')[0]
         datasets = find_ok_data(ast.literal_eval(df['data_ext_url']))
         #[x for x in  if ".csv" in x[0] or ".data" in x[0]][0][0]
-        url = "https://archive.ics.uci.edu/ml/machine-learning-databases" + df['data_folder'] + datasets
-        print(url)
+        url1 = "https://archive.ics.uci.edu/ml/machine-learning-databases" + df['data_folder']
+        url = url1 + datasets
+        print(f"dataset page: {url1}\ndataset URL: {url}\n")
         try:
             textval = requests.get(url).text
         except:
@@ -97,9 +109,9 @@ class UC_Irvine_datasets():
         try:
             df = df[df['shortname'] == dataset_ID].T
             df = df[(df.T != 0).any()][1:]
-            return df.to_string()
+            print(df.to_string())
         except:
-            return "sorry, not a real dataset ID"
+            print("sorry, not a real dataset ID")
 
 
 # ucid.load_small_dataset_df(self, dataset_ID) | 
@@ -175,6 +187,48 @@ class UC_Irvine_datasets():
         else:
             print("fields entered must exist and be a string")
 
+    def sizecomparisonplot(self, colx, coly, colcolor = ""):
+        df = self.__df__.copy()
+        def maxlistsize(x):
+            if x == '[]':
+                return 0
+            outs =  re.findall(r"'(\d+[M|K|G|B])'", x)
+            sizes = [(1, 'B'), (1000, 'K'), (1000000, 'M'), (1000000000, 'G')]
+            outs = [s[0]*int(out[:-1]) for out in outs for s in sizes if out[-1] == s[1]]
+            #print(outs)
+            res1 = max(outs)
+            return res1
+        def sumlistsize(x):
+            if x == '[]':
+                return 0
+            outs =  re.findall(r"'(\d+[M|K|G|B])'", x)
+            sizes = [(1, 'B'), (1000, 'K'), (1000000, 'M'), (1000000000, 'G')]
+            outs = [s[0]*int(out[:-1]) for out in outs for s in sizes if out[-1] == s[1]]
+            #print(outs)
+            res1 = sum(outs)
+            return res1
+
+        df['max_size'] = df['data_ext_url'].apply(maxlistsize)
+        df['sum_sizes'] = df['data_ext_url'].apply(sumlistsize)
+        t_sumsize = int(df['sum_sizes'].sum())
+        df['Percent of Summed File Sizes in Bytes'] = df['max_size'].apply(lambda x: x / t_sumsize)
+        df['Percent of Summed Row Counts'] = df['NumberofInstances'].apply(lambda x: x / df['NumberofInstances'].sum())
+        df['Percent of Summed Datapoint Counts'] = df['DatapointCount'].apply(lambda x: x / df['DatapointCount'].sum())
+        #print(df.columns)
+        df.to_csv("orderthesizes.csv")
+        
+        if colcolor != "":
+            fig = px.scatter(df, x=colx, y=coly, color=colcolor, hover_data=['header'])
+        else:
+            fig = px.scatter(df, x=colx, y=coly, hover_data=['header'])
+        
+        if 'Percent' in colx:
+            fig.update_layout(xaxis_tickformat = '%')
+        if 'Percent' in coly:
+            fig.update_layout(yaxis_tickformat = '%')
+
+        fig.show()
+
     # def print_special_plot(self, special_plot_name): # as plot | 
     #     """based on data existing in this object, print relevant plot ['worldmap', 'stackedtasks', 'stackedareatasks', 'webhitsdatasize']"""
     #     plotdf = self.__df__
@@ -191,11 +245,23 @@ class UC_Irvine_datasets():
 
 
 if __name__ == "__main__":
+
     ucid = UC_Irvine_datasets()
+
+    df = ucid.get_df().copy()
+
     #ucid.print_distribution("Area")
     #ucid.print_special_plot('stackedtasks')
     #ucid.print_barplot("Area","NumberofInstances")
     #print(len(ucid.small_dataset_df().index))
-    abalone = ucid.load_small_dataset_df('parkinsons')
-    print(abalone.head())
-    print(df_first_row_to_header(abalone).head())
+
+    #ucid.sizecomparisonplot('max_pct_sumsize', 'inst_pct_sumsize', 'Area')
+
+    # df.sort_values(by='dsizes', ascending=False, axis=1)
+    #print(df.head(15))
+
+    #df.to_csv("orderthesizes.csv")
+
+    # abalone = ucid.load_small_dataset_df('parkinsons')
+    # print(abalone.head())
+    # print(df_first_row_to_header(abalone).head())

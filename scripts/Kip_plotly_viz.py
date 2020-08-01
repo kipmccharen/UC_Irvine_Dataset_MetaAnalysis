@@ -6,7 +6,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 import ast
 from collections import Counter
+import plotly.offline as pyo
 
+pyo.init_notebook_mode()
 dirname = os.path.dirname
 basedir = dirname(dirname(os.path.abspath(__file__)))
 country_codes = pd.read_csv(basedir + r"\\data\all_country_codes.csv")
@@ -102,12 +104,15 @@ def viz_webhits_data_available(base_df): #, thisdir):
     # Add figure title
     fig3.update_layout(template="plotly_white",
         title_text="Webhits vs Count of Datapoints Added by Dataset Age on Website",
+
         legend=dict(
         orientation="h",
         yanchor="bottom",
-        y=1.02,
-        xanchor="right",
-        x=1)
+        y=0.9,
+        xanchor="center",
+        x=0.5
+        )
+        #showlegend=False
         #     x=0.39,
         #     y=0.80,
         #     traceorder="normal")
@@ -115,8 +120,8 @@ def viz_webhits_data_available(base_df): #, thisdir):
     )
 
     # Set y-axes titles
-    fig3.update_yaxes(title_text="Log of Web Hits to Datasets Added", secondary_y=False)
-    fig3.update_yaxes(title_text="Log of Datapoints Added", secondary_y=True)
+    #fig3.update_yaxes(title_text="Log of Web Hits to Datasets Added", secondary_y=False)
+    #fig3.update_yaxes(title_text="Log of Datapoints Added", secondary_y=True)
 
     fig3.update_xaxes(autorange="reversed", title_text="Dataset Age / Years Since Dataset Added")
     return fig3
