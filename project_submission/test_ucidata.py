@@ -1,16 +1,8 @@
 import unittest
-import sys 
-import os 
 import pandas as pd
+from ucidata import UC_Irvine_datasets
 
-dirname = os.path.dirname
-thisdir = dirname(dirname(os.path.abspath(__file__))) + "\\"
-sys.path.append(thisdir)
-
-from scripts.ucidata import UC_Irvine_datasets
-
-class CheckingTestCase(unittest.TestCase): # inherit from unittest.TestCase
-
+class text_ucid(unittest.TestCase): # inherit from unittest.TestCase
 
     def test_create_ucid(self): #test __init__ action
         newucid = UC_Irvine_datasets()
@@ -30,8 +22,8 @@ class CheckingTestCase(unittest.TestCase): # inherit from unittest.TestCase
     
     def test_smalldf(self):
         newucid = UC_Irvine_datasets()
-        newucid.small_datasets_only()
-        self.assertLess(len(newucid.to_df().index), 150)
+        newobj = newucid.small_datasets_only()
+        self.assertLess(len(newobj.to_df().index), 150)
 
     def test_load_small_dataset_df(self):
         newucid = UC_Irvine_datasets()
