@@ -27,12 +27,15 @@ class UC_Irvine_datasets():
         rows = len(self.__df__.index)
         avgage = round(self.__df__['DatasetAge'].mean(), 1)
         datapoints = round(self.__df__['DatapointCount'].median(), 1)
+        areasum = str(self.__df__[['Area', 'Index']].groupby('Area').count().T)
+
         sumdf = str(self.__df__[['multivariate_data', 'time_series_data', 'data_generator_data', 'domain_theory_data', 'image_data', 'relational_data', 'sequential_data', 'spatial_data', 'univariate_data', 'spatio_temporal_data', 'text_data', 'transactional_data', 'categorical_attributes', 'real_attributes', 'integer_attributes', 'no_listed_attributes', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'reccomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task', 'small']].sum())
 
         output = "count of datasets: ".rjust(25, " ") + f"{rows} \n" \
             + "avg age: ".rjust(25, " ") + f"{avgage} yrs \n" \
             + "median # datapoints: ".rjust(25, " ") + f"{datapoints} \n" \
-            + f"\nHere are the number of rows in each category: \n\n{sumdf}"
+            + f"\n## Dataset content Areas: ##\n\n {areasum}\n\n" \
+            + f"\n## Here are the number of rows in each category: ##\n\n{sumdf}"
         return output
 
     def __len__(self): # as integer
@@ -108,28 +111,18 @@ class UC_Irvine_datasets():
         df = self.__df__
         try:
             df = df[df['shortname'] == dataset_ID].T
+            #print(len(df.index))
             df = df[(df.T != 0).any()][1:]
-            print(df.to_string())
+            
+            print(df) #.to_string())
         except:
             print("sorry, not a real dataset ID")
-
-
-# ucid.load_small_dataset_df(self, dataset_ID) | 
-    # def load_small_names_text(self, dataset_ID): #as str 
-    #     """returns names text of "small" datasets"""
-    #     pass
-
-    # def download(self, dataset_ID, save_directory): # as interactive | 
-    #     """returns input box prompting response here are the options, 
-    #     pick one or all of them, are you sure? OK"""
-    #     pass
 
     def limit(self, field, input): # as obj | 
         """limits self to only datasets with this field type"""
         try:
-            sdf = self.__df__
-            sdf = sdf[sdf[field] == input]
-            self.__df__ = sdf
+            print(field, input)
+            self.__df__ = self.__df__[self.__df__[field] == input]
         except:
             print("sorry that didn't work, please try again")
 
