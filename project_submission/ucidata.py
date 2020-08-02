@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 import os 
 import plotly.express as px
-import scripts.Kip_plotly_viz as kpv
+import Kip_plotly_viz as kpv
 #import Kip_plotly_viz as kpv
 import ast
 import operator
@@ -19,9 +19,9 @@ def df_first_row_to_header(df):
 class UC_Irvine_datasets():
 
     def __init__(self):
-        dirname = os.path.dirname
-        basedir = dirname(dirname(os.path.abspath(__file__)))
-        self.__df__ = pd.read_csv(basedir + r"\\data\cleanest_data_KMaugmented.csv")
+        # dirname = os.path.dirname
+        # basedir = dirname(dirname(os.path.abspath(__file__)))
+        self.__df__ = pd.read_csv(r"cleanest_data_KMaugmented.csv")
 
     def __str__(self): # as str
         rows = len(self.__df__.index)
@@ -52,8 +52,8 @@ class UC_Irvine_datasets():
             return x
         listall['Title'] = listall['Title1'].apply(cleanx)
         listall = listall[['ID', 'Title']]
-        print(f"{' '*20}there are ##  {len(listall.index)}  ## datasets returned")
-        print(str(listall.to_string(index=False))+"\n\n")
+        return f"{' '*20}there are ##  {len(listall.index)}  ## datasets returned\n\n" \
+            + str(listall.to_string(index=False))+"\n\n"
     
     def to_df(self): # as df
         """returns underlying class dataframe"""
@@ -67,7 +67,7 @@ class UC_Irvine_datasets():
     def small_datasets_only(self): # as df
         """returns all small datasets from underlying dataframe """
         new_copy = copy.deepcopy(self)
-        print(type(new_copy))
+        #print(type(new_copy))
         new_copy.limit("small", 1)
         return new_copy
 
@@ -114,9 +114,11 @@ class UC_Irvine_datasets():
             #print(len(df.index))
             df = df[(df.T != 0).any()][1:]
             
-            print(df) #.to_string())
+            output = str(df) #.to_string())
         except:
-            print("sorry, not a real dataset ID")
+            output = "sorry, not a real dataset ID"
+        print(output)
+        return output
 
     def limit(self, field, input): # as obj | 
         """limits self to only datasets with this field type"""
@@ -241,7 +243,7 @@ if __name__ == "__main__":
 
     ucid = UC_Irvine_datasets()
 
-    df = ucid.get_df().copy()
+    #df = ucid.get_df().copy()
 
     #ucid.print_distribution("Area")
     #ucid.print_special_plot('stackedtasks')
@@ -251,7 +253,7 @@ if __name__ == "__main__":
     #ucid.sizecomparisonplot('max_pct_sumsize', 'inst_pct_sumsize', 'Area')
 
     # df.sort_values(by='dsizes', ascending=False, axis=1)
-    #print(df.head(15))
+    print(df)
 
     #df.to_csv("orderthesizes.csv")
 

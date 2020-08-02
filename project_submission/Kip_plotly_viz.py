@@ -8,12 +8,12 @@ import ast
 from collections import Counter
 import plotly.offline as pyo
 
-pyo.init_notebook_mode()
-dirname = os.path.dirname
-basedir = dirname(dirname(os.path.abspath(__file__)))
-country_codes = pd.read_csv(basedir + r"\\data\all_country_codes.csv")
+# dirname = os.path.dirname
+# basedir = dirname(dirname(os.path.abspath(__file__)))
+country_codes = pd.read_csv(r"all_country_codes.csv")
 
 def viz_stacked_tasks_time(df): #, thisdir):
+    pyo.init_notebook_mode()
     
     df = df[['year_donated', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'reccomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['year_donated'])
 
@@ -36,7 +36,7 @@ def viz_stacked_tasks_time(df): #, thisdir):
     return fig
 
 def viz_stacked_area_tasks_time(df): #, thisdir):
-
+    pyo.init_notebook_mode()
     df = df[['year_donated', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'reccomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['year_donated'])
     df = df.groupby(['year_donated']).sum().reset_index()
     df.columns = [x.replace("_", " ").title().replace(" Task", "") for x in list(df.columns.values)]
@@ -72,6 +72,7 @@ def viz_stacked_area_tasks_time(df): #, thisdir):
 
 
 def viz_webhits_data_available(base_df): #, thisdir):
+    pyo.init_notebook_mode()
     import plotly.graph_objects as go
     from plotly.subplots import make_subplots
     import math
@@ -131,6 +132,7 @@ def viz_webhits_data_available(base_df): #, thisdir):
 
 
 def worldmap(df): #, thisdir):
+    pyo.init_notebook_mode()
     #'multivariate_data', 'time_series_data', 'data_generator_data', 'domain_theory_data', 'image_data', 'relational_data', 'sequential_data', 'spatial_data', 'univariate_data', 'spatio_temporal_data', 'text_data', 'transactional_data'
     df = df[df['source_institution_places'].str.len() > 6]
     datasetcount = len(df.index)
@@ -207,11 +209,11 @@ if __name__ == '__main__':
     #thisdir = os.path.dirname(os.path.abspath(__file__)) + r"\\"
 
     # 2. src dataset to build on -> dataframe
-    src_data = basedir + r"\\data\cleanest_data_KMaugmented.csv"
-    src_df = pd.read_csv(src_data, encoding="latin-1")
+    #src_data = basedir + r"\\data\cleanest_data_KMaugmented.csv"
+    #src_df = pd.read_csv(src_data, encoding="latin-1")
 
     # 3. Make visualizations
-    viz_stacked_tasks_time(src_df)#, thisdir)
+    #viz_stacked_tasks_time(src_df)#, thisdir)
     #viz_stacked_area_tasks_time(src_df)#, thisdir)
     #viz_webhits_data_available(src_df)#, thisdir)
     #worldmap(src_df)#, thisdir)
