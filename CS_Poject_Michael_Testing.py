@@ -3,7 +3,7 @@
 
 import pandas as pd
 import unittest
-from michael_Pajewski_Project1 import *
+from michael_Pajewski_Project1_testing import *
 
 
 class PojectTestCase(unittest.TestCase): # inherit from unittest.TestCase
