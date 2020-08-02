@@ -8,6 +8,7 @@ import ast
 import operator
 import re 
 import copy
+import plotly.offline as pyo
 
 
 def df_first_row_to_header(df):
@@ -130,6 +131,7 @@ class UC_Irvine_datasets():
 
     def print_distribution(self, field): # as plot | 
         """prints histogram of whatever field which is valid, binned in 20 groupings if continuous"""
+        pyo.init_notebook_mode()
         if isinstance(field, str) and field in self.__df__.columns.tolist():
             fig = px.histogram(self.__df__, x=field, title=f"Histogram of {field}" )
             # updating plot layout 
@@ -146,11 +148,12 @@ class UC_Irvine_datasets():
             fig.update_xaxes(showline=True, linewidth=1, linecolor='black', mirror=True)
             fig.update_yaxes(showline=True, linewidth=1, linecolor='black', mirror=True)
             
-            fig.show()
+            return fig
         else:
             print("field entered must exist and be a string")
 
     def print_barplot(self, xcol, ycol, colorcol=""): # as plot | 
+        pyo.init_notebook_mode()
         plotdf = self.__df__
         plotdf["dataset_count"] = 1
         collist = plotdf.columns.tolist()
@@ -183,6 +186,7 @@ class UC_Irvine_datasets():
             print("fields entered must exist and be a string")
 
     def sizecomparisonplot(self, colx, coly, colcolor = ""):
+        pyo.init_notebook_mode()
         df = self.__df__.copy()
         def maxlistsize(x):
             if x == '[]':

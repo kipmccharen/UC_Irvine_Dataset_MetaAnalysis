@@ -83,13 +83,16 @@ def getchildpages(src_df, savehere=None):
             datafsd = datafsd[0]
             datafsd = datafsd.find("a")['href']
             thispage['data_folder'] = datafsd
-            possibletextchar = re.sub(r"(datasets\/|[+,\-\.a-z]|\%\d+)","",burl)
+            datafsd_clear = datafsd.replace(r'../machine-learning-databases/', "").replace("/", "")
+            possibletextchar = re.sub(r"(datasets\/|[+,\.]|\%\d+)","",burl)
+            possibletextchar = re.sub(r"[\+]","-",possibletextchar)
             possibletextchar2 = possibletextchar[:15] + re.sub("[a-z]", "", possibletextchar[15:])
             possibletextchar = possibletextchar2 if len(possibletextchar) >25 else possibletextchar
-            if datafsd[1:-1].isnumeric() and len(datafsd)>20:
+            if datafsd_clear[1:-1].isnumeric() or len(datafsd_clear)>25:
                 thispage['shortname'] = possibletextchar
             else:
-                thispage['shortname'] = datafsd
+                thispage['shortname'] = datafsd_clear
+            print(thispage['shortname'])
             thispage['data_ext_url'] = get_dataset_url(datafsd)
         attrtbl = soup.find('table' , attrs={'cellpadding':'6'})
         if attrtbl:

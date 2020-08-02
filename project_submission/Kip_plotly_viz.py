@@ -199,7 +199,7 @@ def worldmap(df): #, thisdir):
     )
 
     #print(df)
-    fig.write_html(basedir + "viz_worldmap_sourced_pct_datasets.html")
+    #fig.write_html(basedir + "viz_worldmap_sourced_pct_datasets.html")
     return fig
 
 if __name__ == '__main__':
