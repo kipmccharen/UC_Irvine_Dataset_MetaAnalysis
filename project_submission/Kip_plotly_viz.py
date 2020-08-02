@@ -216,7 +216,7 @@ if __name__ == '__main__':
     #viz_stacked_tasks_time(src_df)#, thisdir)
     #viz_stacked_area_tasks_time(src_df)#, thisdir)
     #viz_webhits_data_available(src_df)#, thisdir)
-    #worldmap(src_df)#, thisdir)
+    worldmap(src_df).show()#, thisdir)
 
     print("--- %s seconds ---" % (datetime.now() - start_time))
 

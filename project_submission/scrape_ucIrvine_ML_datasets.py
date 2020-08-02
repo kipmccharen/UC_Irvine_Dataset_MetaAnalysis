@@ -54,9 +54,10 @@ def get_dataset_url(x):
         except: 
             print("                                       no good")
     if not output:
-        return None
-    else:
-        return ",".join(output)
+        return "|"
+    output = "|".join([",".join(o) for o in output])
+    #print(output)
+    return output
 
 def getchildpages(src_df, savehere=None):
     """ """
@@ -65,7 +66,7 @@ def getchildpages(src_df, savehere=None):
 
     getpagedata = []
     for ul, real_url in enumerate(urllist):
-        print(real_url) 
+        burl = real_url
         real_url = r"http://archive.ics.uci.edu/ml/" + real_url
         try: 
             thispage = {'URL': real_url, 'ID': ul}
@@ -80,11 +81,16 @@ def getchildpages(src_df, savehere=None):
         datafsd = [x for x in soup.findAll("span",class_="normal") if 'Data Folder' in x.text]
         if datafsd:
             datafsd = datafsd[0]
-            thispage['DataFolder'] = datafsd.find("a")['href']
-        try:
-            thispage['data_ext_url'] = get_dataset_url(thispage['DataFolder'])
-        except:
-            pass
+            datafsd = datafsd.find("a")['href']
+            thispage['data_folder'] = datafsd
+            possibletextchar = re.sub(r"(datasets\/|[+,\-\.a-z]|\%\d+)","",burl)
+            possibletextchar2 = possibletextchar[:15] + re.sub("[a-z]", "", possibletextchar[15:])
+            possibletextchar = possibletextchar2 if len(possibletextchar) >25 else possibletextchar
+            if datafsd[1:-1].isnumeric() and len(datafsd)>20:
+                thispage['shortname'] = possibletextchar
+            else:
+                thispage['shortname'] = datafsd
+            thispage['data_ext_url'] = get_dataset_url(datafsd)
         attrtbl = soup.find('table' , attrs={'cellpadding':'6'})
         if attrtbl:
             attrtbl = attrtbl.findAll("td")
