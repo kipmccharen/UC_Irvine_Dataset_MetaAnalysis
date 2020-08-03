@@ -3,7 +3,7 @@
 
 import pandas as pd
 import unittest
-from michael_Pajewski_Project1 import *
+from michael_Pajewski_Project1_testing import *
 
 
 class PojectTestCase(unittest.TestCase): # inherit from unittest.TestCase
@@ -12,8 +12,8 @@ class PojectTestCase(unittest.TestCase): # inherit from unittest.TestCase
     def test_data_is_imported_correctly(self):
         #testing that the orginial df is the correct size of 472 x 38 
         #checking all data is imported from csv
-        self.assertEqual(len(df), 472) 
-        self.assertEqual(len(df.columns), 38) 
+        self.assertEqual(len(df), 471) 
+        self.assertEqual(len(df.columns), 46) 
         
     def test_df_types_correct(self):
         #test that df data types are correct
@@ -33,12 +33,10 @@ class PojectTestCase(unittest.TestCase): # inherit from unittest.TestCase
         self.assertEqual(df_year_area['text_data'].dtype, 'int64')
         
         # testing the df_year_avg_instance df transformation
-        self.assertEqual(df_year_avg_instance['NumberofInstances'].dtype, 'int64')
-        self.assertEqual(df_year_avg_instance['NumberofWebHits'].dtype, 'int64')
-        self.assertEqual(df_year_avg_instance['text_data'].dtype, 'int64')
+        self.assertEqual(df_year_avg_instance['NumberofInstances'].dtype, 'float64')
+        self.assertEqual(df_year_avg_instance['NumberofWebHits'].dtype, 'float64')
+        self.assertEqual(df_year_avg_instance['text_data'].dtype, 'float64')
         
-    def test_Plots_correct(self):  
- 
-        
+         
 if __name__ == '__main__':
     unittest.main()   
