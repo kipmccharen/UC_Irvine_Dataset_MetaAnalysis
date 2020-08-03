@@ -3,7 +3,6 @@ import requests
 import os 
 import plotly.express as px
 import Kip_plotly_viz as kpv
-import ast
 import operator
 import re 
 import copy
