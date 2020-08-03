@@ -32,7 +32,7 @@ The string property allows users to understand the current state of the class ob
 print(ucid)
 ```
 
-![1_print_object](/1_print_object.JPG)
+![1_print_object](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/1_print_object.JPG?raw=true)
 
 ## object.list_all_datasets()
 
@@ -43,7 +43,7 @@ Look at what datasets area available with *list_all_datasets()*
 ucid.list_all_datasets()
 ```
 
-![2_list_all_datasets](/2_list_all_datasets.JPG)
+![2_list_all_datasets](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/2_list_all_datasets.JPG?raw=true)
 
 ## object.limit(fieldname, value_to_match)
 
@@ -56,7 +56,7 @@ print(ucid)
 ucid.list_all_datasets()
 ```
 
-![3_limit](/3_limit.JPG)
+![3_limit](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/3_limit.JPG?raw=true)
 
 ## object.show_me_dataset(ID)
 
@@ -69,7 +69,7 @@ Let's just look at one with *show_me_dataset(ID)*
 ucid.show_me_dataset("wine-quality")
 ```
 
-![4_show_me_dataset](/4_show_me_dataset.JPG)
+![4_show_me_dataset](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/4_show_me_dataset.JPG?raw=true)
 
 ## object.load_small_dataset_df(ID)
 
@@ -88,7 +88,7 @@ print(f"There are {len(test_load_df.index)} rows")
 print(test_load_df.head())
 ```
 
-![5_load_small_dataset_df](/5_load_small_dataset_df.JPG)
+![5_load_small_dataset_df](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/5_load_small_dataset_df.JPG?raw=true)
 
 ## df_first_row_to_header(df)
 
@@ -103,7 +103,7 @@ print("\n\n### WITH HEADERS CORRECTED ###\n")
 print(test_load_df.head())
 ```
 
-![6_df_first_row_to_header](/6_df_first_row_to_header.JPG)
+![6_df_first_row_to_header](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/6_df_first_row_to_header.JPG?raw=true)
 
 ## object.small_datasets_only()
 
@@ -118,7 +118,7 @@ small_uci = small_ucid.list_all_datasets()
 print(small_ucid)
 ```
 
-![7_small_datasets_only](/7_small_datasets_only.JPG)
+![7_small_datasets_only](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/7_small_datasets_only.JPG?raw=true)
 
 The object can also produce simple plots from the dataframe:
 
@@ -127,12 +127,12 @@ The object can also produce simple plots from the dataframe:
 ucid.print_distribution("NumberofInstances")
 ```
 
-![8_Histogram](/8_Histogram.png)
+![8_Histogram](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/8_Histogram.JPG?raw=true)
 
 
 ```python
 ucid.print_barplot("year_donated","NumberofWebHits", colorcol="header")
 ```
 
-![9_barplot](/9_barplot.png)
+![9_barplot](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/9_barplot.JPG?raw=true)
 
