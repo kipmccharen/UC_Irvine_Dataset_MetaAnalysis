@@ -2,9 +2,6 @@ import unittest
 import data_cleaning
 import numpy as np
 import pandas as pd
-from os import path
-from datetime import datetime
-
 
 class DataCleaningTestCase(unittest.TestCase): # inherit from unittest.TestCase
     # Unit testing Checking in account_class.py
@@ -168,12 +165,6 @@ class DataCleaningTestCase(unittest.TestCase): # inherit from unittest.TestCase
         data2 = "Index,105B,105|bezdekIris.data,4K,4551|iris.data,4K,4551|iris.names,2K,2998"
         self.assertEqual(data_cleaning.sum_file_size(data1),1455359)
         self.assertTrue(data_cleaning.sum_file_size(data2),105+4551+4551+2998)
-
-log_file = 'testing_package.txt'
-with open(log_file, "a") as f:
-    f.writelines(f"{datetime.now()} {path.realpath(__file__)}")
-    runner = unittest.TextTestRunner(f)
-    unittest.main(testRunner=runner)
 
 if __name__ == '__main__':
     unittest.main()

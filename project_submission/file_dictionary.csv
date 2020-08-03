@@ -1,20 +1,20 @@
 File Name,Purpose,Description
-BD_presentation.ipynb,Presentation,Jupyter Notebook for Presentation Part 2
-Data_dictionary.csv,Data,CSV File to explain terms used in the project
-KM_presentation.ipynb,Presentation,Jupyter Notebook for Presentation Part 4
-Kip_plotly_viz.py,Function,Python File  to create visualizations with Plotly
-MP_presentation.ipynb,Presentation,Jupyter Notebook for Presentation Part 3
-MP_presentation_local.py,Presentation,Python File to support Presentation Part 3
-SM_Presentation.pptx,Presentation,PowerPoint for Presentation Part 1
-TESTING_data_cleaning.py,Testing,Python File to test the data cleaning
-Test_MP_presentation_local.py,Testing,Python File to test the Presentation Part 3 file
-UC_Irvine_ML_datasets.csv,Data,CSV data frame with additional information from each data set page
 all_country_codes.csv,Data,CSV File with country codes to support global map
 cleanest_data.csv,Data,CSV data frame containing scraped information from all data sets page
 cleanest_data_augmented.csv,Data,CSV data frame adding additional scraped information regarding data set sources and file sizes
-data_cleaning.py,Function,Python File to perform the data cleaning
-scrape_ucIrvine_ML_datasets.py,Function,Python File to webscrape the UCI repository
-test_scrape_ucirvine.py,Testing,Python File to test the webscraping
-test_ucidata.py,Testing,Python File to test the webscraping
-ucidata.py,Function,Python File to webscrape additional data set information from the UCI repository
+Data_dictionary.csv,Data,CSV File to explain terms used in the project
+UC_Irvine_ML_datasets.csv,Data,CSV data frame with additional information from each data set page
 uniquelist.csv,Data,CSV data frame with location information from UCI contributors
+data_cleaning.py,Function,Python File to perform the data cleaning
+Kip_plotly_viz.py,Function,Python File  to create visualizations with Plotly
+scrape_ucIrvine_ML_datasets.py,Function,Python File to webscrape the UCI repository
+ucidata.py,Function,Python File to define the exploratory class object and methods
+BD_presentation.ipynb,Presentation,Jupyter Notebook for Presentation Part 2
+KM_presentation.ipynb,Presentation,Jupyter Notebook for Presentation Part 4
+MP_presentation.ipynb,Presentation,Jupyter Notebook for Presentation Part 3
+MP_presentation_local.py,Presentation,Python File to support Presentation Part 3
+SM_Presentation.pptx,Presentation,PowerPoint for Presentation Part 1
+Test_MP_presentation_local.py,Testing,Python File to test the Presentation Part 3 file
+test_scrape_ucirvine.py,Testing,Python File to test the webscraping
+test_ucidata.py,Testing,Python File to test the class object and methods
+TESTING_data_cleaning.py,Testing,Python File to test the data cleaning

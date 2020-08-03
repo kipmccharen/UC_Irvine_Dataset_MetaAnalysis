@@ -4,14 +4,13 @@ import os
 from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
-import ast
 from collections import Counter
 import plotly.offline as pyo
 
 # dirname = os.path.dirname
 # basedir = dirname(dirname(os.path.abspath(__file__)))
-thisdir = os.path.dirname(os.path.abspath(__file__)) + "\\"
-country_codes = pd.read_csv(thisdir + r"all_country_codes.csv")
+#thisdir = os.path.dirname(os.path.abspath(__file__)) + "\\"
+country_codes = pd.read_csv(r"all_country_codes.csv")
 
 def viz_stacked_tasks_time(df): #, thisdir):
     pyo.init_notebook_mode()
@@ -110,7 +109,7 @@ def viz_webhits_data_available(base_df): #, thisdir):
         legend=dict(
         orientation="h",
         yanchor="bottom",
-        y=0.9,
+        y=1.2,
         xanchor="center",
         x=0.5
         )
@@ -133,7 +132,7 @@ def viz_webhits_data_available(base_df): #, thisdir):
 
 
 def worldmap(df): #, thisdir):
-    pyo.init_notebook_mode()
+    #pyo.init_notebook_mode()
     #'multivariate_data', 'time_series_data', 'data_generator_data', 'domain_theory_data', 'image_data', 'relational_data', 'sequential_data', 'spatial_data', 'univariate_data', 'spatio_temporal_data', 'text_data', 'transactional_data'
     df = df[df['source_institution_places'].str.len() > 6]
     datasetcount = len(df.index)
@@ -207,19 +206,14 @@ def worldmap(df): #, thisdir):
 if __name__ == '__main__':
     start_time = datetime.now()
 
-    # 1. dir path of this folder
-    #thisdir = os.path.dirname(os.path.abspath(__file__)) + r"\\"
-
-    # 2. src dataset to build on -> dataframe
-    #src_data = basedir + r"\\data\cleanest_data_KMaugmented.csv"
-    src_data =r"D:\git\cleanest_data_augmented.csv"
+    src_data =r"cleanest_data_augmented.csv"
     src_df = pd.read_csv(src_data, encoding="latin-1")
 
     # 3. Make visualizations
-    #viz_stacked_tasks_time(src_df)#, thisdir)
-    #viz_stacked_area_tasks_time(src_df)#, thisdir)
-    #viz_webhits_data_available(src_df)#, thisdir)
-    worldmap(src_df).show()#, thisdir)
+    #viz_stacked_tasks_time(src_df)
+    #viz_stacked_area_tasks_time(src_df)
+    #viz_webhits_data_available(src_df)
+    worldmap(src_df).show()
 
     print("--- %s seconds ---" % (datetime.now() - start_time))
 

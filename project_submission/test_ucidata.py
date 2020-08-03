@@ -1,8 +1,6 @@
 import unittest
 import pandas as pd
 from ucidata import UC_Irvine_datasets
-from os import path
-from datetime import datetime
 
 class text_ucid(unittest.TestCase): # inherit from unittest.TestCase
 
@@ -76,12 +74,6 @@ available here: http://archive.ics.uci.edu/ml/datasets.php""")
         newucid = UC_Irvine_datasets()
         newucid = newucid.show_me_dataset("abalone")
         self.assertTrue("NumberofWebHits" in newucid)
-
-log_file = 'testing_package.txt'
-with open(log_file, "a") as f:
-    f.writelines(f"{datetime.now()} {path.realpath(__file__)}")
-    runner = unittest.TextTestRunner(f)
-    unittest.main(testRunner=runner)
 
 if __name__ == '__main__':
     unittest.main()

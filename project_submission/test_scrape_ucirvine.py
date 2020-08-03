@@ -1,8 +1,6 @@
 import unittest
 import pandas as pd
 from scrape_ucIrvine_ML_datasets import getparentlist, getchildpages, get_dataset_url
-from os import path
-from datetime import datetime
 
 class CheckingTestCase(unittest.TestCase): # inherit from unittest.TestCase
     
@@ -31,12 +29,6 @@ class CheckingTestCase(unittest.TestCase): # inherit from unittest.TestCase
         data2 = "../00241/"
         self.assertEqual(get_dataset_url(data), "facebook_large.zip,1M,1737479")
         self.assertEqual(get_dataset_url(data2), "100%20leaves%20plant%20species.zip,35M,36764215")
-
-log_file = 'testing_package.txt'
-with open(log_file, "a") as f:
-    f.writelines(f"{datetime.now()} {path.realpath(__file__)}")
-    runner = unittest.TextTestRunner(f)
-    unittest.main(testRunner=runner)
 
 if __name__ == '__main__':
     unittest.main()

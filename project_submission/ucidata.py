@@ -3,7 +3,6 @@ import requests
 import os 
 import plotly.express as px
 import Kip_plotly_viz as kpv
-#import Kip_plotly_viz as kpv
 import ast
 import operator
 import re 
@@ -176,7 +175,7 @@ class UC_Irvine_datasets():
             fig.update_xaxes(showline=True, linewidth=1, linecolor='black', mirror=True)
             fig.update_yaxes(showline=True, linewidth=1, linecolor='black', mirror=True)
             
-            return fig
+            fig.show()
         else:
             print("field entered must exist and be a string")
 

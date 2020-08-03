@@ -10,7 +10,7 @@ import plotly.express as px
 pyo.init_notebook_mode()
 
 #import data file
-df = pd.read_csv('cleanest_data.csv') 
+df = pd.read_csv('cleanest_data_augmented.csv', encoding="latin-1") 
 
 #grouping by area of interest 
 df_intrest = df.groupby(['Area']).sum()

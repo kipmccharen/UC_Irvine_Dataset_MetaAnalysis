@@ -37,7 +37,7 @@ def getparentlist(savehere=None):
 
 def get_dataset_url(x):
     """sub-function to grab the URL and file size of datasets available"""
-    rootURL = r"http://archive.ics.uci.edu/ml"
+    rootURL = r"http://archive.ics.uci.edu/ml/machine-learning-databases"
     x = x.replace("..", rootURL) # clean presented value and replace w root
     # scrape the dataset page
     soup = BeautifulSoup(requests.get(x).text, "lxml") 

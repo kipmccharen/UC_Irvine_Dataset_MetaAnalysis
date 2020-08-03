@@ -233,7 +233,7 @@ if __name__ == '__main__':
     src_df['dataset_age'] = src_df['year_donated'].apply(lambda x: 2020-x)
     
     #add column multiply rows*columns to get number of cells in dataset
-    src_df['DatapointCount'] = src_df.apply(lambda x: x['NumberofInstances'] * x['NumberofAttributes'])
+    src_df['DatapointCount'] = src_df.NumberofInstances * src_df.NumberofAttributes
 
     #extra sum of the size of all files in dataset
     src_df['sum_file_sizes'] = src_df['data_ext_url'].apply(sum_file_size)
