@@ -1,19 +1,13 @@
 # UC Irvine Datasets 
 
-### Making an Object from A Dataset
-
-First we need to import the relevant project files, including the class **UC_Irvine_datasets**.
-
 ## class UC_Irvine_datasets()
 
-An instance of the UC_Irvine_datasets() object contains a dataframe of all the datasets. 
+The UC_Irvine_datasets() object contains a pandas dataframe of all the datasets available on the [UC-Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/index.php). Many methods make it easy to peruse, export, and even import the datasets inside the object.
 
-Many methods make it easy to peruse, export, and even import the datasets inside the object.
-
+See below for examples of ways to use methods of UC_Irvine_datasets():
 
 ```python
 from scripts.ucidata import UC_Irvine_datasets, df_first_row_to_header
-from scripts.Kip_plotly_viz import viz_stacked_tasks_time, viz_stacked_area_tasks_time, viz_webhits_data_available, worldmap
 
 # Create an instance of the class, which loads the dataframe of UC Irvine datasets
 ucid = UC_Irvine_datasets()
