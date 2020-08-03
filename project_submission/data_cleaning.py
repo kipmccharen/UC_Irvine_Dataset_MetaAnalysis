@@ -204,32 +204,38 @@ if __name__ == '__main__':
         return out
     src_df['DatapointCount'] = src_df.apply(calc_num_cells, axis=1)
 
+    #function to sum the size of all files in a dataset as sum_file_sizes
     def sum_file_size(x):
         if x in ('', "|", np.nan):
             return 0
         splitme = re.split(r',|\|', x)
         splitme = [num for num in splitme if num.isdigit()]
-        return sum([int(num) for num in splitme])
-
+        return sum([int(num) for num in splitme]
     src_df['sum_file_sizes'] = src_df['data_ext_url'].apply(sum_file_size)
 
+    # function to define which datasets are "small
     def find_small(x):
-        if x == "|":
+        if x == "|": #if there's no data, return 0 for no
             return 0
 
-        x = x.split("|")
+        x = x.split("|") #split the value
+        # find the max value splitting by comma
         maxval = max([int(i.split(",")[2]) for i in x])
+        # filter to get full dataset info where max size
         newval = list(filter(lambda x: x.split(",")[2] == str(maxval), x))
+        # return split list version of data file
         newval = newval[0].split(",")
-        
+
+        # if right kind of file (csv, data, txt) and less than ~1.1MB
+        # mark as small, otherwise no
         if (".csv" in newval[0] or ".data" in newval[0] or \
                 ".txt" in newval[0]) and int(newval[2]) < 1100000:
             return 1
         else:
             return 0
-
     src_df['small'] = src_df["data_ext_url"].apply(find_small)
 
+    # rename index to use for later
     src_df = src_df.rename(columns={"Unnamed: 0": 'Index'})
 
     #export finished df to new augmented file
