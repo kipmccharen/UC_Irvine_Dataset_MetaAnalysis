@@ -96,6 +96,10 @@ def create_tasks_columns(df):
     df['num_associated_tasks'] = df.apply(num_associated_tasks, axis=1)
     return df
 
+def convert_to_datetime(df):
+    df['DateDonated'] = df['DateDonated'].apply(lambda x: pd.to_datetime(x, infer_datetime_format=True))
+    return df
+
 def final_na_drop(df):
     df1 = df.dropna()
     return df1
@@ -210,7 +214,7 @@ if __name__ == '__main__':
             return 0
         splitme = re.split(r',|\|', x)
         splitme = [num for num in splitme if num.isdigit()]
-        return sum([int(num) for num in splitme]
+        return sum([int(num) for num in splitme])
     src_df['sum_file_sizes'] = src_df['data_ext_url'].apply(sum_file_size)
 
     # function to define which datasets are "small
