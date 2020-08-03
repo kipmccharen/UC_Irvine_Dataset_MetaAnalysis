@@ -4,6 +4,8 @@
 import pandas as pd
 import unittest
 from MP_presentation_local import *
+from os import path
+from datetime import datetime
 
 
 class PojectTestCase(unittest.TestCase): # inherit from unittest.TestCase
@@ -36,7 +38,12 @@ class PojectTestCase(unittest.TestCase): # inherit from unittest.TestCase
         self.assertEqual(df_year_avg_instance['NumberofInstances'].dtype, 'float64')
         self.assertEqual(df_year_avg_instance['NumberofWebHits'].dtype, 'float64')
         self.assertEqual(df_year_avg_instance['text_data'].dtype, 'float64')
-        
-         
+
+log_file = 'testing_package.txt'
+with open(log_file, "a") as f:
+    f.writelines(f"{datetime.now()} {path.realpath(__file__)}")
+    runner = unittest.TextTestRunner(f)
+    unittest.main(testRunner=runner)
+
 if __name__ == '__main__':
-    unittest.main()   
+    unittest.main()
