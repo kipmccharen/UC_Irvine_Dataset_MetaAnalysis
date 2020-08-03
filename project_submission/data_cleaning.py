@@ -107,13 +107,16 @@ def final_na_drop(df):
 def get_Univ_Loc_match(rowvals):
     """ Extract University, City, and Country values from "Source"
     column of original UC Irvine dataset by using a lookup list
-    developed by hand to solve this dataset problem. """
+    developed by hand to solve this dataset problem. 
+    Has to import directly here so function natively accepted by pandas."""
+    
+    # List of unique identifiers to search in text - lookup list
+    tester = pd.read_csv('uniquelist.csv', encoding="latin-1")
 
     # If encounters a number, go ahead and return nothing
     if isinstance(rowvals, float) or isinstance(rowvals, int):
         return ""
-    #Inherit the lookup list from parent function
-    tester = uniquedf.copy() 
+
     #Create boolean column to check if each lookup value exists 
     # in the column being checked, ensure all texts are stripped
     # and all text is lowercase to ensure matches work.
@@ -146,6 +149,36 @@ def create_lookup_list(dfsrc):
     
     unq = df1.groupby(renamecols).size().reset_index()
     return unq
+
+def find_small(x):
+    """single input row function to define which datasets are small"""
+    if x == "|": #if there's no data, return 0 for no
+        return 0
+
+    x = x.split("|") #split the value
+    # find the max value splitting by comma
+    maxval = max([int(i.split(",")[2]) for i in x])
+    # filter to get full dataset info where max size
+    newval = list(filter(lambda x: x.split(",")[2] == str(maxval), x))
+    # return split list version of data file
+    newval = newval[0].split(",")
+
+    # if right kind of file (csv, data, txt) and less than ~1.1MB
+    # mark as small, otherwise no
+    if (".csv" in newval[0] or ".data" in newval[0] or \
+            ".txt" in newval[0]) and int(newval[2]) < 1100000:
+        return 1
+    else:
+        return 0
+
+def sum_file_size(x):
+    """ single-input row function to sum the size 
+    of all files in a dataset as sum_file_sizes"""
+    if x in ('', "|", np.nan):
+        return 0
+    splitme = re.split(r',|\|', x)
+    splitme = [num for num in splitme if num.isdigit()]
+    return sum([int(num) for num in splitme])
 
 if __name__ == '__main__':
     start_time = datetime.now()
@@ -189,54 +222,23 @@ if __name__ == '__main__':
     
     #re-import the file 
     src_df = pd.read_csv('cleanest_data.csv', encoding="latin-1")
-
-    # List of unique identifiers to search in text - lookup list
-    uniquedf = pd.read_csv('uniquelist.csv', encoding="latin-1")
-
     # Use lookup list to find text and look for institution matches, 
     # once found append unique list of matching institution lookups
     src_df['source_institution_places'] = src_df['Source'].apply(get_Univ_Loc_match)
-    
+
     #add year from DateDonated column
     src_df['year_donated'] = src_df['DateDonated'].apply(lambda x: pd.to_datetime(x, infer_datetime_format=True).year)
+
     #additionally add the age of the dataset, subtracted from 2020
     src_df['dataset_age'] = src_df['year_donated'].apply(lambda x: 2020-x)
     
     #add column multiply rows*columns to get number of cells in dataset
-    def calc_num_cells(x):
-        out = x['NumberofInstances'] * x['NumberofAttributes']
-        return out
-    src_df['DatapointCount'] = src_df.apply(calc_num_cells, axis=1)
+    src_df['DatapointCount'] = src_df.apply(lambda x: x['NumberofInstances'] * x['NumberofAttributes'])
 
-    #function to sum the size of all files in a dataset as sum_file_sizes
-    def sum_file_size(x):
-        if x in ('', "|", np.nan):
-            return 0
-        splitme = re.split(r',|\|', x)
-        splitme = [num for num in splitme if num.isdigit()]
-        return sum([int(num) for num in splitme])
+    #extra sum of the size of all files in dataset
     src_df['sum_file_sizes'] = src_df['data_ext_url'].apply(sum_file_size)
 
-    # function to define which datasets are "small
-    def find_small(x):
-        if x == "|": #if there's no data, return 0 for no
-            return 0
-
-        x = x.split("|") #split the value
-        # find the max value splitting by comma
-        maxval = max([int(i.split(",")[2]) for i in x])
-        # filter to get full dataset info where max size
-        newval = list(filter(lambda x: x.split(",")[2] == str(maxval), x))
-        # return split list version of data file
-        newval = newval[0].split(",")
-
-        # if right kind of file (csv, data, txt) and less than ~1.1MB
-        # mark as small, otherwise no
-        if (".csv" in newval[0] or ".data" in newval[0] or \
-                ".txt" in newval[0]) and int(newval[2]) < 1100000:
-            return 1
-        else:
-            return 0
+    #all column defining what rows are small or not
     src_df['small'] = src_df["data_ext_url"].apply(find_small)
 
     # rename index to use for later
@@ -246,4 +248,3 @@ if __name__ == '__main__':
     src_df.to_csv('cleanest_data_augmented.csv', encoding="latin-1", index=False)
 
     print("--- %s seconds ---" % (datetime.now() - start_time))
-
