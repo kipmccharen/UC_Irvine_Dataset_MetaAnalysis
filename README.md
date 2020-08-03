@@ -1,7 +1,3 @@
----
-typora-root-url: readme_images
----
-
 # UC Irvine Datasets 
 
 ### Making an Object from A Dataset
