@@ -1,5 +1,5 @@
 import unittest
-import data_cleaning2
+import data_cleaning
 import numpy as np
 import pandas as pd
 
@@ -27,7 +27,7 @@ class DataCleaningTestCase(unittest.TestCase): # inherit from unittest.TestCase
         
         # Test
         # is the fee correct?
-        self.assertNotEqual(data_cleaning2.fillna(dataframe)['DataSetCharacteristics'][2], np.nan)
+        self.assertNotEqual(data_cleaning.fillna(dataframe)['DataSetCharacteristics'][2], np.nan)
 
     def test_create_characteristics_columns(self):
 
@@ -49,7 +49,7 @@ class DataCleaningTestCase(unittest.TestCase): # inherit from unittest.TestCase
         dataframe = pd.DataFrame(data) 
         
         # Test
-        self.assertEqual(len(data_cleaning2.create_characteristics_columns(dataframe).columns), 22)
+        self.assertEqual(len(data_cleaning.create_characteristics_columns(dataframe).columns), 22)
 
     def test_create_attribute_columns(self):
 
@@ -71,7 +71,7 @@ class DataCleaningTestCase(unittest.TestCase): # inherit from unittest.TestCase
         dataframe = pd.DataFrame(data) 
         
         # Test
-        self.assertEqual(len(data_cleaning2.create_attribute_columns(dataframe).columns), 14)
+        self.assertEqual(len(data_cleaning.create_attribute_columns(dataframe).columns), 14)
 
 
 
@@ -95,7 +95,7 @@ class DataCleaningTestCase(unittest.TestCase): # inherit from unittest.TestCase
         dataframe = pd.DataFrame(data) 
         
         # Test
-        self.assertEqual(len(data_cleaning2.create_tasks_columns(dataframe).columns), 19)
+        self.assertEqual(len(data_cleaning.create_tasks_columns(dataframe).columns), 19)
 
 
     def test_convert_to_datetime (self):
@@ -118,7 +118,7 @@ class DataCleaningTestCase(unittest.TestCase): # inherit from unittest.TestCase
         dataframe = pd.DataFrame(data) 
         
         # Test
-        self.assertIs(type(data_cleaning2.convert_to_datetime(dataframe)['DateDonated'][2]),pd._libs.tslibs.timestamps.Timestamp)
+        self.assertIs(type(data_cleaning.convert_to_datetime(dataframe)['DateDonated'][2]),pd._libs.tslibs.timestamps.Timestamp)
 
 
     def test_final_na_drop (self):
@@ -142,7 +142,7 @@ class DataCleaningTestCase(unittest.TestCase): # inherit from unittest.TestCase
         
         # Test
         # is the fee correct?
-        self.assertNotEqual(data_cleaning2.final_na_drop(dataframe)['DataSetCharacteristics'][2], np.nan)
+        self.assertNotEqual(data_cleaning.final_na_drop(dataframe)['DataSetCharacteristics'][2], np.nan)
 
     def test_add_locations (self):
 
@@ -156,7 +156,7 @@ class DataCleaningTestCase(unittest.TestCase): # inherit from unittest.TestCase
         # Create DataFrame 
         dataframe = pd.DataFrame(data)
         
-        self.assertEqual(data_cleaning2.add_locations(dataframe)['source_institution_places'][0][0],['University of Texas', 'Austin, TX', 'United States', 'USA'])
+        self.assertEqual(data_cleaning.add_locations(dataframe)['source_institution_places'][0][0],['University of Texas', 'Austin, TX', 'United States', 'USA'])
 
     def test_join_dfs (self):
 
@@ -164,11 +164,11 @@ class DataCleaningTestCase(unittest.TestCase): # inherit from unittest.TestCase
         src_df = pd.read_csv('cleanest_data.csv', encoding="latin-1")
 
         add_loc_df = pd.read_csv('dataset_add_Univ_City.csv', encoding="latin-1")
-        add_loc_df = data_cleaning2.add_locations(add_loc_df)
+        add_loc_df = data_cleaning.add_locations(add_loc_df)
 
 
 
-        self.assertIs(type(data_cleaning2.join_dfs(add_loc_df, "source_institution_places",src_df, "NumberofWebHits")['source_institution_places'][0]),list)
+        self.assertIs(type(data_cleaning.join_dfs(add_loc_df, "source_institution_places",src_df, "NumberofWebHits")['source_institution_places'][0]),list)
 
 
 

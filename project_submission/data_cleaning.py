@@ -96,6 +96,7 @@ def create_tasks_columns(df):
     return df
 
 def convert_to_datetime(df):
+    df['DateDonated'] = df['DateDonated'].apply(lambda x: pd.to_datetime(x, infer_datetime_format=True))
     return df
 
 def final_na_drop(df):
