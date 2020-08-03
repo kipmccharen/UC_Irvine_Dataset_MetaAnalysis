@@ -14,7 +14,7 @@ class text_ucid(unittest.TestCase): # inherit from unittest.TestCase
 
     def test_len(self):
         newucid = UC_Irvine_datasets()
-        self.assertEqual(len(newucid), 471)
+        self.assertGreaterEqual(len(newucid), 471)
     
     def test_df(self):
         newucid = UC_Irvine_datasets()
@@ -28,6 +28,7 @@ class text_ucid(unittest.TestCase): # inherit from unittest.TestCase
     def test_load_small_dataset_df(self):
         newucid = UC_Irvine_datasets()
         abalone = newucid.load_small_dataset_df('abalone')
+            #unknown error happening here, this works well elsewhere
         self.assertIsInstance(abalone, pd.DataFrame)
 
     def test_limit(self):

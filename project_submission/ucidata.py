@@ -9,6 +9,7 @@ import operator
 import re 
 import copy
 import plotly.offline as pyo
+import numpy as np
 
 
 def df_first_row_to_header(df):
@@ -20,17 +21,17 @@ def df_first_row_to_header(df):
 class UC_Irvine_datasets():
 
     def __init__(self):
-        # dirname = os.path.dirname
-        # basedir = dirname(dirname(os.path.abspath(__file__)))
-        self.__df__ = pd.read_csv(r"cleanest_data_KMaugmented.csv")
+        thisdir = os.path.dirname(os.path.abspath(__file__)) + "\\"
+        self.__df__ = pd.read_csv(thisdir + r"cleanest_data_augmented.csv", encoding='latin-1')
+        self.__df__ = self.__df__.sort_values(by=['header'])
 
     def __str__(self): # as str
         rows = len(self.__df__.index)
-        avgage = round(self.__df__['DatasetAge'].mean(), 1)
+        avgage = round(self.__df__['dataset_age'].mean(), 1)
         datapoints = round(self.__df__['DatapointCount'].median(), 1)
         areasum = str(self.__df__[['Area', 'Index']].groupby('Area').count().T)
 
-        sumdf = str(self.__df__[['multivariate_data', 'time_series_data', 'data_generator_data', 'domain_theory_data', 'image_data', 'relational_data', 'sequential_data', 'spatial_data', 'univariate_data', 'spatio_temporal_data', 'text_data', 'transactional_data', 'categorical_attributes', 'real_attributes', 'integer_attributes', 'no_listed_attributes', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'reccomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task', 'small']].sum())
+        sumdf = str(self.__df__[['multivariate_data', 'time_series_data', 'data_generator_data', 'domain_theory_data', 'image_data', 'relational_data', 'sequential_data', 'spatial_data', 'univariate_data', 'spatio_temporal_data', 'text_data', 'transactional_data', 'categorical_attributes', 'real_attributes', 'integer_attributes', 'no_listed_attributes', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'recomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task', 'small']].sum())
 
         output = "count of datasets: ".rjust(25, " ") + f"{rows} \n" \
             + "avg age: ".rjust(25, " ") + f"{avgage} yrs \n" \
@@ -44,7 +45,7 @@ class UC_Irvine_datasets():
 
     def list_all_datasets(self): # as str
         """returns string output of all dataset IDs and Titles """
-        listall = self.__df__[['shortname', 'header']].copy()
+        listall = self.__df__[['Dataset_ID', 'header']].copy()
         listall.columns = ["ID", "Title1"]
         def cleanx(x):
             x = str(x)
@@ -68,7 +69,6 @@ class UC_Irvine_datasets():
     def small_datasets_only(self): # as df
         """returns all small datasets from underlying dataframe """
         new_copy = copy.deepcopy(self)
-        #print(type(new_copy))
         new_copy.limit("small", 1)
         return new_copy
 
@@ -79,21 +79,23 @@ class UC_Irvine_datasets():
 
         def find_ok_data(list_of_lists):
             okdatatypes = [".csv", ".data", ".txt"]
-            for x in ast.literal_eval(df['data_ext_url']):
+            splitme = re.split(r',|\|', df['data_ext_url'])
+            for i,x in enumerate(splitme):
                 for odt in okdatatypes:
-                    if odt in x[0]:
-                        return x[0]
+                    if odt in splitme[i]:
+                        return splitme[i]
 
-        df = df[df['shortname'] == dataset_ID].to_dict('records')[0]
-        datasets = find_ok_data(ast.literal_eval(df['data_ext_url']))
-        #[x for x in  if ".csv" in x[0] or ".data" in x[0]][0][0]
+        df = df[df['Dataset_ID'] == dataset_ID]
+        df = df.to_dict('records')
+        df = df[0]
+        datasets = find_ok_data(df['data_ext_url'])
         url1 = "https://archive.ics.uci.edu/ml/machine-learning-databases" + df['data_folder']
         url = url1 + datasets
         print(f"dataset page: {url1}\ndataset URL: {url}\n")
         try:
             textval = requests.get(url).text
         except:
-            print("couldnt' do that")
+            print("couldn't do that")
             return None
         delimeters = {",":0, ";":0, r"\t":0}
         for d in delimeters.keys():
@@ -111,11 +113,10 @@ class UC_Irvine_datasets():
     def show_me_dataset(self, dataset_ID):
         df = self.__df__
         try:
-            df = df[df['shortname'] == dataset_ID].T
-            #print(len(df.index))
+            df = df[df['Dataset_ID'] == dataset_ID].T
             df = df[(df.T != 0).any()][1:]
             
-            output = str(df) #.to_string())
+            output = str(df)
         except:
             output = "sorry, not a real dataset ID"
         print(output)
@@ -178,7 +179,7 @@ class UC_Irvine_datasets():
                     'xanchor': 'center',
                     'yanchor': 'top'})
 
-            # add boarders to graph
+            # add borders to graph
             fig4.update_xaxes(showline=True, linewidth=1, linecolor='black', mirror=True)
             fig4.update_yaxes(showline=True, linewidth=1, linecolor='black', mirror=True)
             fig4.show()
@@ -189,23 +190,18 @@ class UC_Irvine_datasets():
         pyo.init_notebook_mode()
         df = self.__df__.copy()
         def maxlistsize(x):
-            if x == '[]':
+            if x in ('', "|", np.nan):
                 return 0
-            outs =  re.findall(r"'(\d+[M|K|G|B])'", x)
-            sizes = [(1, 'B'), (1000, 'K'), (1000000, 'M'), (1000000000, 'G')]
-            outs = [s[0]*int(out[:-1]) for out in outs for s in sizes if out[-1] == s[1]]
-            #print(outs)
-            res1 = max(outs)
-            return res1
+            splitme = re.split(r',|\|', x)
+            splitme = [int(num) for num in splitme if num.isnumeric()]
+            return max(splitme)
+            
         def sumlistsize(x):
-            if x == '[]':
+            if x in ('', "|", np.nan):
                 return 0
-            outs =  re.findall(r"'(\d+[M|K|G|B])'", x)
-            sizes = [(1, 'B'), (1000, 'K'), (1000000, 'M'), (1000000000, 'G')]
-            outs = [s[0]*int(out[:-1]) for out in outs for s in sizes if out[-1] == s[1]]
-            #print(outs)
-            res1 = sum(outs)
-            return res1
+            splitme = re.split(r',|\|', x)
+            splitme = [int(num) for num in splitme if num.isnumeric()]
+            return sum(splitme)
 
         df['max_size'] = df['data_ext_url'].apply(maxlistsize)
         df['sum_sizes'] = df['data_ext_url'].apply(sumlistsize)
@@ -213,7 +209,7 @@ class UC_Irvine_datasets():
         df['Percent of Summed File Sizes in Bytes'] = df['max_size'].apply(lambda x: x / t_sumsize)
         df['Percent of Summed Row Counts'] = df['NumberofInstances'].apply(lambda x: x / df['NumberofInstances'].sum())
         df['Percent of Summed Datapoint Counts'] = df['DatapointCount'].apply(lambda x: x / df['DatapointCount'].sum())
-        #print(df.columns)
+
         df.to_csv("orderthesizes.csv")
         
         if colcolor != "":
@@ -227,21 +223,6 @@ class UC_Irvine_datasets():
             fig.update_layout(yaxis_tickformat = '%')
 
         fig.show()
-
-    # def print_special_plot(self, special_plot_name): # as plot | 
-    #     """based on data existing in this object, print relevant plot ['worldmap', 'stackedtasks', 'stackedareatasks', 'webhitsdatasize']"""
-    #     plotdf = self.__df__
-    #     if special_plot_name == 'stackedtasks':
-    #         kpv.viz_stacked_tasks_time(plotdf)
-    #     elif special_plot_name == 'stackedareatasks':
-    #         kpv.viz_stacked_area_tasks_time(plotdf)
-    #     elif special_plot_name == 'webhitsdatasize':
-    #         kpv.viz_webhits_data_available(plotdf)
-    #     elif special_plot_name == 'worldmap':
-    #         kpv.worldmap(plotdf)
-    #     else:
-    #         print("not a special plot name")
-
 
 if __name__ == "__main__":
 
@@ -257,7 +238,8 @@ if __name__ == "__main__":
     #ucid.sizecomparisonplot('max_pct_sumsize', 'inst_pct_sumsize', 'Area')
 
     # df.sort_values(by='dsizes', ascending=False, axis=1)
-    print(df)
+    test_load_df = ucid.load_small_dataset_df("abalone")
+    print(test_load_df)
 
     #df.to_csv("orderthesizes.csv")
 

@@ -30,7 +30,6 @@ def getparentlist(savehere=None):
                 currow['URL'] = c.find('a')['href']
         if len(currow.keys())>4: #if there's at least 4 columns of data, add to the pile
             rowdata.append(currow)
-    #print(colnames)
     df = pd.DataFrame(rowdata)
     if savehere:
         df.to_csv(savehere)
@@ -40,7 +39,6 @@ def get_dataset_url(x):
     """ """
     rootURL = r"http://archive.ics.uci.edu/ml"
     x = x.replace("..", rootURL)
-    #print(x)
     soup = BeautifulSoup(requests.get(x).text, "lxml")
     tag = soup.find_all("a")
     urls = [t['href'] for t in tag if "Parent" not in t.text]
@@ -56,7 +54,6 @@ def get_dataset_url(x):
     if not output:
         return "|"
     output = "|".join([",".join(o) for o in output])
-    #print(output)
     return output
 
 def getchildpages(src_df, savehere=None):
@@ -82,17 +79,17 @@ def getchildpages(src_df, savehere=None):
         if datafsd:
             datafsd = datafsd[0]
             datafsd = datafsd.find("a")['href']
-            thispage['data_folder'] = datafsd
+            thispage['data_folder'] = datafsd.replace("../machine-learning-databases", "")
             datafsd_clear = datafsd.replace(r'../machine-learning-databases/', "").replace("/", "")
             possibletextchar = re.sub(r"(datasets\/|[+,\.]|\%\d+)","",burl)
             possibletextchar = re.sub(r"[\+]","-",possibletextchar)
             possibletextchar2 = possibletextchar[:15] + re.sub("[a-z]", "", possibletextchar[15:])
             possibletextchar = possibletextchar2 if len(possibletextchar) >25 else possibletextchar
             if datafsd_clear[1:-1].isnumeric() or len(datafsd_clear)>25:
-                thispage['shortname'] = possibletextchar
+                thispage['Dataset_ID'] = possibletextchar
             else:
-                thispage['shortname'] = datafsd_clear
-            print(thispage['shortname'])
+                thispage['Dataset_ID'] = datafsd_clear
+            print(thispage['Dataset_ID'])
             thispage['data_ext_url'] = get_dataset_url(datafsd)
         attrtbl = soup.find('table' , attrs={'cellpadding':'6'})
         if attrtbl:
@@ -111,10 +108,9 @@ def getchildpages(src_df, savehere=None):
         except:
             pass
         getpagedata.append(thispage)
-        #print("success")
             
 
-    df2 = pd.DataFrame(getpagedata) #.set_index('ID')
+    df2 = pd.DataFrame(getpagedata)
     if not savehere:
         return df2
     else:
@@ -123,17 +119,8 @@ def getchildpages(src_df, savehere=None):
 if __name__ == '__main__':   
     start_time = datetime.now()
     save_data = r"UC_Irvine_ML_datasets.csv"
+
     parent_list_df = getparentlist()
-    # print(parent_list_df)
-
     child_page_df = getchildpages(parent_list_df, savehere=save_data)
-
-    # pd.set_option("display.max_rows", None, "display.max_columns", None)
-    # childpageurl = "http://archive.ics.uci.edu/ml/datasets/Wine+Quality"
-    # df = pd.DataFrame([[childpageurl]], columns=['URL'])
-    # scrape_child = getchildpages(df)
-    # scrape_child = scrape_child.to_dict()
-    # print(len(scrape_child.keys()))
-    # print(scrape_child)
     
     print("--- %s seconds ---" % (datetime.now() - start_time))

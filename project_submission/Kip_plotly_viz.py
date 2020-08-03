@@ -10,12 +10,13 @@ import plotly.offline as pyo
 
 # dirname = os.path.dirname
 # basedir = dirname(dirname(os.path.abspath(__file__)))
-country_codes = pd.read_csv(r"all_country_codes.csv")
+thisdir = os.path.dirname(os.path.abspath(__file__)) + "\\"
+country_codes = pd.read_csv(thisdir + r"all_country_codes.csv")
 
 def viz_stacked_tasks_time(df): #, thisdir):
     pyo.init_notebook_mode()
     
-    df = df[['year_donated', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'reccomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['year_donated'])
+    df = df[['year_donated', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'recomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['year_donated'])
 
     df = df.groupby(['year_donated']).sum().reset_index()
     df.columns = [x.replace("_", " ").replace(" Task", "").title() for x in list(df.columns.values)]
@@ -37,7 +38,7 @@ def viz_stacked_tasks_time(df): #, thisdir):
 
 def viz_stacked_area_tasks_time(df): #, thisdir):
     pyo.init_notebook_mode()
-    df = df[['year_donated', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'reccomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['year_donated'])
+    df = df[['year_donated', 'causal_discover_task', 'classification_task', 'regression_task', 'function_learning_task', 'recomendation_task', 'description_task', 'relational_learning_task', 'no_given_task', 'clustering_task']].sort_values(by=['year_donated'])
     df = df.groupby(['year_donated']).sum().reset_index()
     df.columns = [x.replace("_", " ").title().replace(" Task", "") for x in list(df.columns.values)]
     collist = list(df.columns.values)[1:]
@@ -77,18 +78,18 @@ def viz_webhits_data_available(base_df): #, thisdir):
     from plotly.subplots import make_subplots
     import math
 
-    base_df = base_df[['DatasetAge', 'DatapointCount', 'NumberofWebHits']]
+    base_df = base_df[['dataset_age', 'sum_file_sizes', 'NumberofWebHits']]
 
-    base_df = base_df.groupby(['DatasetAge']).sum().reset_index().sort_values(by=['DatasetAge'])
+    base_df = base_df.groupby(['dataset_age']).sum().reset_index().sort_values(by=['dataset_age'])
 
     base_df['LogWebhits'] = base_df['NumberofWebHits'].apply(lambda x: np.log(x) +1)
-    base_df['LogDatapointsAdded'] = base_df['DatapointCount'].apply(lambda x: np.log(x) +1)
+    base_df['LogDatapointsAdded'] = base_df['sum_file_sizes'].apply(lambda x: np.log(x) +1)
 
     fig3 = make_subplots(specs=[[{"secondary_y": True}]])
 
     # Add traces
     fig3.add_trace(
-        go.Scatter(x=base_df['DatasetAge'], 
+        go.Scatter(x=base_df['dataset_age'], 
             y=base_df['LogWebhits'], 
             name="Log of Web Hits Across Datasets",
             line_shape='spline'),
@@ -96,8 +97,8 @@ def viz_webhits_data_available(base_df): #, thisdir):
     )
 
     fig3.add_trace(
-        go.Scatter(x=base_df['DatasetAge'], y=base_df['LogDatapointsAdded'], 
-            name="Log of Datapoints Added",
+        go.Scatter(x=base_df['dataset_age'], y=base_df['LogDatapointsAdded'], 
+            name="Log of Summed File Sizes Added",
             line_shape='spline'),
             secondary_y=True
     )
@@ -140,8 +141,9 @@ def worldmap(df): #, thisdir):
     countrylist = []
     for x in srclist:
         if x != [np.nan]:
-            x = ast.literal_eval(x[0])
+            x = x[0].split("|")
             for xsub in x:
+                xsub = xsub.split(";")
                 countrylist.append(xsub)
     df = pd.DataFrame(countrylist, columns = ['University', 'City', 'Country', 'CODE',])
     
@@ -210,7 +212,8 @@ if __name__ == '__main__':
 
     # 2. src dataset to build on -> dataframe
     #src_data = basedir + r"\\data\cleanest_data_KMaugmented.csv"
-    #src_df = pd.read_csv(src_data, encoding="latin-1")
+    src_data =r"D:\git\cleanest_data_augmented.csv"
+    src_df = pd.read_csv(src_data, encoding="latin-1")
 
     # 3. Make visualizations
     #viz_stacked_tasks_time(src_df)#, thisdir)

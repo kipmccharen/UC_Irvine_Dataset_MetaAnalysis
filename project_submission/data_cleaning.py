@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import os
 from datetime import datetime
+import re
 
 def fillna(df):
     df['MissingValues'] = df['MissingValues'].fillna('No')
@@ -95,47 +96,36 @@ def create_tasks_columns(df):
     df['num_associated_tasks'] = df.apply(num_associated_tasks, axis=1)
     return df
 
-def convert_to_datetime(df):
-    return df
-
 def final_na_drop(df):
     df1 = df.dropna()
     return df1
 
-def add_univ_city(dfsrc, uniquedf):
+def get_Univ_Loc_match(rowvals):
     """ Extract University, City, and Country values from "Source"
     column of original UC Irvine dataset by using a lookup list
     developed by hand to solve this dataset problem. """
 
-    def get_Univ_Loc_match(rowvals):
-        """ Have to use sub-function to run function on
-        each row of a dataframe using apply. """
-
-        # If encounters a number, go ahead and return nothing
-        if isinstance(rowvals, float) or isinstance(rowvals, int):
-            return ""
-        #Inherit the lookup list from parent function
-        tester = uniquedf.copy() 
-        #Create boolean column to check if each lookup value exists 
-        # in the column being checked, ensure all texts are stripped
-        # and all text is lowercase to ensure matches work.
-        tester['boole'] = tester['LookupVal'].apply(lambda x: x.strip().lower() in rowvals.strip().lower())
-        tester = tester[tester['boole'] == True] #return only rows with match
-        # Convert matched rows to a list which can be saved in the column
-        tester = tester[['University', 'City', 'Country', 'CODE']].values.tolist()
-        
-        # If nothing results from lookups, return nothing
-        if not tester:
-            return ""
-        else:
-            # Otherwise return a unique list of Countries. Multiple
-            # Lookups per value means could be multiple hits for 1 match
-            tester = [list(x) for x in set(tuple(x) for x in tester)]
-            return tester
-
-    dfsrc['source_institution_places'] = dfsrc['Source'].apply(get_Univ_Loc_match)
-
-    return dfsrc
+    # If encounters a number, go ahead and return nothing
+    if isinstance(rowvals, float) or isinstance(rowvals, int):
+        return ""
+    #Inherit the lookup list from parent function
+    tester = uniquedf.copy() 
+    #Create boolean column to check if each lookup value exists 
+    # in the column being checked, ensure all texts are stripped
+    # and all text is lowercase to ensure matches work.
+    tester['boole'] = tester['LookupVal'].apply(lambda x: x.strip().lower() in rowvals.strip().lower())
+    tester = tester[tester['boole'] == True] #return only rows with match
+    # Convert matched rows to a list which can be saved in the column
+    tester = tester[['University', 'City', 'Country', 'CODE']].values.tolist()
+    
+    # If nothing results from lookups, return nothing
+    if not tester:
+        return ""
+    else:
+        # Otherwise return a unique list of Countries. Multiple
+        # Lookups per value means could be multiple hits for 1 match
+        tester = "|".join([";".join(x) for x in set(tuple(x) for x in tester)])
+        return tester
 
 def create_lookup_list(dfsrc):
     """ Original starting place for creating the lookup list.
@@ -153,24 +143,6 @@ def create_lookup_list(dfsrc):
     unq = df1.groupby(renamecols).size().reset_index()
     return unq
 
-def add_locations(updatemedf):
-    """ Add locations data to a dataframe """
-    # List of unique identifiers to search in text
-    uniquedf = pd.read_csv('uniquelist.csv', encoding="latin-1")
-
-    # Use lookup list to find text and look for institution matches, 
-    # once found append unique list of matching institution lookups
-    df = add_univ_city(updatemedf, uniquedf)
-    # Output this to a file for checking and adding more values as needed
-    return df
-
-def join_dfs(cols_source_df, col_to_add, add_to_df, join_on_col):
-    """ Join two dataframes together, resulting in 2 columns added. """
-    List_cols_to_add = [col_to_add, join_on_col]
-    cols_source_df = cols_source_df[List_cols_to_add]
-    add_to_df = add_to_df.join(cols_source_df.set_index(join_on_col), on=join_on_col)
-    return add_to_df
-
 if __name__ == '__main__':
     start_time = datetime.now()
     
@@ -184,7 +156,8 @@ if __name__ == '__main__':
     pre_cleaned_df = pre_cleaned_df[[
                                     'header', 'DataSetCharacteristics', 'NumberofInstances', 'Area',
                                     'AttributeCharacteristics', 'NumberofAttributes', 'DateDonated',
-                                    'AssociatedTasks','MissingValues', 'NumberofWebHits'
+                                    'AssociatedTasks','MissingValues', 'NumberofWebHits', 
+                                    'URL', 'data_folder', 'Dataset_ID', 'data_ext_url', 'Source'
                                     ]]
 
     #fill NA values to ensure not empty
@@ -196,7 +169,7 @@ if __name__ == '__main__':
     cleandata = create_tasks_columns(cleandata)
 
     #convert 'DateDonated' to real date value
-    cleandata = convert_to_datetime(cleandata)
+    cleandata['DateDonated'].apply(lambda x: pd.to_datetime(x, infer_datetime_format=True))
 
     #drop all records with NA values
     cleanest_data = final_na_drop(cleandata)
@@ -213,24 +186,51 @@ if __name__ == '__main__':
     #re-import the file 
     src_df = pd.read_csv('cleanest_data.csv', encoding="latin-1")
 
-    add_loc_df = pd.read_csv('dataset_add_Univ_City.csv', encoding="latin-1")
+    # List of unique identifiers to search in text - lookup list
+    uniquedf = pd.read_csv('uniquelist.csv', encoding="latin-1")
 
-    #add lookup-text-search institution / location values to src
-    add_loc_df = add_locations(add_loc_df)
-
-    #add those looked up values to the real cleaned dataset
-    src_df = join_dfs(add_loc_df, "source_institution_places",src_df, "NumberofWebHits")
+    # Use lookup list to find text and look for institution matches, 
+    # once found append unique list of matching institution lookups
+    src_df['source_institution_places'] = src_df['Source'].apply(get_Univ_Loc_match)
     
     #add year from DateDonated column
-    src_df['YearAdded'] = src_df['DateDonated'].apply(lambda x: pd.to_datetime(x, infer_datetime_format=True).year)
+    src_df['year_donated'] = src_df['DateDonated'].apply(lambda x: pd.to_datetime(x, infer_datetime_format=True).year)
     #additionally add the age of the dataset, subtracted from 2020
-    src_df['DatasetAge'] = src_df['YearAdded'].apply(lambda x: 2020-x)
+    src_df['dataset_age'] = src_df['year_donated'].apply(lambda x: 2020-x)
     
     #add column multiply rows*columns to get number of cells in dataset
     def calc_num_cells(x):
         out = x['NumberofInstances'] * x['NumberofAttributes']
         return out
     src_df['DatapointCount'] = src_df.apply(calc_num_cells, axis=1)
+
+    def sum_file_size(x):
+        if x in ('', "|", np.nan):
+            return 0
+        splitme = re.split(r',|\|', x)
+        splitme = [num for num in splitme if num.isdigit()]
+        return sum([int(num) for num in splitme])
+
+    src_df['sum_file_sizes'] = src_df['data_ext_url'].apply(sum_file_size)
+
+    def find_small(x):
+        if x == "|":
+            return 0
+
+        x = x.split("|")
+        maxval = max([int(i.split(",")[2]) for i in x])
+        newval = list(filter(lambda x: x.split(",")[2] == str(maxval), x))
+        newval = newval[0].split(",")
+        
+        if (".csv" in newval[0] or ".data" in newval[0] or \
+                ".txt" in newval[0]) and int(newval[2]) < 1100000:
+            return 1
+        else:
+            return 0
+
+    src_df['small'] = src_df["data_ext_url"].apply(find_small)
+
+    src_df = src_df.rename(columns={"Unnamed: 0": 'Index'})
 
     #export finished df to new augmented file
     src_df.to_csv('cleanest_data_augmented.csv', encoding="latin-1", index=False)
