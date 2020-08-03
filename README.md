@@ -123,12 +123,12 @@ The object can also produce simple plots from the dataframe:
 ucid.print_distribution("NumberofInstances")
 ```
 
-![8_Histogram](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/8_Histogram.PNG?raw=true)
+![8_Histogram](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/8_Histogram.png?raw=true)
 
 
 ```python
 ucid.print_barplot("year_donated","NumberofWebHits", colorcol="header")
 ```
 
-![9_barplot](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/9_barplot.PNG?raw=true)
+![9_barplot](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/9_barplot.png?raw=true)
 
