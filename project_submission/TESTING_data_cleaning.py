@@ -145,34 +145,26 @@ class DataCleaningTestCase(unittest.TestCase): # inherit from unittest.TestCase
         self.assertNotEqual(data_cleaning.final_na_drop(dataframe)['DataSetCharacteristics'][2], np.nan)
 
     def test_add_locations (self):
+        #Ensure that the proper lookup values are returned
 
         #setup
-        data = {
-                'URL': ['http://archive.ics.uci.edu/ml/datasets/Audiology+%28Original%29'],
-        	    'NumberofWebHits': [110441],
-                'Source': ['Original Owner: Professor Jergen at Baylor College of Medicine Donor: Bruce Porter (porter "@" fall.cs.utexas.EDU)']
-                }
-
-        # Create DataFrame 
-        dataframe = pd.DataFrame(data)
+        data = """benedek.rozemberczki '@' gmail.com The University of Edinburgh"""
         
-        self.assertEqual(data_cleaning.add_locations(dataframe)['source_institution_places'][0][0],['University of Texas', 'Austin, TX', 'United States', 'USA'])
+        self.assertEqual(data_cleaning.get_Univ_Loc_match(data), "University of Edinburgh;Edinburgh;United Kingdom;GBR")
 
-    def test_join_dfs (self):
+    def test_find_small(self):
+        #Ensure that only small datasets return 1 from function
+        data1 = "UJIIndoorLoc-Mag-forUCI.zip,1M,1455359"
+        data2 = "Index,105B,105|bezdekIris.data,4K,4551|iris.data,4K,4551|iris.names,2K,2998"
+        self.assertFalse(data_cleaning.find_small(data1))
+        self.assertTrue(data_cleaning.find_small(data2))
 
-        #setup
-        src_df = pd.read_csv('cleanest_data.csv', encoding="latin-1")
-
-        add_loc_df = pd.read_csv('dataset_add_Univ_City.csv', encoding="latin-1")
-        add_loc_df = data_cleaning.add_locations(add_loc_df)
-
-
-
-        self.assertIs(type(data_cleaning.join_dfs(add_loc_df, "source_institution_places",src_df, "NumberofWebHits")['source_institution_places'][0]),list)
-
-
-
-
+    def test_sum_file_size(self):
+        #Ensure that the correct summed file size is returned
+        data1 = "UJIIndoorLoc-Mag-forUCI.zip,1M,1455359"
+        data2 = "Index,105B,105|bezdekIris.data,4K,4551|iris.data,4K,4551|iris.names,2K,2998"
+        self.assertEqual(data_cleaning.sum_file_size(data1),1455359)
+        self.assertTrue(data_cleaning.sum_file_size(data2),105+4551+4551+2998)
 
 if __name__ == '__main__':
     unittest.main()   
