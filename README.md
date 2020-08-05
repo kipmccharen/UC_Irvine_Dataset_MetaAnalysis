@@ -1,4 +1,5 @@
 # UC Irvine Datasets 
+![UCI_MLR](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/UCI_MLR.JPG?raw=true)
 
 ## class UC_Irvine_datasets()
 
@@ -56,7 +57,9 @@ Let's just look at one with *show_me_dataset(ID)*
 
 
 ```python
-ucid.show_me_dataset("wine-quality")
+ds = UC_Irvine_datasets()
+ds = ds.show_me_dataset("wine-quality")
+print(ds)
 ```
 
 ![4_show_me_dataset](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/4_show_me_dataset.JPG?raw=true)
