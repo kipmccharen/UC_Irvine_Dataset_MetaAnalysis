@@ -7,7 +7,7 @@ The UC_Irvine_datasets() object contains a pandas dataframe of all the datasets 
 See below for examples of ways to use methods of UC_Irvine_datasets():
 
 ```python
-from scripts.ucidata import UC_Irvine_datasets, df_first_row_to_header
+from ucidata import UC_Irvine_datasets, df_first_row_to_header
 
 # Create an instance of the class, which loads the dataframe of UC Irvine datasets
 ucid = UC_Irvine_datasets()
