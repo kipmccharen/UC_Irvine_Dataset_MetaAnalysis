@@ -9,8 +9,8 @@ import plotly.offline as pyo
 
 # dirname = os.path.dirname
 # basedir = dirname(dirname(os.path.abspath(__file__)))
-#thisdir = os.path.dirname(os.path.abspath(__file__)) + "\\"
-country_codes = pd.read_csv(r"all_country_codes.csv")
+thisdir = os.path.dirname(os.path.abspath(__file__)) + "\\"
+country_codes = pd.read_csv(thisdir + r"all_country_codes.csv")
 
 def viz_stacked_tasks_time(df): #, thisdir):
     pyo.init_notebook_mode()
