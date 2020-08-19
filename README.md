@@ -1,4 +1,5 @@
 # UC Irvine Datasets 
+![UCI_MLR](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/UCI_MLR.JPG?raw=true)
 
 ## class UC_Irvine_datasets()
 
@@ -7,7 +8,7 @@ The UC_Irvine_datasets() object contains a pandas dataframe of all the datasets 
 See below for examples of ways to use methods of UC_Irvine_datasets():
 
 ```python
-from scripts.ucidata import UC_Irvine_datasets, df_first_row_to_header
+from ucidata import UC_Irvine_datasets, df_first_row_to_header
 
 # Create an instance of the class, which loads the dataframe of UC Irvine datasets
 ucid = UC_Irvine_datasets()
@@ -56,7 +57,9 @@ Let's just look at one with *show_me_dataset(ID)*
 
 
 ```python
-ucid.show_me_dataset("wine-quality")
+ds = UC_Irvine_datasets()
+ds = ds.show_me_dataset("wine-quality")
+print(ds)
 ```
 
 ![4_show_me_dataset](https://github.com/kipmccharen/UC_Irvine_Dataset_MetaAnalysis/blob/master/readme_images/4_show_me_dataset.JPG?raw=true)

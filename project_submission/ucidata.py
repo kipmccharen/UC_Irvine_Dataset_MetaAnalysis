@@ -281,3 +281,5 @@ if __name__ == "__main__":
     # abalone = ucid.load_small_dataset_df('parkinsons')
     # print(abalone.head())
     # print(df_first_row_to_header(abalone).head())
+    ucid = ucid.show_me_dataset("abalone")
+    print(ds)
